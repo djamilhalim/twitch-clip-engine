@@ -8,6 +8,9 @@
 #         Copyright-Meldungen, Konto-Sperren).
 nur_mit_erlaubnis: false
 
+# ── Nur diese Spiele (exakte Twitch-Namen). Leer = alle Spiele ─────────
+spiele: ["Grand Theft Auto V", "Grand Theft Auto VI"]
+
 # ── Welche Streamer? ────────────────────────────────────────────────────
 quelle:
   # "liste"  = nur die Streamer unten
@@ -51,6 +54,8 @@ auswahl:
   tages_fallback: true
   tages_fenster_stunden: 48
   tages_min_views: 25
+  sprache: de                # Clip-Sprache für die Spiel-Suche
+  seiten: 8                  # je 100 Clips; GTA-Clips sind meist englisch, daher mehrere Seiten
   # Clips mit diesen Wörtern im Titel überspringen (z. B. Glücksspiel – TikTok/YouTube sperren das)
   blockwoerter: [casino, gamble, gambling, slots, stake, roobet, wetten]
 

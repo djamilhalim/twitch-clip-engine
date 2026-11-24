@@ -41,6 +41,7 @@ class Engine:
             self.speicher = SupabaseStorage(cfg.get("speicher.bucket", "clips"))
         self._verarbeitung = threading.Lock()  # Whisper/ffmpeg nacheinander
         self._live: dict[str, tuple[Streamer, dict[str, Any]]] = {}
+        self._spiel_ids: set[str] | None = None
         self.hype: HypeDetector | None = None
         if cfg.get("hype.aktiv"):
             if self.tw.has_user:
@@ -49,8 +50,18 @@ class Engine:
                 log.warning("hype.aktiv ist an, aber kein Twitch-User-Token (auth-twitch) – Hype bleibt aus")
 
     # ── 1. Wer ist live? ────────────────────────────────────────────────
+    def spiel_ids(self) -> set[str]:
+        """IDs der erlaubten Spiele (config: spiele). Leer = alle Spiele."""
+        if self._spiel_ids is None:
+            namen = self.cfg.get("spiele", []) or []
+            ids = self.tw.game_ids(namen) if namen else {}
+            if namen:
+                log.info("Spiele-Filter: %s", ids or "keine IDs gefunden!")
+            self._spiel_ids = set(ids.values())
+        return self._spiel_ids
+
     def live_aktualisieren(self) -> None:
-        ziele = live_ziele(self.cfg, self.tw)
+        ziele = live_ziele(self.cfg, self.tw, self.spiel_ids() or None)
         self._live = {s.login: (s, st) for s, st in ziele}
         log.info("Live: %s", ", ".join(f"{l} ({st.get('viewer_count')})" for l, (_, st) in self._live.items()) or "niemand")
         if self.hype:
@@ -75,13 +86,17 @@ class Engine:
             except TwitchError as e:
                 log.warning("Clips für %s nicht abrufbar: %s", login, e)
                 continue
+            if self.spiel_ids():
+                clips = [c for c in clips if c.get("game_id") in self.spiel_ids()]
             kandidaten = auswaehlen(clips, self.cfg.get("auswahl", {}), bekannt, stream.get("viewer_count"))
             log.info("%s: %d Clips im Fenster, %d passen", login, len(clips), len(kandidaten))
             for c in kandidaten[:2]:
                 c["_spiel"] = stream.get("game_name")
                 pool.append((c, streamer, "community"))
 
-        if self.cfg.get("auswahl.tages_fallback", True):
+        if self.spiel_ids():
+            pool += self._spiel_kandidaten(heute, max_tag, bekannt)
+        elif self.cfg.get("auswahl.tages_fallback", True):
             pool += self._tages_kandidaten(heute, max_tag, bekannt)
 
         pool.sort(key=lambda x: x[0].get("_score", 0), reverse=True)
@@ -95,6 +110,36 @@ class Engine:
             if self.verarbeiten(c, s, quelle=quelle):
                 neu += 1
         return neu
+
+    def _spiel_kandidaten(self, heute: float, max_tag: int, bekannt: set[str]) -> list[tuple[dict[str, Any], Streamer, str]]:
+        """Meistgesehene deutsche Clips der erlaubten Spiele (z. B. GTA) der letzten Stunden – egal welcher Streamer."""
+        aus = dict(self.cfg.get("auswahl", {}))
+        aus["min_views"] = int(self.cfg.get("auswahl.tages_min_views", 25))
+        aus["min_views_pro_minute"] = 0
+        stunden = int(self.cfg.get("auswahl.tages_fenster_stunden", 48))
+        sprache = self.cfg.get("auswahl.sprache", "de")
+        roh: list[dict[str, Any]] = []
+        for gid in self.spiel_ids():
+            try:
+                roh += self.tw.clips_by_game(gid, stunden * 60, pages=int(self.cfg.get("auswahl.seiten", 8)))
+            except TwitchError as e:
+                log.warning("Spiel-Clips %s: %s", gid, e)
+        de = [c for c in roh if (c.get("language") or "").lower().startswith(sprache)
+              and c.get("broadcaster_name", "").lower() not in self.cfg.ausgeschlossen]
+        gewaehlt = auswaehlen(de, aus, bekannt, None)
+        log.info("Spiel-Clips: %d gesamt, %d auf %s, %d passen", len(roh), len(de), sprache, len(gewaehlt))
+        out: list[tuple[dict[str, Any], Streamer, str]] = []
+        pro_streamer: dict[str, int] = {}
+        for c in gewaehlt:
+            login = c["broadcaster_name"].lower()
+            if pro_streamer.get(login, 0) >= 2 or self.state.clips_heute_fuer(login, heute) >= max_tag:
+                continue
+            pro_streamer[login] = pro_streamer.get(login, 0) + 1
+            s = self.cfg.streamer_by_login(login) or Streamer(login=login, entdeckt=True)
+            c["_score"] = c.get("view_count", 0) / 100
+            c["_spiel"] = "GTA"
+            out.append((c, s, "spiel"))
+        return out
 
     def _tages_kandidaten(self, heute: float, max_tag: int, bekannt: set[str]) -> list[tuple[dict[str, Any], Streamer, str]]:
         aus = dict(self.cfg.get("auswahl", {}))

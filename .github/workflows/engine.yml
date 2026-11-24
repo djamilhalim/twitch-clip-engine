@@ -1,13 +1,13 @@
-# Alternative ohne Server: alle 20 Minuten ein Durchlauf auf GitHub Actions.
-# Kostenlos bei öffentlichem Repo (unbegrenzte Minuten). Bei privatem Repo reichen
-# die 2.000 Freiminuten/Monat NICHT für diesen Takt → dann lieber Server/Docker.
-# Hinweis: Live-Hype (Chat-Mitlesen) geht hier nicht, nur Community-Clips.
+# Dauerbetrieb auf GitHub Actions (kostenlos bei öffentlichem Repo).
+# Ein Job läuft ~5,7 Stunden und macht alle 20 Minuten einen Durchlauf. Am Ende startet er
+# sich selbst neu (workflow_dispatch). Der Zeitplan unten ist nur Reserve, falls die Kette reißt –
+# GitHub startet Zeitpläne bei neuen Repos oft stundenlang nicht.
 name: clip-engine
 
 on:
-  schedule:
-    - cron: "*/20 * * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "17 */2 * * *"
 
 concurrency:
   group: clip-engine
@@ -15,11 +15,23 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 350
+    env:
+      TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+      TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      BUFFER_TIKTOK_CHANNEL_ID: ${{ secrets.BUFFER_TIKTOK_CHANNEL_ID }}
+      BUFFER_YOUTUBE_CHANNEL_ID: ${{ secrets.BUFFER_YOUTUBE_CHANNEL_ID }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      NOTIFY_DISCORD_WEBHOOK: ${{ secrets.NOTIFY_DISCORD_WEBHOOK }}
+      DURCHLAEUFE: "17"        # 17 × 20 Min ≈ 5,7 h
+      PAUSE_S: "1200"
     steps:
       - uses: actions/checkout@v4
 
@@ -39,30 +51,29 @@ jobs:
           path: ~/.cache/huggingface
           key: whisper-small
 
-      - name: Durchlauf
-        env:
-          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
-          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-          BUFFER_TIKTOK_CHANNEL_ID: ${{ secrets.BUFFER_TIKTOK_CHANNEL_ID }}
-          BUFFER_YOUTUBE_CHANNEL_ID: ${{ secrets.BUFFER_YOUTUBE_CHANNEL_ID }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-          NOTIFY_DISCORD_WEBHOOK: ${{ secrets.NOTIFY_DISCORD_WEBHOOK }}
+      - name: Dauerbetrieb
         run: |
           if [ -z "$TWITCH_CLIENT_ID" ] || [ -z "$BUFFER_API_KEY" ]; then
-            echo "::warning::Secrets fehlen noch (TWITCH_CLIENT_ID / BUFFER_API_KEY) – Lauf übersprungen"; exit 0
+            echo "::warning::Secrets fehlen – Lauf übersprungen"; exit 0
           fi
           test -f config.yaml || cp config.example.yaml config.yaml
-          python -m engine once
-
-      # Zustand (welche Clips schon verarbeitet/gepostet) zurück ins Repo schreiben.
-      # Videos selbst werden nicht eingecheckt.
-      - name: Zustand sichern
-        run: |
           git config user.name "clip-engine"
           git config user.email "clip-engine@users.noreply.github.com"
-          git add data/state.json || true
-          git diff --cached --quiet || git commit -m "state: $(date -u +%FT%TZ)"
-          git pull --rebase -q origin main || true
-          git push || true
+          for i in $(seq 1 "$DURCHLAEUFE"); do
+            echo "::group::Durchlauf $i/$DURCHLAEUFE ($(date -u +%H:%M) UTC)"
+            # neueste Einstellungen/Zustand holen (Änderungen aus dem Repo greifen sofort)
+            git pull -q --rebase origin main || true
+            python -m engine once || echo "::warning::Durchlauf $i fehlgeschlagen"
+            git add data/state.json || true
+            git diff --cached --quiet || git commit -q -m "state: $(date -u +%FT%TZ)"
+            git pull -q --rebase origin main || true
+            git push -q || true
+            echo "::endgroup::"
+            [ "$i" -lt "$DURCHLAEUFE" ] && sleep "$PAUSE_S"
+          done
+
+      - name: Nächsten Dauerlauf starten
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run engine.yml --ref main -R "${{ github.repository }}"

@@ -10,19 +10,27 @@ from .twitch import Twitch
 log = logging.getLogger(__name__)
 
 
-def live_ziele(cfg: Config, tw: Twitch) -> list[tuple[Streamer, dict[str, Any]]]:
-    """Gibt (Streamer, Stream-Info) für alle aktuell live beobachteten Kanäle zurück."""
+def live_ziele(cfg: Config, tw: Twitch, game_ids: set[str] | None = None) -> list[tuple[Streamer, dict[str, Any]]]:
+    """Gibt (Streamer, Stream-Info) für alle aktuell live beobachteten Kanäle zurück.
+    Mit game_ids zählen nur Streams, die gerade eines dieser Spiele spielen (z. B. nur GTA)."""
     logins = [s.login for s in cfg.streamer]
     live: dict[str, dict[str, Any]] = {}
     if logins:
         for st in tw.live_streams(logins):
+            if game_ids and st.get("game_id") not in game_ids:
+                continue
             live[st["user_login"].lower()] = st
 
     if cfg.get("quelle.modus") == "top_de":
         anzahl = int(cfg.get("quelle.top_de_anzahl", 15))
         min_z = int(cfg.get("quelle.top_de_min_zuschauer", 3000))
         zusaetzlich = 0
-        for st in tw.top_streams("de", count=max(anzahl, 20)):
+        if game_ids:
+            kandidaten = [st for gid in game_ids for st in tw.streams_by_game(gid, "de", count=max(anzahl, 20))]
+            kandidaten.sort(key=lambda st: st.get("viewer_count", 0), reverse=True)
+        else:
+            kandidaten = tw.top_streams("de", count=max(anzahl, 20))
+        for st in kandidaten:
             login = st["user_login"].lower()
             if st.get("viewer_count", 0) < min_z or login in live or login in cfg.ausgeschlossen:
                 continue

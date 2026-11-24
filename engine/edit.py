@@ -49,12 +49,12 @@ def _layout_filter(layout: str, W: int, H: int, facecam: list[float] | None, hoc
             "[cam][game]vstack=inputs=2,setsar=1[v0]"
         )
 
-    # Standard „blur“: unscharfer Hintergrund, Vordergrund leicht gezoomt in der Mitte
-    fg_h = int(H * 0.40) // 2 * 2  # ≈ 768 px hoch → seitlich ~20 % beschnitten, wirkt größer
+    # Standard „blur“: komplettes 16:9-Bild (nichts abgeschnitten, Facecam bleibt sichtbar) auf unscharfem Hintergrund
+    fg_h = int(W * 9 / 16) // 2 * 2  # 1080 breit → 606 hoch
     return (
         "[0:v]split=2[bg][fg];"
         f"[bg]scale=-2:{H},crop={W}:{H},boxblur=24:2,eq=brightness=-0.10:saturation=1.15[bgb];"
-        f"[fg]scale=-2:{fg_h},crop=min(iw\\,{W}):{fg_h}[fgs];"
+        f"[fg]scale={W}:{fg_h}:force_original_aspect_ratio=decrease,pad={W}:{fg_h}:(ow-iw)/2:(oh-ih)/2:color=black@0[fgs];"
         f"[bgb][fgs]overlay=(W-w)/2:(H-h)/2,setsar=1[v0]"
     )
 

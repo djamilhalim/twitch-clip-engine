@@ -206,6 +206,32 @@ class Twitch:
             {"broadcaster_id": broadcaster_id, "started_at": iso(start), "ended_at": iso(datetime.now(timezone.utc)), "first": first},
         )
 
+    def game_ids(self, names: Iterable[str]) -> dict[str, str]:
+        """Spielnamen → Twitch-Game-ID (unbekannte Namen werden ignoriert)."""
+        names = [n for n in names if n]
+        if not names:
+            return {}
+        data = self._get("/games", [("name", n) for n in names])
+        return {g["name"]: g["id"] for g in data}
+
+    def clips_by_game(self, game_id: str, since_minutes: int, pages: int = 5) -> list[dict[str, Any]]:
+        """Meistgesehene Clips eines Spiels (alle Sprachen), mehrere Seiten."""
+        start = datetime.now(timezone.utc) - timedelta(minutes=since_minutes)
+        params: dict[str, Any] = {"game_id": game_id, "started_at": iso(start),
+                                  "ended_at": iso(datetime.now(timezone.utc)), "first": 100}
+        out: list[dict[str, Any]] = []
+        for _ in range(pages):
+            j = self._request("GET", "/clips", params)
+            out += j.get("data", [])
+            cursor = (j.get("pagination") or {}).get("cursor")
+            if not cursor:
+                break
+            params["after"] = cursor
+        return out
+
+    def streams_by_game(self, game_id: str, language: str = "de", count: int = 20) -> list[dict[str, Any]]:
+        return self._get("/streams", {"game_id": game_id, "language": language, "first": min(100, count), "type": "live"})
+
     def clip_by_id(self, clip_id: str) -> dict[str, Any] | None:
         data = self._get("/clips", {"id": clip_id})
         return data[0] if data else None

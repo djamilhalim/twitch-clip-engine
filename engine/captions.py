@@ -46,7 +46,12 @@ def transkribieren(video: Path, modell: str = "small", sprache: str = "de") -> l
         )
         woerter: list[Wort] = []
         for seg in segments:
+            # Musik/Spielsound erzeugt Fantasie-Text („KÜHL, FILGT DIES“) → unsichere Segmente weglassen
+            if getattr(seg, "no_speech_prob", 0) > 0.5 or getattr(seg, "avg_logprob", 0) < -0.8:
+                continue
             for w in seg.words or []:
+                if getattr(w, "probability", 1) < 0.35:
+                    continue
                 t = w.word.strip()
                 if t:
                     woerter.append(Wort(float(w.start), float(w.end), t))
