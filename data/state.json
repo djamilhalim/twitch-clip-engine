@@ -332,7 +332,7 @@
   "HilariousShinyWalrusKevinTurtle-NUOlCi5ndVOr-0vO": {
    "id": "HilariousShinyWalrusKevinTurtle-NUOlCi5ndVOr-0vO",
    "seit": 1795511742.584969,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "spiel",
    "titel": "STEIG EIN",
@@ -340,12 +340,14 @@
    "views": 813,
    "score": 8.13,
    "erstellt": "2026-11-23T00:30:12Z",
-   "aktualisiert": 1795511783.4195445,
+   "aktualisiert": 1795543002.1587923,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_HilariousShinyWalrusKevinTurtle-NUOlCi5ndVOr-0vO.mp4",
    "dauer": 35.37,
    "layout": "blur",
    "transkript": "",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "STEIG EIN 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #GTA #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "STEIG EIN | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -2106,6 +2108,13 @@
    "ts": 1795540582.7846525,
    "ok": true,
    "id": "6b05c65cbd6e90a32819e83b"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "HilariousShinyWalrusKevinTurtle-NUOlCi5ndVOr-0vO",
+   "ts": 1795543002.158777,
+   "ok": true,
+   "id": "6b05cfcf04f9f3a5e600eaef"
   }
  ],
  "hype": {},
