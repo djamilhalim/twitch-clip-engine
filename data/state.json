@@ -778,7 +778,7 @@
   "EnticingAdventurousBaguetteGingerPower-Y6Mp7Z-8U4bz8bpx": {
    "id": "EnticingAdventurousBaguetteGingerPower-Y6Mp7Z-8U4bz8bpx",
    "seit": 1795518763.130852,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "spiel",
    "titel": "aha",
@@ -786,7 +786,7 @@
    "views": 402,
    "score": 4.02,
    "erstellt": "2026-11-22T20:47:14Z",
-   "aktualisiert": 1795518786.6904814,
+   "aktualisiert": 1795562569.2095034,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_EnticingAdventurousBaguetteGingerPower-Y6Mp7Z-8U4bz8bpx.mp4",
    "dauer": 17.856,
    "layout": "blur",
@@ -795,12 +795,13 @@
    "caption": "Was macht xRohat da?! 😂 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #GTA #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Was macht xRohat da?! 😂 | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_EnticingAdventurousBaguetteGingerPower-Y6Mp7Z-8U4bz8bpx.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_EnticingAdventurousBaguetteGingerPower-Y6Mp7Z-8U4bz8bpx.mp4",
+   "fehler": "zu alt"
   },
   "HelpfulHappyGrouseBrainSlug-qGXrv_rwEyBJwAt6": {
    "id": "HelpfulHappyGrouseBrainSlug-qGXrv_rwEyBJwAt6",
    "seit": 1795518786.6917558,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "trymacs findet riesen schwein",
@@ -808,7 +809,7 @@
    "views": 194,
    "score": 3.88,
    "erstellt": "2026-11-23T21:00:11Z",
-   "aktualisiert": 1795518840.3537567,
+   "aktualisiert": 1795562569.2095072,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_HelpfulHappyGrouseBrainSlug-qGXrv_rwEyBJwAt6.mp4",
    "dauer": 45.376,
    "layout": "blur",
@@ -817,12 +818,13 @@
    "caption": "Trymacs findet riesen schwein 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Trymacs findet riesen schwein | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_HelpfulHappyGrouseBrainSlug-qGXrv_rwEyBJwAt6.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_HelpfulHappyGrouseBrainSlug-qGXrv_rwEyBJwAt6.mp4",
+   "fehler": "zu alt"
   },
   "ArtisticKawaiiSoybeanFloof-hdEF2LfCBRjS7hpg": {
    "id": "ArtisticKawaiiSoybeanFloof-hdEF2LfCBRjS7hpg",
    "seit": 1795518840.3549845,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "jfhft",
@@ -830,7 +832,7 @@
    "views": 170,
    "score": 3.4,
    "erstellt": "2026-11-23T16:09:44Z",
-   "aktualisiert": 1795518882.4981558,
+   "aktualisiert": 1795562569.2095096,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_ArtisticKawaiiSoybeanFloof-hdEF2LfCBRjS7hpg.mp4",
    "dauer": 36.8368,
    "layout": "blur",
@@ -839,7 +841,8 @@
    "caption": "coachlim kann nicht mehr 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "coachlim kann nicht mehr | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_ArtisticKawaiiSoybeanFloof-hdEF2LfCBRjS7hpg.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_ArtisticKawaiiSoybeanFloof-hdEF2LfCBRjS7hpg.mp4",
+   "fehler": "zu alt"
   },
   "TriumphantPreciousTarsierSuperVinlin-jReBlY7F-njXf12S": {
    "id": "TriumphantPreciousTarsierSuperVinlin-jReBlY7F-njXf12S",
