@@ -2034,7 +2034,7 @@
   "SpoopyBenevolentJackalKappa-qcjIURarxlSbpfuF": {
    "id": "SpoopyBenevolentJackalKappa-qcjIURarxlSbpfuF",
    "seit": 1795558763.0756345,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "verpisst euch",
@@ -2042,12 +2042,14 @@
    "views": 200,
    "score": 4.0,
    "erstellt": "2026-11-22T23:53:11Z",
-   "aktualisiert": 1795558836.6184494,
+   "aktualisiert": 1795561365.4454577,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_SpoopyBenevolentJackalKappa-qcjIURarxlSbpfuF.mp4",
    "dauer": 60.01,
    "layout": "blur",
    "transkript": "Motivation oder Quote? dann mach mal. Geil, dass du die Musik dazu anmachst. Nicht Quote kannst du Motivation sagen, ich Das ist jetzt... Das ist jetzt... Das passt doch gut, dass du die... Ja, schön. du die Musik dazu anmachst, weil... Das habe ich in den letzten Monaten extrem oft gehört und auch extrem oft gelernt, so weißt du ich meine. das ist ein Satz, der immer krass im Kopf geblieben ist. okay, lass was Ernstes machen, okay? Lass euch was Ernstes machen. war getriggert vom Chat, ich musste das machen. Dickens, ich glaube... Was sagt man im Soda -Moment?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Verpisst euch 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Verpisst euch | coachlim #shorts",
    "broadcaster_name": "coachlim",
@@ -2238,6 +2240,13 @@
    "ts": 1795557559.163185,
    "ok": true,
    "id": "6b0608b4ea9b23114ff574e2"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "SpoopyBenevolentJackalKappa-qcjIURarxlSbpfuF",
+   "ts": 1795561365.445442,
+   "ok": true,
+   "id": "6b061793ba5f0a2c87fb6301"
   }
  ],
  "hype": {},
