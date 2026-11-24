@@ -1,0 +1,34 @@
+# Streamer-Analyse: startet bei Änderung an analysis/kandidaten.txt oder per Hand.
+name: analyse
+
+on:
+  workflow_dispatch:
+  push:
+    paths: ["analysis/kandidaten.txt", "scripts/analyse.py"]
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests PyYAML python-dotenv
+      - name: Analyse
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: python scripts/analyse.py
+      - name: Ergebnis sichern
+        run: |
+          git config user.name "clip-engine"
+          git config user.email "clip-engine@users.noreply.github.com"
+          git add analysis/ergebnis.md
+          git diff --cached --quiet || git commit -m "Analyse: $(date -u +%FT%TZ)"
+          git pull -q --rebase origin main || true
+          git push || true
