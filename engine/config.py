@@ -62,6 +62,11 @@ class Config:
         return next((s for s in self.streamer if s.login == login), None)
 
     @property
+    def fokus(self) -> set[str]:
+        """Fokus-Streamer: werden bevorzugt und (optional) in allen Kategorien geclippt."""
+        return {str(x).lower() for x in self.get("fokus.streamer", []) or []} - self.ausgeschlossen
+
+    @property
     def ausgeschlossen(self) -> set[str]:
         return {str(x).lower() for x in self.get("ausschliessen", []) or []}
 

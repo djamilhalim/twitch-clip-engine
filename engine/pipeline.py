@@ -86,7 +86,8 @@ class Engine:
             except TwitchError as e:
                 log.warning("Clips für %s nicht abrufbar: %s", login, e)
                 continue
-            if self.spiel_ids():
+            ist_fokus = login in self.cfg.fokus and self.cfg.get("fokus.alle_kategorien", True)
+            if self.spiel_ids() and not ist_fokus:
                 clips = [c for c in clips if c.get("game_id") in self.spiel_ids()]
             kandidaten = auswaehlen(clips, self.cfg.get("auswahl", {}), bekannt, stream.get("viewer_count"))
             log.info("%s: %d Clips im Fenster, %d passen", login, len(clips), len(kandidaten))
@@ -94,6 +95,8 @@ class Engine:
                 c["_spiel"] = stream.get("game_name")
                 pool.append((c, streamer, "community"))
 
+        if self.cfg.fokus:
+            pool += self._fokus_kandidaten(heute, max_tag, bekannt)
         if self.spiel_ids():
             pool += self._spiel_kandidaten(heute, max_tag, bekannt)
         elif self.cfg.get("auswahl.tages_fallback", True):
@@ -110,6 +113,38 @@ class Engine:
             if self.verarbeiten(c, s, quelle=quelle):
                 neu += 1
         return neu
+
+    def _fokus_kandidaten(self, heute: float, max_tag: int, bekannt: set[str]) -> list[tuple[dict[str, Any], Streamer, str]]:
+        """Beste Clips der Fokus-Streamer der letzten Stunden (auch offline), mit Bonus im Ranking."""
+        aus = dict(self.cfg.get("auswahl", {}))
+        aus["min_views"] = int(self.cfg.get("fokus.min_views", 50))
+        aus["min_views_pro_minute"] = 0
+        stunden = int(self.cfg.get("fokus.fenster_stunden", 48))
+        bonus = float(self.cfg.get("fokus.bonus", 2.0))
+        alle_kat = bool(self.cfg.get("fokus.alle_kategorien", True))
+        try:
+            ids = {u["login"]: u["id"] for u in self.tw.users(sorted(self.cfg.fokus))}
+        except TwitchError as e:
+            log.warning("Fokus: Nutzer nicht abrufbar: %s", e)
+            return []
+        out: list[tuple[dict[str, Any], Streamer, str]] = []
+        for login, bid in ids.items():
+            if self.state.clips_heute_fuer(login, heute) >= max_tag:
+                continue
+            try:
+                clips = self.tw.clips(bid, stunden * 60, first=100)
+            except TwitchError as e:
+                log.warning("Fokus %s: %s", login, e)
+                continue
+            if not alle_kat and self.spiel_ids():
+                clips = [c for c in clips if c.get("game_id") in self.spiel_ids()]
+            gewaehlt = auswaehlen(clips, aus, bekannt, None)[:3]
+            log.info("Fokus %s: %d Clips, %d passen", login, len(clips), len(gewaehlt))
+            s = self.cfg.streamer_by_login(login) or Streamer(login=login)
+            for c in gewaehlt:
+                c["_score"] = c.get("view_count", 0) / 100 * bonus
+                out.append((c, s, "fokus"))
+        return out
 
     def _spiel_kandidaten(self, heute: float, max_tag: int, bekannt: set[str]) -> list[tuple[dict[str, Any], Streamer, str]]:
         """Meistgesehene deutsche Clips der erlaubten Spiele (z. B. GTA) der letzten Stunden – egal welcher Streamer."""

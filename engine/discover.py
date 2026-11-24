@@ -13,13 +13,19 @@ log = logging.getLogger(__name__)
 def live_ziele(cfg: Config, tw: Twitch, game_ids: set[str] | None = None) -> list[tuple[Streamer, dict[str, Any]]]:
     """Gibt (Streamer, Stream-Info) für alle aktuell live beobachteten Kanäle zurück.
     Mit game_ids zählen nur Streams, die gerade eines dieser Spiele spielen (z. B. nur GTA)."""
-    logins = [s.login for s in cfg.streamer]
+    fokus = cfg.fokus
+    alle_kat = bool(cfg.get("fokus.alle_kategorien", True))
+    for f in fokus:
+        if not cfg.streamer_by_login(f):
+            cfg.streamer.append(Streamer(login=f))
+    logins = [s.login for s in cfg.streamer if s.login not in cfg.ausgeschlossen]
     live: dict[str, dict[str, Any]] = {}
     if logins:
         for st in tw.live_streams(logins):
-            if game_ids and st.get("game_id") not in game_ids:
+            login = st["user_login"].lower()
+            if game_ids and st.get("game_id") not in game_ids and not (alle_kat and login in fokus):
                 continue
-            live[st["user_login"].lower()] = st
+            live[login] = st
 
     if cfg.get("quelle.modus") == "top_de":
         anzahl = int(cfg.get("quelle.top_de_anzahl", 15))
