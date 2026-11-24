@@ -18,7 +18,7 @@ from .publish import Texte, baue_ziele
 from .scheduler import frische_score, slot_frei, tagesbeginn_ts
 from .scoring import auswaehlen
 from .storage import SupabaseStorage
-from .texts import caption, youtube_titel
+from .texts import caption, titel_bereinigen, youtube_titel
 from .tokens import TokenStore
 from .twitch import Twitch, TwitchError
 
@@ -96,7 +96,7 @@ class Engine:
     def _tages_fallback(self, limit: int, heute: float, max_tag: int, bekannt: set[str]) -> int:
         neu = 0
         aus = dict(self.cfg.get("auswahl", {}))
-        aus["min_views"] = int(self.cfg.get("auswahl.tages_min_views", 400))
+        aus["min_views"] = int(self.cfg.get("auswahl.tages_min_views", 25))
         aus["min_views_pro_minute"] = 0
         stunden = int(self.cfg.get("auswahl.tages_fenster_stunden", 24))
         feste = [s for s in self.cfg.streamer if not s.entdeckt and s.login not in self._live]
@@ -169,7 +169,7 @@ class Engine:
                 roh, hoch = download_clip(clip, streamer, self.tw, self.roh)
                 self.fertig.mkdir(parents=True, exist_ok=True)
                 ziel = self.fertig / f"{streamer.login}_{cid}.mp4"
-                titel = (clip.get("title") or "").strip() or None
+                titel = titel_bereinigen(clip.get("title", ""), clip.get("broadcaster_name", streamer.login))
                 res = schneiden(roh, ziel, streamer, titel, self.cfg.get("schnitt", {}), hochformat=hoch)
             except Exception as e:  # ein kaputter Clip darf die Engine nicht stoppen
                 log.exception("Verarbeitung %s fehlgeschlagen", cid)
