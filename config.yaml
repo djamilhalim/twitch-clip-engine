@@ -1,0 +1,106 @@
+# Twitch Clip Engine – Konfiguration
+# Kopieren nach config.yaml und anpassen. Geheimnisse (Keys, Tokens) gehören in .env, nicht hierher.
+
+# ── Rechte ──────────────────────────────────────────────────────────────
+# true  = nur Streamer mit `erlaubnis: true` werden gepostet (empfohlen).
+#         Alle anderen werden trotzdem geschnitten und landen in der Freigabe-Warteschlange.
+# false = alle beobachteten Streamer werden automatisch gepostet (auf eigenes Risiko:
+#         Copyright-Meldungen, Konto-Sperren).
+nur_mit_erlaubnis: false
+
+# ── Welche Streamer? ────────────────────────────────────────────────────
+quelle:
+  # "liste"  = nur die Streamer unten
+  # "top_de" = zusätzlich automatisch die größten deutschsprachigen Live-Streams (Twitch-API, language=de)
+  modus: top_de
+  top_de_anzahl: 15          # wie viele Top-Streams bei modus top_de mitbeobachtet werden
+  top_de_min_zuschauer: 1500
+
+# Diese Kanäle werden nie beobachtet oder gepostet – auch nicht über top_de
+ausschliessen: [montanablack88]
+
+streamer:
+  # login = Twitch-Name aus der URL (twitch.tv/<login>)
+  # erlaubnis = Streamer hat Clips für deine Kanäle erlaubt (Clip-Programm, Discord, Mail …)
+  # editor   = dein Twitch-Konto ist Editor bei ihm → offizieller Download inkl. Hochformat
+  # layout   = blur | split | crop  (split braucht facecam-Koordinaten)
+  # facecam  = Ausschnitt der Facecam im 16:9-Bild, relativ 0..1: [x, y, breite, höhe]
+  - { login: papaplatte,     erlaubnis: false, layout: blur }
+  - { login: trymacs,        erlaubnis: false, layout: blur }
+  - { login: revedtv,        erlaubnis: false, layout: blur }
+  - { login: eliasn97,       erlaubnis: false, layout: blur }
+  - { login: handofblood,    erlaubnis: false, layout: blur }
+  - { login: knossi,         erlaubnis: false, layout: blur }
+  - { login: unsympathischtv, erlaubnis: false, layout: blur }
+  - { login: gronkh,         erlaubnis: false, layout: blur }
+  - { login: amar,           erlaubnis: false, layout: blur }
+  - { login: staiy,          erlaubnis: false, layout: blur }
+  - { login: mahluna,        erlaubnis: false, layout: blur }
+  # Beispiel mit Facecam-Split:
+  # - { login: beispiel, erlaubnis: true, editor: true, layout: split, facecam: [0.0, 0.0, 0.25, 0.3] }
+
+# ── Clip-Auswahl ────────────────────────────────────────────────────────
+auswahl:
+  fenster_minuten: 90        # nur Clips, die in den letzten X Minuten erstellt wurden
+  min_views: 150             # Mindest-Views eines Community-Clips
+  min_views_pro_minute: 4    # „Geschwindigkeit“: Views / Minuten seit Erstellung
+  max_dauer_s: 60
+  min_dauer_s: 8
+  max_pro_streamer_pro_tag: 4
+  # Clips mit diesen Wörtern im Titel überspringen (z. B. Glücksspiel – TikTok/YouTube sperren das)
+  blockwoerter: [casino, gamble, gambling, slots, stake, roobet, wetten]
+
+# ── Live-Hype (optional) ────────────────────────────────────────────────
+# Liest den Chat anonym mit. Bei einem Nachrichten-Ausbruch erstellt die Engine selbst einen
+# Twitch-Clip (über dein Twitch-Konto, Scope clips:edit) – also echte Live-Clips.
+hype:
+  aktiv: false
+  basis_fenster_s: 120       # gleitender Durchschnitt
+  spitzen_fenster_s: 10
+  faktor: 3.5                # Spitze muss X-mal über Durchschnitt liegen
+  min_nachrichten_pro_s: 4
+  cooldown_s: 300            # pro Kanal
+  clip_dauer_s: 45
+  trigger_woerter: ["KEKW", "LUL", "OMEGALUL", "LMAO", "WTF", "W", "CLIP", "😂", "💀"]
+
+# ── Schnitt ─────────────────────────────────────────────────────────────
+schnitt:
+  breite: 1080
+  hoehe: 1920
+  fps: 30
+  untertitel: true           # faster-whisper, läuft lokal und kostenlos
+  whisper_modell: small      # tiny | base | small | medium  (small = guter Kompromiss auf CPU)
+  titel_oben: true           # Clip-Titel als Hook oben einblenden
+  credit: true               # „twitch.tv/<streamer>“ einblenden (Pflicht, wenn du fair bleiben willst)
+  schrift: Montserrat        # muss im System/Container installiert sein
+  crf: 21
+  preset: veryfast
+
+# ── Veröffentlichen ─────────────────────────────────────────────────────
+posten:
+  # Ziele: buffer_tiktok | buffer_youtube | tiktok_api | youtube_api
+  # Empfehlung zum Start: buffer_tiktok + buffer_youtube (Buffer ist bei TikTok/YouTube
+  # zugelassen → Posts sind öffentlich, ohne eigenes App-Audit).
+  ziele: [buffer_tiktok]           # YouTube kommt später dazu: youtube_api
+  # tiktok_api: "inbox" = Entwurf in deine TikTok-Inbox (kein Audit nötig, du tippst „Posten“)
+  #             "direct" = direkt posten (öffentlich erst nach TikTok-Audit)
+  tiktok_api_modus: inbox
+  max_pro_tag: 20            # pro Ziel (TikTok blockt über API evtl. ab ~15)
+  min_abstand_min: 40        # Mindestabstand zwischen zwei Posts pro Ziel
+  ruhezeit: ["02:00", "08:00"]   # Europe/Berlin – in diesem Fenster wird nichts gepostet
+  zeitzone: Europe/Berlin
+  youtube_kategorie: 20      # 20 = Gaming, 24 = Entertainment
+  hashtags_basis: ["#twitch", "#twitchde", "#streamer", "#clips", "#fyp", "#deutsch"]
+
+# ── Speicher für öffentliche Video-URL (Buffer holt das Video von dort) ──
+speicher:
+  anbieter: supabase         # supabase | lokal (lokal nur für tiktok_api/youtube_api)
+  bucket: clips
+  loeschen_nach_stunden: 48
+
+# ── Laufzeit ────────────────────────────────────────────────────────────
+laufzeit:
+  intervall_live_check_s: 120
+  intervall_clips_s: 300
+  max_neue_pro_lauf: 4       # so viele Clips schneidet ein Durchlauf höchstens (GitHub-Actions-Zeitlimit)
+  datenordner: ./data

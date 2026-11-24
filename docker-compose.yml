@@ -1,0 +1,18 @@
+services:
+  engine:
+    build: .
+    container_name: twitch-clip-engine
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./data:/app/data
+    # Whisper + ffmpeg brauchen etwas CPU; auf kleinen Servern begrenzen
+    deploy:
+      resources:
+        limits:
+          cpus: "2"
+          memory: 3g
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }

@@ -1,0 +1,67 @@
+# Alternative ohne Server: alle 20 Minuten ein Durchlauf auf GitHub Actions.
+# Kostenlos bei öffentlichem Repo (unbegrenzte Minuten). Bei privatem Repo reichen
+# die 2.000 Freiminuten/Monat NICHT für diesen Takt → dann lieber Server/Docker.
+# Hinweis: Live-Hype (Chat-Mitlesen) geht hier nicht, nur Community-Clips.
+name: clip-engine
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: clip-engine
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: System-Pakete
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-montserrat
+
+      - run: pip install -r requirements.txt
+
+      - name: Whisper-Modell cachen
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-small
+
+      - name: Durchlauf
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_TIKTOK_CHANNEL_ID: ${{ secrets.BUFFER_TIKTOK_CHANNEL_ID }}
+          BUFFER_YOUTUBE_CHANNEL_ID: ${{ secrets.BUFFER_YOUTUBE_CHANNEL_ID }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          NOTIFY_DISCORD_WEBHOOK: ${{ secrets.NOTIFY_DISCORD_WEBHOOK }}
+        run: |
+          if [ -z "$TWITCH_CLIENT_ID" ] || [ -z "$BUFFER_API_KEY" ]; then
+            echo "::warning::Secrets fehlen noch (TWITCH_CLIENT_ID / BUFFER_API_KEY) – Lauf übersprungen"; exit 0
+          fi
+          test -f config.yaml || cp config.example.yaml config.yaml
+          python -m engine once
+
+      # Zustand (welche Clips schon verarbeitet/gepostet) zurück ins Repo schreiben.
+      # Videos selbst werden nicht eingecheckt.
+      - name: Zustand sichern
+        run: |
+          git config user.name "clip-engine"
+          git config user.email "clip-engine@users.noreply.github.com"
+          git add data/state.json || true
+          git diff --cached --quiet || git commit -m "state: $(date -u +%FT%TZ)"
+          git push || true
