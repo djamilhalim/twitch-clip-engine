@@ -670,7 +670,7 @@
   "TangibleGiantPlumberLeeroyJenkins-sHMgQqVZTLPQXWa6": {
    "id": "TangibleGiantPlumberLeeroyJenkins-sHMgQqVZTLPQXWa6",
    "seit": 1795517373.5248117,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "FC OneFootball vs. The Pack FC - The Icon League MD-08 live aus Berlin ⚽️🔥 |  !iconleague !doku !eligella !gaming !uncut !clips",
@@ -678,12 +678,14 @@
    "views": 318,
    "score": 6.36,
    "erstellt": "2026-11-23T17:11:50Z",
-   "aktualisiert": 1795517412.782499,
+   "aktualisiert": 1795538164.5313358,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_TangibleGiantPlumberLeeroyJenkins-sHMgQqVZTLPQXWa6.mp4",
    "dauer": 30.01,
    "layout": "blur",
    "transkript": "fallen. Dann kriegt man keine Freistöße, das ist vernervig. Ja okay, einfach Hörst du die Ansage, Nee. ist das Feedback? Das Popcorn ist extrem störend. Schreibt doch keiner rein. Schreibt Popcorn. Bisschen spirulant, ist välgeist. Ich gar nichts.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "FC OneFootball vs. The Pack FC - The Icon League MD-08 live aus Berlin ⚽️🔥 | !iconleague !doku !eligella !gaming !uncut !clips 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "FC OneFootball vs. The Pack FC - The Icon League MD-08 live aus Berlin ⚽️🔥 | !… | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -2044,6 +2046,13 @@
    "ts": 1795535548.121726,
    "ok": true,
    "id": "6b05b2b1e95029ef22a07d3c"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "TangibleGiantPlumberLeeroyJenkins-sHMgQqVZTLPQXWa6",
+   "ts": 1795538164.53132,
+   "ok": true,
+   "id": "6b05bcead9f47bf2367cb6a9"
   }
  ],
  "hype": {},
