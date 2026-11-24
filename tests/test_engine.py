@@ -124,9 +124,9 @@ laufzeit: {{datenordner: {tmp_path / 'data'}}}
         def top_streams(self, *a, **k): return []
         def clips(self, bid, minutes):
             name = "papaplatte" if bid == "0" else "knossi"
-            return [dict(_clip(f"{name}-1", 800, 10, bid=bid), broadcaster_name=name),
-                    dict(_clip(f"{name}-2", 500, 10, bid=bid, offset=10, vod="v"), broadcaster_name=name),
-                    dict(_clip(f"{name}-3", 20, 10, bid=bid), broadcaster_name=name)]
+            return [dict(_clip(f"{name}-1", 800, 10, bid=bid, title="Erster krasser Moment"), broadcaster_name=name),
+                    dict(_clip(f"{name}-2", 500, 10, bid=bid, offset=10, vod="v", title="Zweiter lustiger Moment"), broadcaster_name=name),
+                    dict(_clip(f"{name}-3", 20, 10, bid=bid, title="Dritter Moment hier"), broadcaster_name=name)]
 
     posted = []
 
