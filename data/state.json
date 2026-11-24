@@ -1154,7 +1154,7 @@
   "RelievedChillyGarbageDogFace-QMf4sdxXunxo5aTl": {
    "id": "RelievedChillyGarbageDogFace-QMf4sdxXunxo5aTl",
    "seit": 1795524454.6896644,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "grxneronkel",
    "quelle": "spiel",
    "titel": "Lucia im Traum gefangen. GTA 6",
@@ -1171,7 +1171,8 @@
    "caption": "Lucia im Traum gefangen. GTA 6 😂\n🎥 grxneronkel live auf twitch.tv/grxneronkel\n#grxneronkel #GTA #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Lucia im Traum gefangen. GTA 6 | grxneronkel #shorts",
    "broadcaster_name": "grxneronkel",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/grxneronkel_RelievedChillyGarbageDogFace-QMf4sdxXunxo5aTl.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/grxneronkel_RelievedChillyGarbageDogFace-QMf4sdxXunxo5aTl.mp4",
+   "fehler": "doppelter Titel"
   },
   "LongFaithfulDogePartyTime-PBqpPLoiIHmEWz08": {
    "id": "LongFaithfulDogePartyTime-PBqpPLoiIHmEWz08",

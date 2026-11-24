@@ -120,5 +120,6 @@ speicher:
 laufzeit:
   intervall_live_check_s: 120
   intervall_clips_s: 300
+  max_warteschlange: 15       # ist die Warteschlange so voll, werden keine neuen Clips geschnitten
   max_neue_pro_lauf: 4       # so viele Clips schneidet ein Durchlauf höchstens (GitHub-Actions-Zeitlimit)
   datenordner: ./data

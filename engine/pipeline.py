@@ -71,6 +71,10 @@ class Engine:
     # ── 2. Community-Clips einsammeln ───────────────────────────────────
     def clips_einsammeln(self) -> int:
         """Sammelt Kandidaten aus Live-Streams und Tages-Fallback in EINEM Pool, verarbeitet die stärksten."""
+        max_queue = int(self.cfg.get("laufzeit.max_warteschlange", 15))
+        if len(self.state.clips_mit_status(S.WARTESCHLANGE)) >= max_queue:
+            log.info("Warteschlange voll (≥%d) – keine neuen Clips in diesem Lauf", max_queue)
+            return 0
         fenster = int(self.cfg.get("auswahl.fenster_minuten", 90))
         max_tag = int(self.cfg.get("auswahl.max_pro_streamer_pro_tag", 3))
         max_lauf = int(self.cfg.get("laufzeit.max_neue_pro_lauf", 0)) or 10**6
@@ -225,9 +229,24 @@ class Engine:
             log.warning("Hype-Clip bei %s fehlgeschlagen: %s", channel, e)
 
     # ── Verarbeitung eines Clips ────────────────────────────────────────
+    def _titel_doppelt(self, streamer: str, titel: str) -> bool:
+        """Mehrere Zuschauer clippen denselben Moment unter gleichem Titel → nur einmal nehmen."""
+        norm = "".join(ch for ch in (titel or "").lower() if ch.isalnum())
+        if len(norm) < 6:
+            return False
+        grenze = time.time() - 3 * 86400
+        for c in self.state.data["clips"].values():
+            if c.get("streamer") == streamer and c.get("seit", 0) >= grenze and c.get("status") != S.FEHLER:
+                if "".join(ch for ch in (c.get("titel") or "").lower() if ch.isalnum()) == norm:
+                    return True
+        return False
+
     def verarbeiten(self, clip: dict[str, Any], streamer: Streamer, quelle: str) -> bool:
         cid = clip["id"]
         if self.state.has_clip(cid):
+            return False
+        if self._titel_doppelt(streamer.login, clip.get("title", "")):
+            log.info("Übersprungen (gleicher Titel schon da): %s – %s", streamer.login, clip.get("title"))
             return False
         self.state.upsert_clip(
             cid, status=S.GEFUNDEN, streamer=streamer.login, quelle=quelle, titel=clip.get("title"),
