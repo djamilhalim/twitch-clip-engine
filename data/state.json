@@ -426,7 +426,7 @@
   "InventiveRockyMuleTwitchRaid-fxMpL0KsikHiYTnm": {
    "id": "InventiveRockyMuleTwitchRaid-fxMpL0KsikHiYTnm",
    "seit": 1795513119.5875354,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "spiel",
    "titel": "sber dann bin kch ein Psycho",
@@ -434,7 +434,7 @@
    "views": 577,
    "score": 5.77,
    "erstellt": "2026-11-23T20:25:32Z",
-   "aktualisiert": 1795513159.2441673,
+   "aktualisiert": 1795556351.2335556,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_InventiveRockyMuleTwitchRaid-fxMpL0KsikHiYTnm.mp4",
    "dauer": 30.016,
    "layout": "blur",
@@ -443,7 +443,8 @@
    "caption": "Sber dann bin kch ein Psycho 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #GTA #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Sber dann bin kch ein Psycho | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_InventiveRockyMuleTwitchRaid-fxMpL0KsikHiYTnm.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_InventiveRockyMuleTwitchRaid-fxMpL0KsikHiYTnm.mp4",
+   "fehler": "zu alt"
   },
   "VenomousMoralFriesBigBrother-m4CxtfAHtMUhrABT": {
    "id": "VenomousMoralFriesBigBrother-m4CxtfAHtMUhrABT",
