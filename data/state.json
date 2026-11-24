@@ -449,7 +449,7 @@
   "VenomousMoralFriesBigBrother-m4CxtfAHtMUhrABT": {
    "id": "VenomousMoralFriesBigBrother-m4CxtfAHtMUhrABT",
    "seit": 1795513159.2450945,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "spiel",
    "titel": "auf flasche gesetzt",
@@ -457,7 +457,7 @@
    "views": 538,
    "score": 5.38,
    "erstellt": "2026-11-22T17:47:43Z",
-   "aktualisiert": 1795513217.6963313,
+   "aktualisiert": 1795557555.1864123,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_VenomousMoralFriesBigBrother-m4CxtfAHtMUhrABT.mp4",
    "dauer": 51.618233,
    "layout": "blur",
@@ -466,7 +466,8 @@
    "caption": "Auf flasche gesetzt 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #GTA #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Auf flasche gesetzt | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_VenomousMoralFriesBigBrother-m4CxtfAHtMUhrABT.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_VenomousMoralFriesBigBrother-m4CxtfAHtMUhrABT.mp4",
+   "fehler": "zu alt"
   },
   "TawdrySingleAntelopeBrokeBack-GN2Xq71MCLfYOglL": {
    "id": "TawdrySingleAntelopeBrokeBack-GN2Xq71MCLfYOglL",
@@ -890,7 +891,7 @@
   "BlueImpossibleBeaverKreygasm-7vLFXmf791Mq96vp": {
    "id": "BlueImpossibleBeaverKreygasm-7vLFXmf791Mq96vp",
    "seit": 1795520247.1872323,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "xrohat",
    "quelle": "spiel",
    "titel": ".",
@@ -898,12 +899,14 @@
    "views": 383,
    "score": 3.83,
    "erstellt": "2026-11-22T21:06:21Z",
-   "aktualisiert": 1795520304.3161592,
+   "aktualisiert": 1795557559.1631997,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_BlueImpossibleBeaverKreygasm-7vLFXmf791Mq96vp.mp4",
    "dauer": 52.235517,
    "layout": "blur",
    "transkript": "Ich bin seit acht Jahren vegetarisch und so was gibt mir persönlich richtig nah. Ich lieb meine Mama auch, obwohl sie Fleisch ist und so, checkt ihr aber ich finde es trotzdem ist einfach so schrecklich. Und ich kann es halt gar nicht nachholzen. Hört auf zu lachen. Hört auf zu lachen ohne Spaß. Hört auf zu lachen, das ist nicht lustig. Das ist nicht korrekt, Ohne Spaß, hört auf. Das ist gar nicht lustig. Man lacht nicht darüber, wenn irgend ein Mensch weint. Spaß.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "xRohat kann nicht mehr 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #GTA #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "xRohat kann nicht mehr | xRohat #shorts",
    "broadcaster_name": "xRohat",
@@ -2161,6 +2164,13 @@
    "ts": 1795555147.366924,
    "ok": true,
    "id": "6b05ff49da2eab4595a7ee0a"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "BlueImpossibleBeaverKreygasm-7vLFXmf791Mq96vp",
+   "ts": 1795557559.163185,
+   "ok": true,
+   "id": "6b0608b4ea9b23114ff574e2"
   }
  ],
  "hype": {},
