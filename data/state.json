@@ -865,7 +865,7 @@
   "InquisitiveWittyPrariedogWTRuck-Hj9CpO6DmhTjoQON": {
    "id": "InquisitiveWittyPrariedogWTRuck-Hj9CpO6DmhTjoQON",
    "seit": 1795520171.8048253,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "trymacs wird verrückt",
@@ -873,12 +873,14 @@
    "views": 208,
    "score": 4.16,
    "erstellt": "2026-11-22T13:12:54Z",
-   "aktualisiert": 1795520247.1859157,
+   "aktualisiert": 1795555147.3669386,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_InquisitiveWittyPrariedogWTRuck-Hj9CpO6DmhTjoQON.mp4",
    "dauer": 59.008,
    "layout": "blur",
    "transkript": "",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Trymacs wird verrückt 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Trymacs wird verrückt | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -2151,6 +2153,13 @@
    "ts": 1795552737.550404,
    "ok": true,
    "id": "6b05f5dfbbd94e83696b95ab"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "InquisitiveWittyPrariedogWTRuck-Hj9CpO6DmhTjoQON",
+   "ts": 1795555147.366924,
+   "ok": true,
+   "id": "6b05ff49da2eab4595a7ee0a"
   }
  ],
  "hype": {},
