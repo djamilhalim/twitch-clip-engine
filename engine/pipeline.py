@@ -77,6 +77,9 @@ class Engine:
                 continue
             kandidaten = auswaehlen(clips, self.cfg.get("auswahl", {}), bekannt, stream.get("viewer_count"))
             log.info("%s: %d Clips im Fenster, %d passen", login, len(clips), len(kandidaten))
+            for c in sorted(clips, key=lambda c: c.get("view_count", 0), reverse=True)[:2]:
+                log.info("   top: %s views=%s dauer=%s erstellt=%s titel=%r", c.get("id"), c.get("view_count"),
+                         c.get("duration"), c.get("created_at"), (c.get("title") or "")[:40])
             frei = max_tag - self.state.clips_heute_fuer(login, heute)
             for c in kandidaten[: max(0, frei)]:
                 if neu >= max_lauf:
@@ -101,6 +104,7 @@ class Engine:
             return 0
         try:
             ids = {u["login"]: u["id"] for u in self.tw.users([s.login for s in feste])}
+            log.info("Tages-Fallback: %d/%d Streamer-IDs gefunden", len(ids), len(feste))
         except TwitchError as e:
             log.warning("Tages-Fallback: Nutzer nicht abrufbar: %s", e)
             return 0
@@ -113,6 +117,8 @@ class Engine:
             except TwitchError as e:
                 log.warning("Tages-Fallback %s: %s", s.login, e)
                 continue
+            log.info("Tages-Fallback %s: %d Clips (max views %s)", s.login, len(clips),
+                     max((c.get("view_count", 0) for c in clips), default=0))
             for c in auswaehlen(clips, aus, bekannt, None)[:2]:
                 # Score nach absoluten Views, damit die stärksten Clips zuerst kommen
                 c["_score"] = c.get("view_count", 0) / 100
