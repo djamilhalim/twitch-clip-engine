@@ -751,7 +751,7 @@
   "PlumpCautiousBurritoSaltBae-9jsX0c57L4wL0nk5": {
    "id": "PlumpCautiousBurritoSaltBae-9jsX0c57L4wL0nk5",
    "seit": 1795518725.611041,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "Nico reitet coach",
@@ -759,12 +759,14 @@
    "views": 229,
    "score": 4.58,
    "erstellt": "2026-11-22T19:29:29Z",
-   "aktualisiert": 1795518763.1295936,
+   "aktualisiert": 1795552737.5504394,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_PlumpCautiousBurritoSaltBae-9jsX0c57L4wL0nk5.mp4",
    "dauer": 20.3203,
    "layout": "blur",
    "transkript": "",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Nico reitet coach 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Nico reitet coach | coachlim #shorts",
    "broadcaster_name": "coachlim",
@@ -2142,6 +2144,13 @@
    "ts": 1795550240.0000672,
    "ok": true,
    "id": "6b05ec1dea027c5314b35a11"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "PlumpCautiousBurritoSaltBae-9jsX0c57L4wL0nk5",
+   "ts": 1795552737.550404,
+   "ok": true,
+   "id": "6b05f5dfbbd94e83696b95ab"
   }
  ],
  "hype": {},
