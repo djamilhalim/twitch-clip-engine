@@ -76,6 +76,7 @@ class Engine:
                 log.warning("Clips für %s nicht abrufbar: %s", login, e)
                 continue
             kandidaten = auswaehlen(clips, self.cfg.get("auswahl", {}), bekannt, stream.get("viewer_count"))
+            log.info("%s: %d Clips im Fenster, %d passen", login, len(clips), len(kandidaten))
             frei = max_tag - self.state.clips_heute_fuer(login, heute)
             for c in kandidaten[: max(0, frei)]:
                 if neu >= max_lauf:
@@ -83,6 +84,48 @@ class Engine:
                 c["_spiel"] = stream.get("game_name")
                 if self.verarbeiten(c, streamer, quelle="community"):
                     neu += 1
+
+        # Tages-Fallback: beste Clips der letzten 24 h der festen Streamer-Liste (auch offline)
+        if self.cfg.get("auswahl.tages_fallback", True) and neu < max_lauf:
+            neu += self._tages_fallback(max_lauf - neu, heute, max_tag, bekannt)
+        return neu
+
+    def _tages_fallback(self, limit: int, heute: float, max_tag: int, bekannt: set[str]) -> int:
+        neu = 0
+        aus = dict(self.cfg.get("auswahl", {}))
+        aus["min_views"] = int(self.cfg.get("auswahl.tages_min_views", 400))
+        aus["min_views_pro_minute"] = 0
+        stunden = int(self.cfg.get("auswahl.tages_fenster_stunden", 24))
+        feste = [s for s in self.cfg.streamer if not s.entdeckt and s.login not in self._live]
+        if not feste:
+            return 0
+        try:
+            ids = {u["login"]: u["id"] for u in self.tw.users([s.login for s in feste])}
+        except TwitchError as e:
+            log.warning("Tages-Fallback: Nutzer nicht abrufbar: %s", e)
+            return 0
+        pool: list[tuple[dict[str, Any], Streamer]] = []
+        for s in feste:
+            if s.login not in ids or self.state.clips_heute_fuer(s.login, heute) >= max_tag:
+                continue
+            try:
+                clips = self.tw.clips(ids[s.login], stunden * 60)
+            except TwitchError as e:
+                log.warning("Tages-Fallback %s: %s", s.login, e)
+                continue
+            for c in auswaehlen(clips, aus, bekannt, None)[:2]:
+                # Score nach absoluten Views, damit die stärksten Clips zuerst kommen
+                c["_score"] = c.get("view_count", 0) / 100
+                pool.append((c, s))
+        pool.sort(key=lambda x: x[0]["_score"], reverse=True)
+        log.info("Tages-Fallback: %d Kandidaten", len(pool))
+        for c, s in pool:
+            if neu >= limit:
+                break
+            if self.state.clips_heute_fuer(s.login, heute) >= max_tag:
+                continue
+            if self.verarbeiten(c, s, quelle="tag"):
+                neu += 1
         return neu
 
     # ── 3. Live-Hype → eigener Clip ─────────────────────────────────────

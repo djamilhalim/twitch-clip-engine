@@ -41,12 +41,16 @@ streamer:
 
 # ── Clip-Auswahl ────────────────────────────────────────────────────────
 auswahl:
-  fenster_minuten: 90        # nur Clips, die in den letzten X Minuten erstellt wurden
-  min_views: 150             # Mindest-Views eines Community-Clips
-  min_views_pro_minute: 4    # „Geschwindigkeit“: Views / Minuten seit Erstellung
+  fenster_minuten: 180       # nur Clips, die in den letzten X Minuten erstellt wurden
+  min_views: 60              # Mindest-Views eines Community-Clips
+  min_views_pro_minute: 1    # „Geschwindigkeit“: Views / Minuten seit Erstellung
   max_dauer_s: 60
   min_dauer_s: 8
   max_pro_streamer_pro_tag: 4
+  # Tages-Fallback: beste Clips der letzten 24 h der festen Liste (auch wenn offline) – sichert die Menge
+  tages_fallback: true
+  tages_fenster_stunden: 24
+  tages_min_views: 400
   # Clips mit diesen Wörtern im Titel überspringen (z. B. Glücksspiel – TikTok/YouTube sperren das)
   blockwoerter: [casino, gamble, gambling, slots, stake, roobet, wetten]
 
