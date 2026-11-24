@@ -14,7 +14,11 @@ spiele: ["Grand Theft Auto V", "Grand Theft Auto VI"]
 # ── Fokus-Streamer: werden bevorzugt (Bonus im Ranking) ────────────────
 # Auswahl nach Analyse vom 24.11. (Summe Clip-Views der letzten 30 Tage, siehe analysis/ergebnis.md)
 fokus:
-  streamer: [trymacs, papaplatte, eliasn97, mertabimula, marli, alibumayetv, coachlim, sidneyeweka, schradin]
+  nur_fokus: true            # NUR diese Streamer – keine allgemeinen GTA-/Top-DE-Clips mehr
+  streamer: [mertabimula, marli, alibumayetv, coachlim, sidneyeweka, eliasn97, xrohat, trymacs, papaplatte]
+  # Gewicht im Ranking (Standard = bonus). Papaplatte bewusst niedriger: nur wenn sonst nichts Starkes da ist
+  gewichte: {papaplatte: 0.5}
+  max_pro_tag: {papaplatte: 2}
   alle_kategorien: true      # auch Just Chatting/IRL/Minecraft – nicht nur GTA
   min_views: 50
   fenster_stunden: 48
@@ -29,7 +33,7 @@ quelle:
   top_de_min_zuschauer: 1500
 
 # Diese Kanäle werden nie beobachtet oder gepostet – auch nicht über top_de
-ausschliessen: [montanablack88]
+ausschliessen: [montanablack88, schradin, baupenner, xxrebellioxx]
 
 streamer:
   # login = Twitch-Name aus der URL (twitch.tv/<login>)

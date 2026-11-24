@@ -18,7 +18,8 @@ def live_ziele(cfg: Config, tw: Twitch, game_ids: set[str] | None = None) -> lis
     for f in fokus:
         if not cfg.streamer_by_login(f):
             cfg.streamer.append(Streamer(login=f))
-    logins = [s.login for s in cfg.streamer if s.login not in cfg.ausgeschlossen]
+    nur_fokus = bool(cfg.get("fokus.nur_fokus", False)) and fokus
+    logins = sorted(fokus) if nur_fokus else [s.login for s in cfg.streamer if s.login not in cfg.ausgeschlossen]
     live: dict[str, dict[str, Any]] = {}
     if logins:
         for st in tw.live_streams(logins):
@@ -27,7 +28,7 @@ def live_ziele(cfg: Config, tw: Twitch, game_ids: set[str] | None = None) -> lis
                 continue
             live[login] = st
 
-    if cfg.get("quelle.modus") == "top_de":
+    if cfg.get("quelle.modus") == "top_de" and not nur_fokus:
         anzahl = int(cfg.get("quelle.top_de_anzahl", 15))
         min_z = int(cfg.get("quelle.top_de_min_zuschauer", 3000))
         zusaetzlich = 0

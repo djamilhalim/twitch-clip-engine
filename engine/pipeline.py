@@ -95,13 +95,18 @@ class Engine:
                 clips = [c for c in clips if c.get("game_id") in self.spiel_ids()]
             kandidaten = auswaehlen(clips, self.cfg.get("auswahl", {}), bekannt, stream.get("viewer_count"))
             log.info("%s: %d Clips im Fenster, %d passen", login, len(clips), len(kandidaten))
+            gew = self._gewicht(login)
             for c in kandidaten[:2]:
                 c["_spiel"] = stream.get("game_name")
+                c["_score"] = c.get("_score", 0) * gew
                 pool.append((c, streamer, "community"))
 
+        nur_fokus = bool(self.cfg.get("fokus.nur_fokus", False)) and self.cfg.fokus
         if self.cfg.fokus:
             pool += self._fokus_kandidaten(heute, max_tag, bekannt)
-        if self.spiel_ids():
+        if nur_fokus:
+            pool = [x for x in pool if x[1].login in self.cfg.fokus]
+        elif self.spiel_ids():
             pool += self._spiel_kandidaten(heute, max_tag, bekannt)
         elif self.cfg.get("auswahl.tages_fallback", True):
             pool += self._tages_kandidaten(heute, max_tag, bekannt)
@@ -109,14 +114,23 @@ class Engine:
         pool.sort(key=lambda x: x[0].get("_score", 0), reverse=True)
         log.info("Pool: %d Kandidaten, verarbeite bis zu %d", len(pool), max_lauf)
         neu = 0
+        limits = {str(k).lower(): int(v) for k, v in (self.cfg.get("fokus.max_pro_tag", {}) or {}).items()}
         for c, s, quelle in pool:
             if neu >= max_lauf:
                 break
-            if self.state.clips_heute_fuer(s.login, heute) >= max_tag:
+            if self.state.clips_heute_fuer(s.login, heute) >= limits.get(s.login, max_tag):
                 continue
             if self.verarbeiten(c, s, quelle=quelle):
                 neu += 1
         return neu
+
+    def _gewicht(self, login: str, standard: float | None = None) -> float:
+        gew = {str(k).lower(): float(v) for k, v in (self.cfg.get("fokus.gewichte", {}) or {}).items()}
+        if login in gew:
+            return gew[login]
+        if standard is not None:
+            return standard
+        return float(self.cfg.get("fokus.bonus", 2.0)) if login in self.cfg.fokus else 1.0
 
     def _fokus_kandidaten(self, heute: float, max_tag: int, bekannt: set[str]) -> list[tuple[dict[str, Any], Streamer, str]]:
         """Beste Clips der Fokus-Streamer der letzten Stunden (auch offline), mit Bonus im Ranking."""
@@ -145,8 +159,9 @@ class Engine:
             gewaehlt = auswaehlen(clips, aus, bekannt, None)[:3]
             log.info("Fokus %s: %d Clips, %d passen", login, len(clips), len(gewaehlt))
             s = self.cfg.streamer_by_login(login) or Streamer(login=login)
+            gew = self._gewicht(login, bonus)
             for c in gewaehlt:
-                c["_score"] = c.get("view_count", 0) / 100 * bonus
+                c["_score"] = c.get("view_count", 0) / 100 * gew
                 out.append((c, s, "fokus"))
         return out
 
