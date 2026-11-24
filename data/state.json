@@ -260,7 +260,7 @@
   "HedonisticNaiveVelociraptorWholeWheat-UQe8DIGgSV4ALc73": {
    "id": "HedonisticNaiveVelociraptorWholeWheat-UQe8DIGgSV4ALc73",
    "seit": 1795510450.1999855,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "baupenner",
    "quelle": "spiel",
    "titel": "Was ist das 🤣🤣",
@@ -268,12 +268,14 @@
    "views": 990,
    "score": 9.9,
    "erstellt": "2026-11-24T06:39:39Z",
-   "aktualisiert": 1795510472.959476,
+   "aktualisiert": 1795540582.7846663,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/baupenner_HedonisticNaiveVelociraptorWholeWheat-UQe8DIGgSV4ALc73.mp4",
    "dauer": 16.512,
    "layout": "blur",
    "transkript": "BANNAAA HAHAHAHA war für ne Scheiße ich Leben nicht gedacht kannst du Motorrad umbixen kannst du definitiv",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Was ist das 🤣🤣 😂\n🎥 BauPenner live auf twitch.tv/baupenner\n#BauPenner #GTA #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Was ist das 🤣🤣 | BauPenner #shorts",
    "broadcaster_name": "BauPenner",
@@ -2053,6 +2055,13 @@
    "ts": 1795538164.53132,
    "ok": true,
    "id": "6b05bcead9f47bf2367cb6a9"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "HedonisticNaiveVelociraptorWholeWheat-UQe8DIGgSV4ALc73",
+   "ts": 1795540582.7846525,
+   "ok": true,
+   "id": "6b05c65cbd6e90a32819e83b"
   }
  ],
  "hype": {},
