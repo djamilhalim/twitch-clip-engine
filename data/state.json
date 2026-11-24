@@ -356,7 +356,7 @@
   "ResourcefulJazzyHippoOSkomodo-zB0hOU4EP9s1nra0": {
    "id": "ResourcefulJazzyHippoOSkomodo-zB0hOU4EP9s1nra0",
    "seit": 1795511783.420458,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "spiel",
    "titel": "gtoy fail gta 6 #1",
@@ -364,12 +364,14 @@
    "views": 790,
    "score": 7.9,
    "erstellt": "2026-11-22T23:02:58Z",
-   "aktualisiert": 1795511826.419228,
+   "aktualisiert": 1795545420.1146843,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_ResourcefulJazzyHippoOSkomodo-zB0hOU4EP9s1nra0.mp4",
    "dauer": 30.826,
    "layout": "blur",
    "transkript": "",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Gtoy fail gta 6 #1 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #GTA #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Gtoy fail gta 6 #1 | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -2115,6 +2117,13 @@
    "ts": 1795543002.158777,
    "ok": true,
    "id": "6b05cfcf04f9f3a5e600eaef"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "ResourcefulJazzyHippoOSkomodo-zB0hOU4EP9s1nra0",
+   "ts": 1795545420.1146698,
+   "ok": true,
+   "id": "6b05d941a1fe31a32b35978b"
   }
  ],
  "hype": {},
