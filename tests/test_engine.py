@@ -79,7 +79,9 @@ def test_texte():
     assert cap_text.startswith("Er hat es wirklich gemacht")
     assert "#Papaplatte" in cap_text and "#Minecraft" in cap_text
     assert len(texts.youtube_titel(_clip("y", 1, 1, title="a" * 200))) <= 100
-    assert "rastet" in texts.caption(_clip("z", 1, 1, title=""), [], None)
+    erste = texts.caption(_clip("z", 1, 1, title=""), [], None).split("
+")[0]
+    assert erste and erste != " 😂"
 
 
 def test_untertitel_gruppen():

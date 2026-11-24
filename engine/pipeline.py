@@ -160,7 +160,7 @@ class Engine:
                 roh, hoch = download_clip(clip, streamer, self.tw, self.roh)
                 self.fertig.mkdir(parents=True, exist_ok=True)
                 ziel = self.fertig / f"{streamer.login}_{cid}.mp4"
-                titel = titel_bereinigen(clip.get("title", ""), clip.get("broadcaster_name", streamer.login))
+                titel = titel_bereinigen(clip.get("title", ""), clip.get("broadcaster_name", streamer.login), cid)
                 res = schneiden(roh, ziel, streamer, titel, self.cfg.get("schnitt", {}), hochformat=hoch)
             except Exception as e:  # ein kaputter Clip darf die Engine nicht stoppen
                 log.exception("Verarbeitung %s fehlgeschlagen", cid)
