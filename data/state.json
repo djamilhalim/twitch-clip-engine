@@ -839,7 +839,7 @@
   "TriumphantPreciousTarsierSuperVinlin-jReBlY7F-njXf12S": {
    "id": "TriumphantPreciousTarsierSuperVinlin-jReBlY7F-njXf12S",
    "seit": 1795520101.7321987,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "nico bangt couch kaputt",
@@ -847,12 +847,14 @@
    "views": 215,
    "score": 4.3,
    "erstellt": "2026-11-22T19:39:12Z",
-   "aktualisiert": 1795520171.8035252,
+   "aktualisiert": 1795550240.0000818,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_TriumphantPreciousTarsierSuperVinlin-jReBlY7F-njXf12S.mp4",
    "dauer": 57.874483,
    "layout": "blur",
    "transkript": "warte nicht! bist nicht gefühlt! hab's kaputt! weiß, ich hab's kaputt! kaputt! welche Frau wird euch nehmen? Dazu müssen wir was sagen. seh's doch schnell. ist eine Weinhintenisabendweil. das Weinhintenisabendweil. das ist in der",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Nico bangt couch kaputt 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Nico bangt couch kaputt | coachlim #shorts",
    "broadcaster_name": "coachlim",
@@ -2133,6 +2135,13 @@
    "ts": 1795547830.5569353,
    "ok": true,
    "id": "6b05e2b46111797095cfdb45"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "TriumphantPreciousTarsierSuperVinlin-jReBlY7F-njXf12S",
+   "ts": 1795550240.0000672,
+   "ok": true,
+   "id": "6b05ec1dea027c5314b35a11"
   }
  ],
  "hype": {},
