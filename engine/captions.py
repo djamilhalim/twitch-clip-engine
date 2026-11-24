@@ -25,11 +25,24 @@ def _modell(name: str):
     return WhisperModel(name, device="cpu", compute_type="int8")
 
 
+def _audio_16k(video: Path):
+    """Audio per ffmpeg als 16-kHz-Mono-Float-Array (umgeht PyAV-Versionsprobleme in faster-whisper)."""
+    import subprocess
+
+    import numpy as np
+
+    raw = subprocess.run(
+        ["ffmpeg", "-nostdin", "-loglevel", "error", "-i", str(video), "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
+        capture_output=True, check=True,
+    ).stdout
+    return np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
+
+
 def transkribieren(video: Path, modell: str = "small", sprache: str = "de") -> list[Wort]:
     try:
         m = _modell(modell)
         segments, _info = m.transcribe(
-            str(video), language=sprache, word_timestamps=True, vad_filter=True, beam_size=1
+            _audio_16k(video), language=sprache, word_timestamps=True, vad_filter=True, beam_size=1
         )
         woerter: list[Wort] = []
         for seg in segments:

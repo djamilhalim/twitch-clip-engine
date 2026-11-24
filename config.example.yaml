@@ -91,7 +91,7 @@ posten:
   tiktok_api_modus: inbox
   max_pro_tag: 20            # pro Ziel (TikTok blockt über API evtl. ab ~15)
   min_abstand_min: 40        # Mindestabstand zwischen zwei Posts pro Ziel
-  ruhezeit: ["02:00", "08:00"]   # Europe/Berlin – in diesem Fenster wird nichts gepostet
+  ruhezeit: ["05:00", "07:00"]   # Europe/Berlin – in diesem Fenster wird nichts gepostet
   zeitzone: Europe/Berlin
   youtube_kategorie: 20      # 20 = Gaming, 24 = Entertainment
   hashtags_basis: ["#twitch", "#twitchde", "#streamer", "#clips", "#fyp", "#deutsch"]

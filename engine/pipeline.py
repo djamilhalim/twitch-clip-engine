@@ -59,15 +59,15 @@ class Engine:
 
     # ── 2. Community-Clips einsammeln ───────────────────────────────────
     def clips_einsammeln(self) -> int:
-        neu = 0
+        """Sammelt Kandidaten aus Live-Streams und Tages-Fallback in EINEM Pool, verarbeitet die stärksten."""
         fenster = int(self.cfg.get("auswahl.fenster_minuten", 90))
         max_tag = int(self.cfg.get("auswahl.max_pro_streamer_pro_tag", 3))
+        max_lauf = int(self.cfg.get("laufzeit.max_neue_pro_lauf", 0)) or 10**6
         heute = tagesbeginn_ts(self.cfg.get("posten.zeitzone", "Europe/Berlin"))
         bekannt = set(self.state.data["clips"])
-        max_lauf = int(self.cfg.get("laufzeit.max_neue_pro_lauf", 0)) or 10**6
+        pool: list[tuple[dict[str, Any], Streamer, str]] = []
+
         for login, (streamer, stream) in list(self._live.items()):
-            if neu >= max_lauf:
-                break
             if self.state.clips_heute_fuer(login, heute) >= max_tag:
                 continue
             try:
@@ -77,38 +77,39 @@ class Engine:
                 continue
             kandidaten = auswaehlen(clips, self.cfg.get("auswahl", {}), bekannt, stream.get("viewer_count"))
             log.info("%s: %d Clips im Fenster, %d passen", login, len(clips), len(kandidaten))
-            for c in sorted(clips, key=lambda c: c.get("view_count", 0), reverse=True)[:2]:
-                log.info("   top: %s views=%s dauer=%s erstellt=%s titel=%r", c.get("id"), c.get("view_count"),
-                         c.get("duration"), c.get("created_at"), (c.get("title") or "")[:40])
-            frei = max_tag - self.state.clips_heute_fuer(login, heute)
-            for c in kandidaten[: max(0, frei)]:
-                if neu >= max_lauf:
-                    break
+            for c in kandidaten[:2]:
                 c["_spiel"] = stream.get("game_name")
-                if self.verarbeiten(c, streamer, quelle="community"):
-                    neu += 1
+                pool.append((c, streamer, "community"))
 
-        # Tages-Fallback: beste Clips der letzten 24 h der festen Streamer-Liste (auch offline)
-        if self.cfg.get("auswahl.tages_fallback", True) and neu < max_lauf:
-            neu += self._tages_fallback(max_lauf - neu, heute, max_tag, bekannt)
+        if self.cfg.get("auswahl.tages_fallback", True):
+            pool += self._tages_kandidaten(heute, max_tag, bekannt)
+
+        pool.sort(key=lambda x: x[0].get("_score", 0), reverse=True)
+        log.info("Pool: %d Kandidaten, verarbeite bis zu %d", len(pool), max_lauf)
+        neu = 0
+        for c, s, quelle in pool:
+            if neu >= max_lauf:
+                break
+            if self.state.clips_heute_fuer(s.login, heute) >= max_tag:
+                continue
+            if self.verarbeiten(c, s, quelle=quelle):
+                neu += 1
         return neu
 
-    def _tages_fallback(self, limit: int, heute: float, max_tag: int, bekannt: set[str]) -> int:
-        neu = 0
+    def _tages_kandidaten(self, heute: float, max_tag: int, bekannt: set[str]) -> list[tuple[dict[str, Any], Streamer, str]]:
         aus = dict(self.cfg.get("auswahl", {}))
         aus["min_views"] = int(self.cfg.get("auswahl.tages_min_views", 25))
         aus["min_views_pro_minute"] = 0
         stunden = int(self.cfg.get("auswahl.tages_fenster_stunden", 24))
         feste = [s for s in self.cfg.streamer if not s.entdeckt and s.login not in self._live]
         if not feste:
-            return 0
+            return []
         try:
             ids = {u["login"]: u["id"] for u in self.tw.users([s.login for s in feste])}
-            log.info("Tages-Fallback: %d/%d Streamer-IDs gefunden", len(ids), len(feste))
         except TwitchError as e:
             log.warning("Tages-Fallback: Nutzer nicht abrufbar: %s", e)
-            return 0
-        pool: list[tuple[dict[str, Any], Streamer]] = []
+            return []
+        out: list[tuple[dict[str, Any], Streamer, str]] = []
         for s in feste:
             if s.login not in ids or self.state.clips_heute_fuer(s.login, heute) >= max_tag:
                 continue
@@ -117,22 +118,12 @@ class Engine:
             except TwitchError as e:
                 log.warning("Tages-Fallback %s: %s", s.login, e)
                 continue
-            log.info("Tages-Fallback %s: %d Clips (max views %s)", s.login, len(clips),
-                     max((c.get("view_count", 0) for c in clips), default=0))
-            for c in auswaehlen(clips, aus, bekannt, None)[:2]:
-                # Score nach absoluten Views, damit die stärksten Clips zuerst kommen
-                c["_score"] = c.get("view_count", 0) / 100
-                pool.append((c, s))
-        pool.sort(key=lambda x: x[0]["_score"], reverse=True)
-        log.info("Tages-Fallback: %d Kandidaten", len(pool))
-        for c, s in pool:
-            if neu >= limit:
-                break
-            if self.state.clips_heute_fuer(s.login, heute) >= max_tag:
-                continue
-            if self.verarbeiten(c, s, quelle="tag"):
-                neu += 1
-        return neu
+            gewaehlt = auswaehlen(clips, aus, bekannt, None)[:3]
+            log.info("Tages-Fallback %s: %d Clips, %d passen", s.login, len(clips), len(gewaehlt))
+            for c in gewaehlt:
+                c["_score"] = c.get("view_count", 0) / 100  # absolute Views: stärkste zuerst
+                out.append((c, s, "tag"))
+        return out
 
     # ── 3. Live-Hype → eigener Clip ─────────────────────────────────────
     def _on_hype(self, channel: str, info: dict[str, Any]) -> None:
@@ -220,10 +211,12 @@ class Engine:
         for ziel in self.ziele:
             erfolgreich_heute = [p for p in self.state.posts_fuer(ziel.name, heute) if p.get("ok")]
             if not slot_frei(len(erfolgreich_heute), self.state.letzter_post(ziel.name), max_tag, abstand, ruhe, tz):
+                log.info("%s: kein Slot frei (heute %d/%d, Ruhezeit %s)", ziel.name, len(erfolgreich_heute), max_tag, ruhe)
                 continue
             kandidaten = [c for c in self.state.clips_mit_status(S.WARTESCHLANGE)
                           if ziel.name not in c.get("gepostet_auf", []) and self._verfuegbar(c, ziel.braucht_url)]
             if not kandidaten:
+                log.info("%s: Warteschlange leer", ziel.name)
                 continue
             kandidaten.sort(key=lambda c: frische_score(c.get("score", 0), jetzt - c.get("seit", jetzt)), reverse=True)
             c = kandidaten[0]
