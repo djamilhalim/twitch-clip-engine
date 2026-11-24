@@ -928,7 +928,7 @@
   "NeighborlyCutePidgeonWow-_KgigH3ww2aWDP21": {
    "id": "NeighborlyCutePidgeonWow-_KgigH3ww2aWDP21",
    "seit": 1795521546.624299,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "xrohat",
    "quelle": "spiel",
    "titel": "Niko Bellic comeback aura",
@@ -936,12 +936,14 @@
    "views": 419,
    "score": 4.19,
    "erstellt": "2026-11-22T14:20:52Z",
-   "aktualisiert": 1795521630.5387824,
+   "aktualisiert": 1795547830.5569499,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_NeighborlyCutePidgeonWow-_KgigH3ww2aWDP21.mp4",
    "dauer": 59.40935,
    "layout": "blur",
    "transkript": "Oh, die Krassografik auch noch? Das die Krassografik.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Niko Bellic comeback aura 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #GTA #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Niko Bellic comeback aura | xRohat #shorts",
    "broadcaster_name": "xRohat",
@@ -2124,6 +2126,13 @@
    "ts": 1795545420.1146698,
    "ok": true,
    "id": "6b05d941a1fe31a32b35978b"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "NeighborlyCutePidgeonWow-_KgigH3ww2aWDP21",
+   "ts": 1795547830.5569353,
+   "ok": true,
+   "id": "6b05e2b46111797095cfdb45"
   }
  ],
  "hype": {},
