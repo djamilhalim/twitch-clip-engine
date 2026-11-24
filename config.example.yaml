@@ -14,7 +14,7 @@ spiele: ["Grand Theft Auto V", "Grand Theft Auto VI"]
 # ── Fokus-Streamer: werden bevorzugt (Bonus im Ranking) ────────────────
 # Auswahl nach Analyse vom 24.11. (Summe Clip-Views der letzten 30 Tage, siehe analysis/ergebnis.md)
 fokus:
-  streamer: [trymacs, papaplatte, eliasn97, mertabimula, marli, coachlim, sidneyeweka, schradin]
+  streamer: [trymacs, papaplatte, eliasn97, mertabimula, marli, alibumayetv, coachlim, sidneyeweka, schradin]
   alle_kategorien: true      # auch Just Chatting/IRL/Minecraft – nicht nur GTA
   min_views: 50
   fenster_stunden: 48
