@@ -2259,7 +2259,7 @@
   "DarlingAmazingPenguinNerfRedBlaster-OdXkfzduI9z8aIDu": {
    "id": "DarlingAmazingPenguinNerfRedBlaster-OdXkfzduI9z8aIDu",
    "seit": 1795566532.9914992,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "h",
@@ -2267,12 +2267,14 @@
    "views": 128,
    "score": 2.56,
    "erstellt": "2026-11-23T18:27:51Z",
-   "aktualisiert": 1795566604.4954865,
+   "aktualisiert": 1795593870.999019,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_DarlingAmazingPenguinNerfRedBlaster-OdXkfzduI9z8aIDu.mp4",
    "dauer": 59.993267,
    "layout": "blur",
    "transkript": "Fettsack lahn kann man schön anpacken aber nach superton sehen wir dich ja hoffentlich",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "coachlim eskaliert komplett 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "coachlim eskaliert komplett | coachlim #shorts",
    "broadcaster_name": "coachlim",
@@ -2759,6 +2761,13 @@
    "ts": 1795591398.1346345,
    "ok": true,
    "id": "6b068ce3d8874a038c004157"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "DarlingAmazingPenguinNerfRedBlaster-OdXkfzduI9z8aIDu",
+   "ts": 1795593870.9990032,
+   "ok": true,
+   "id": "6b06968cd8874a038c049896"
   }
  ],
  "hype": {},
