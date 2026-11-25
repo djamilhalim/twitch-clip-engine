@@ -2614,7 +2614,7 @@
   "RenownedSpicyWrenCoolStoryBro-6JquOxnrYgnktvzn": {
    "id": "RenownedSpicyWrenCoolStoryBro-6JquOxnrYgnktvzn",
    "seit": 1795600046.3510628,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "okay",
@@ -2622,7 +2622,7 @@
    "views": 40,
    "score": 8.88888888888889,
    "erstellt": "2026-11-23T18:14:29Z",
-   "aktualisiert": 1795600156.7554173,
+   "aktualisiert": 1795643789.9189801,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_RenownedSpicyWrenCoolStoryBro-6JquOxnrYgnktvzn.mp4",
    "dauer": 60.004,
    "layout": "blur",
@@ -2631,12 +2631,13 @@
    "caption": "marli eskaliert komplett 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "marli eskaliert komplett | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_RenownedSpicyWrenCoolStoryBro-6JquOxnrYgnktvzn.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_RenownedSpicyWrenCoolStoryBro-6JquOxnrYgnktvzn.mp4",
+   "fehler": "zu alt"
   },
   "SassyArbitraryLouseRlyTho--BrHTBO0hFO--EOZ": {
    "id": "SassyArbitraryLouseRlyTho--BrHTBO0hFO--EOZ",
    "seit": 1795600156.7595246,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "mütze",
@@ -2644,7 +2645,7 @@
    "views": 22,
    "score": 8.8,
    "erstellt": "2026-11-24T20:01:20Z",
-   "aktualisiert": 1795600234.13924,
+   "aktualisiert": 1795643789.9189851,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_SassyArbitraryLouseRlyTho--BrHTBO0hFO--EOZ.mp4",
    "dauer": 42.013,
    "layout": "blur",
@@ -2653,7 +2654,8 @@
    "caption": "Der Chat ist tot 💀 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Der Chat ist tot 💀 | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_SassyArbitraryLouseRlyTho--BrHTBO0hFO--EOZ.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_SassyArbitraryLouseRlyTho--BrHTBO0hFO--EOZ.mp4",
+   "fehler": "zu alt"
   },
   "OilySpoopyAxeChocolateRain-ypL5BSBjVyvIfjae": {
    "id": "OilySpoopyAxeChocolateRain-ypL5BSBjVyvIfjae",
