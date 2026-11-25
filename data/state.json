@@ -1265,7 +1265,7 @@
   "AgreeableCloudyLadiesTTours-aQmlvP1uZk9n_6M-": {
    "id": "AgreeableCloudyLadiesTTours-aQmlvP1uZk9n_6M-",
    "seit": 1795525803.098293,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "Marli 2000 yard stare",
@@ -1273,7 +1273,7 @@
    "views": 122,
    "score": 2.44,
    "erstellt": "2026-11-23T20:08:22Z",
-   "aktualisiert": 1795525820.4921339,
+   "aktualisiert": 1795569083.0031564,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_AgreeableCloudyLadiesTTours-aQmlvP1uZk9n_6M-.mp4",
    "dauer": 12.333333,
    "layout": "blur",
@@ -1282,7 +1282,8 @@
    "caption": "Marli 2000 yard stare 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Marli 2000 yard stare | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_AgreeableCloudyLadiesTTours-aQmlvP1uZk9n_6M-.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_AgreeableCloudyLadiesTTours-aQmlvP1uZk9n_6M-.mp4",
+   "fehler": "zu alt"
   },
   "HungryCrazyPoxCorgiDerp-4O-7u4_7JQhb_iOz": {
    "id": "HungryCrazyPoxCorgiDerp-4O-7u4_7JQhb_iOz",
@@ -2131,7 +2132,7 @@
   "BigHealthyWalletBrokeBack-RONJykQoe3A7wQIB": {
    "id": "BigHealthyWalletBrokeBack-RONJykQoe3A7wQIB",
    "seit": 1795563833.3726628,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "Roads gehts nicht so gut",
@@ -2139,12 +2140,14 @@
    "views": 167,
    "score": 3.34,
    "erstellt": "2026-11-23T19:47:45Z",
-   "aktualisiert": 1795563853.5035412,
+   "aktualisiert": 1795569086.9995427,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_BigHealthyWalletBrokeBack-RONJykQoe3A7wQIB.mp4",
    "dauer": 16.8168,
    "layout": "blur",
    "transkript": "Roads geht's nicht so gut. Der berückt sich kurz und dann geht's weiter. Bis gleich.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Roads gehts nicht so gut 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Roads gehts nicht so gut | xRohat #shorts",
    "broadcaster_name": "xRohat",
@@ -2446,6 +2449,13 @@
    "ts": 1795566676.0646968,
    "ok": true,
    "id": "6b062c51919291941328b2bf"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "BigHealthyWalletBrokeBack-RONJykQoe3A7wQIB",
+   "ts": 1795569086.9995263,
+   "ok": true,
+   "id": "6b0635bcf0b405190acc00f4"
   }
  ],
  "hype": {},
