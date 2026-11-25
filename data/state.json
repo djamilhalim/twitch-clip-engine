@@ -1633,7 +1633,7 @@
   "ObliviousHungryAubergineUnSane-aAZ2urK41H_wf9eq": {
    "id": "ObliviousHungryAubergineUnSane-aAZ2urK41H_wf9eq",
    "seit": 1795531219.257504,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "max",
@@ -1641,7 +1641,7 @@
    "views": 69,
    "score": 1.38,
    "erstellt": "2026-11-23T17:24:16Z",
-   "aktualisiert": 1795531286.1354709,
+   "aktualisiert": 1795575394.1161022,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_ObliviousHungryAubergineUnSane-aAZ2urK41H_wf9eq.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -1650,12 +1650,13 @@
    "caption": "marli kann nicht mehr 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "marli kann nicht mehr | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_ObliviousHungryAubergineUnSane-aAZ2urK41H_wf9eq.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_ObliviousHungryAubergineUnSane-aAZ2urK41H_wf9eq.mp4",
+   "fehler": "zu alt"
   },
   "AbstruseJazzyOtterNononoCat-QUe7EedXia2KPBb3": {
    "id": "AbstruseJazzyOtterNononoCat-QUe7EedXia2KPBb3",
    "seit": 1795531286.1374962,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "1",
@@ -1663,7 +1664,7 @@
    "views": 64,
    "score": 1.28,
    "erstellt": "2026-11-23T14:25:18Z",
-   "aktualisiert": 1795531351.0044706,
+   "aktualisiert": 1795575394.1161053,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_AbstruseJazzyOtterNononoCat-QUe7EedXia2KPBb3.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -1672,7 +1673,8 @@
    "caption": "Was macht AliBumayeTV da?! 😂 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Was macht AliBumayeTV da?! 😂 | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_AbstruseJazzyOtterNononoCat-QUe7EedXia2KPBb3.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_AbstruseJazzyOtterNononoCat-QUe7EedXia2KPBb3.mp4",
+   "fehler": "zu alt"
   },
   "FragileCredulousFinchWOOP-aY0fYuIWnpXWn-Qf": {
    "id": "FragileCredulousFinchWOOP-aY0fYuIWnpXWn-Qf",
