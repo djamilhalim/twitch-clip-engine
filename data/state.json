@@ -1955,7 +1955,7 @@
   "AwkwardRoundMilkTheThing-Uh5KkUczDBZSqhbD": {
    "id": "AwkwardRoundMilkTheThing-Uh5KkUczDBZSqhbD",
    "seit": 1795536756.5356042,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "manu donation",
@@ -1963,7 +1963,7 @@
    "views": 50,
    "score": 1.0,
    "erstellt": "2026-11-23T14:58:14Z",
-   "aktualisiert": 1795536813.258122,
+   "aktualisiert": 1795580531.2573764,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_AwkwardRoundMilkTheThing-Uh5KkUczDBZSqhbD.mp4",
    "dauer": 50.005,
    "layout": "blur",
@@ -1972,7 +1972,8 @@
    "caption": "Manu donation 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Manu donation | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_AwkwardRoundMilkTheThing-Uh5KkUczDBZSqhbD.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_AwkwardRoundMilkTheThing-Uh5KkUczDBZSqhbD.mp4",
+   "fehler": "zu alt"
   },
   "RockyFlirtyTildeKAPOW-7hfR8SB-YTL0rbRY": {
    "id": "RockyFlirtyTildeKAPOW-7hfR8SB-YTL0rbRY",
