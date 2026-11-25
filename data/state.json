@@ -2883,7 +2883,7 @@
   "DirtyClearPigSMOrc-NQS-uY8qIUl4q5qI": {
    "id": "DirtyClearPigSMOrc-NQS-uY8qIUl4q5qI",
    "seit": 1795615603.22921,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "tja das ist ein Überfall",
@@ -2891,12 +2891,14 @@
    "views": 50,
    "score": 10.0,
    "erstellt": "2026-11-23T20:21:05Z",
-   "aktualisiert": 1795615650.1235547,
+   "aktualisiert": 1795621933.477537,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_DirtyClearPigSMOrc-NQS-uY8qIUl4q5qI.mp4",
    "dauer": 30.016,
    "layout": "blur",
    "transkript": "",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Tja das ist ein Überfall 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Tja das ist ein Überfall | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -3242,6 +3244,13 @@
    "ts": 1795617111.1814077,
    "ok": true,
    "id": "6b06f14cd1898df0f7ff2e4f"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "DirtyClearPigSMOrc-NQS-uY8qIUl4q5qI",
+   "ts": 1795621933.477522,
+   "ok": true,
+   "id": "6b070423304332fdc8e12c24"
   }
  ],
  "hype": {},
