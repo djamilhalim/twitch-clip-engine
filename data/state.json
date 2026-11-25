@@ -2693,7 +2693,7 @@
   "RenownedCarelessDelicataBibleThump-7NRyPC2iHNxkQk7G": {
    "id": "RenownedCarelessDelicataBibleThump-7NRyPC2iHNxkQk7G",
    "seit": 1795601638.8934414,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "auf gott schwören wegen weed",
@@ -2701,12 +2701,14 @@
    "views": 37,
    "score": 8.222222222222221,
    "erstellt": "2026-11-23T19:33:34Z",
-   "aktualisiert": 1795601781.3321407,
+   "aktualisiert": 1795611860.683994,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_RenownedCarelessDelicataBibleThump-7NRyPC2iHNxkQk7G.mp4",
    "dauer": 60.0,
    "layout": "blur",
    "transkript": "Warum? rechte Arm ist gelebt. Warum ist deine rechte Arm gelebt? Ich habe einen Schlag am Fall vor vier, fünf Jahren. Bruder, warum? Jetzt tut mir das Leid, was ich gesagt habe. ist egal, das ist nicht schlimm. Kannst du dir schon so ausmalen, warum du gewann, es auf Twitch? Äh, ja, waren wir auf dem Fall, ja. Bei dir weiß ich nicht mehr. bist bei gewann. Bester Mann. Ja, ja, Ich pulse sofort ab. Bruder, wie schreibst du überhaupt?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Auf gott schwören wegen weed 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Auf gott schwören wegen weed | marli #shorts",
    "broadcaster_name": "marli",
@@ -3070,6 +3072,13 @@
    "ts": 1795610644.7683003,
    "ok": true,
    "id": "6b06d80ad06905498b76d177"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "RenownedCarelessDelicataBibleThump-7NRyPC2iHNxkQk7G",
+   "ts": 1795611860.6839697,
+   "ok": true,
+   "id": "6b06dcca932feb2e3d29290e"
   }
  ],
  "hype": {},
