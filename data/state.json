@@ -2435,7 +2435,7 @@
   "SlickFlirtyJamVoteNay-isOYkl8LdFPdW_FJ": {
    "id": "SlickFlirtyJamVoteNay-isOYkl8LdFPdW_FJ",
    "seit": 1795576696.441313,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": ".",
@@ -2443,12 +2443,14 @@
    "views": 70,
    "score": 1.4,
    "erstellt": "2026-11-23T21:00:14Z",
-   "aktualisiert": 1795576783.2649567,
+   "aktualisiert": 1795586579.1529226,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_SlickFlirtyJamVoteNay-isOYkl8LdFPdW_FJ.mp4",
    "dauer": 60.01,
    "layout": "blur",
    "transkript": "ein Stück schön. musst du mal bisschen gehen. Ich bei mir Laktur.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Das war knapp… 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | coachlim #shorts",
    "broadcaster_name": "coachlim",
@@ -2732,6 +2734,13 @@
    "ts": 1795576831.7890203,
    "ok": true,
    "id": "6b0653fe608549ccf259f75a"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "SlickFlirtyJamVoteNay-isOYkl8LdFPdW_FJ",
+   "ts": 1795586579.1529086,
+   "ok": true,
+   "id": "6b067a119cddd8483ab31278"
   }
  ],
  "hype": {},
