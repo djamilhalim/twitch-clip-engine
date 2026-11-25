@@ -2413,7 +2413,7 @@
   "WildFaithfulFalconRiPepperonis-7-m3YOvPqMFyliir": {
    "id": "WildFaithfulFalconRiPepperonis-7-m3YOvPqMFyliir",
    "seit": 1795576668.5478568,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "Psycho Max",
@@ -2421,12 +2421,14 @@
    "views": 70,
    "score": 1.4,
    "erstellt": "2026-11-23T23:47:49Z",
-   "aktualisiert": 1795576696.438639,
+   "aktualisiert": 1795588988.9292738,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_WildFaithfulFalconRiPepperonis-7-m3YOvPqMFyliir.mp4",
    "dauer": 21.696,
    "layout": "blur",
    "transkript": "Ich muss das machen. Muss",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Psycho Max 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Psycho Max | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -2741,6 +2743,13 @@
    "ts": 1795586579.1529086,
    "ok": true,
    "id": "6b067a119cddd8483ab31278"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "WildFaithfulFalconRiPepperonis-7-m3YOvPqMFyliir",
+   "ts": 1795588988.9292588,
+   "ok": true,
+   "id": "6b06837ab6204bca46d29474"
   }
  ],
  "hype": {},
