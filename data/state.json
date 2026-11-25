@@ -1541,7 +1541,7 @@
   "HotHeadstrongVanillaSuperVinlin-NWTTLZP6Y9utntRh": {
    "id": "HotHeadstrongVanillaSuperVinlin-NWTTLZP6Y9utntRh",
    "seit": 1795529956.8629131,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "was ist denn mit tim los",
@@ -1549,7 +1549,7 @@
    "views": 92,
    "score": 1.84,
    "erstellt": "2026-11-23T17:08:29Z",
-   "aktualisiert": 1795530003.7185519,
+   "aktualisiert": 1795574187.5058556,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_HotHeadstrongVanillaSuperVinlin-NWTTLZP6Y9utntRh.mp4",
    "dauer": 38.826,
    "layout": "blur",
@@ -1558,7 +1558,8 @@
    "caption": "Was ist denn mit tim los 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Was ist denn mit tim los | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_HotHeadstrongVanillaSuperVinlin-NWTTLZP6Y9utntRh.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_HotHeadstrongVanillaSuperVinlin-NWTTLZP6Y9utntRh.mp4",
+   "fehler": "zu alt"
   },
   "WildCrepuscularVampireBleedPurple-9vUzfRR4AL0lmSrG": {
    "id": "WildCrepuscularVampireBleedPurple-9vUzfRR4AL0lmSrG",
@@ -2180,7 +2181,7 @@
   "UnsightlyHeadstrongTubersMau5-JZISXvbaZrdqk3fR": {
    "id": "UnsightlyHeadstrongTubersMau5-JZISXvbaZrdqk3fR",
    "seit": 1795563921.6191092,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "eli",
@@ -2188,12 +2189,14 @@
    "views": 156,
    "score": 3.12,
    "erstellt": "2026-11-23T16:33:47Z",
-   "aktualisiert": 1795563999.4417093,
+   "aktualisiert": 1795574191.5922742,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_UnsightlyHeadstrongTubersMau5-JZISXvbaZrdqk3fR.mp4",
    "dauer": 60.008,
    "layout": "blur",
    "transkript": "wem ist der Fan. Verschließt du, was ich meine? Das geht auf lange Sicht nicht. Ich kann ja nicht einfach so, weil mir langweilig ist, ich zu einem Spiel, was mich nicht juckt. Ich bin kein Fan von beiden. Und dann denke ich mir, gut, ich schmeiß mal den Shiri ab, damit ich Spiel abgebrochen wird. Verschließt du? Also das macht schon keinen Sinn. Neutraler Zuschauer, ganz wichtig. Hier ist dein Chat. Heli, denk an Tors. Ja, ich bin Tors. Ich bin Tors. Ich bin viel ruhiger geworden. Bist wirklich ein bisschen ruhiger geworden. Das stimmt schon. Aber vielleicht auch, weil du so oft vorkommst, hast du jetzt Modus gefunden.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "eliasn97 rastet komplett aus 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "eliasn97 rastet komplett aus | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -2553,6 +2556,13 @@
    "ts": 1795571713.2820487,
    "ok": true,
    "id": "6b063ff7a2fd17422e79d947"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "UnsightlyHeadstrongTubersMau5-JZISXvbaZrdqk3fR",
+   "ts": 1795574191.592258,
+   "ok": true,
+   "id": "6b0649adc4ff71faa82af23e"
   }
  ],
  "hype": {},
