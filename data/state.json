@@ -1794,7 +1794,7 @@
   "AssiduousBlazingFoxShazBotstix-71H_C-KUXoBN7CoK": {
    "id": "AssiduousBlazingFoxShazBotstix-71H_C-KUXoBN7CoK",
    "seit": 1795534005.5538442,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "max",
@@ -1802,7 +1802,7 @@
    "views": 55,
    "score": 1.1,
    "erstellt": "2026-11-23T17:24:01Z",
-   "aktualisiert": 1795534069.2948344,
+   "aktualisiert": 1795578034.3774357,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_AssiduousBlazingFoxShazBotstix-71H_C-KUXoBN7CoK.mp4",
    "dauer": 51.75,
    "layout": "blur",
@@ -1811,12 +1811,13 @@
    "caption": "Das war knapp… 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_AssiduousBlazingFoxShazBotstix-71H_C-KUXoBN7CoK.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_AssiduousBlazingFoxShazBotstix-71H_C-KUXoBN7CoK.mp4",
+   "fehler": "zu alt"
   },
   "TolerantEnchantingPlumagePoooound-r6fJKxXCyvieEKSt": {
    "id": "TolerantEnchantingPlumagePoooound-r6fJKxXCyvieEKSt",
    "seit": 1795534069.2968423,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "a",
@@ -1824,7 +1825,7 @@
    "views": 53,
    "score": 1.06,
    "erstellt": "2026-11-23T13:39:27Z",
-   "aktualisiert": 1795534102.0762124,
+   "aktualisiert": 1795578034.3774388,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_TolerantEnchantingPlumagePoooound-r6fJKxXCyvieEKSt.mp4",
    "dauer": 30.011995,
    "layout": "blur",
@@ -1833,7 +1834,8 @@
    "caption": "Der Chat ist tot 💀 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Der Chat ist tot 💀 | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_TolerantEnchantingPlumagePoooound-r6fJKxXCyvieEKSt.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_TolerantEnchantingPlumagePoooound-r6fJKxXCyvieEKSt.mp4",
+   "fehler": "zu alt"
   },
   "CaringReliableGrassDoritosChip-0l8vlBPErTqDF8z0": {
    "id": "CaringReliableGrassDoritosChip-0l8vlBPErTqDF8z0",
