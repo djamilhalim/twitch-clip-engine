@@ -2467,7 +2467,7 @@
   "BlitheTastyAardvarkOMGScoots-4ya9Ihsp6Hql0OX9": {
    "id": "BlitheTastyAardvarkOMGScoots-4ya9Ihsp6Hql0OX9",
    "seit": 1795576783.2677112,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "Two Stripes United vs. Wontorriors FC - The Icon League MD-08 live aus Berlin ⚽️🔥 |  !iconleague !doku !eligella !gaming !uncut !clips",
@@ -2475,12 +2475,14 @@
    "views": 62,
    "score": 1.24,
    "erstellt": "2026-11-23T17:44:31Z",
-   "aktualisiert": 1795576829.030085,
+   "aktualisiert": 1795598702.2103162,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_BlitheTastyAardvarkOMGScoots-4ya9Ihsp6Hql0OX9.mp4",
    "dauer": 30.0,
    "layout": "blur",
    "transkript": "",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Two Stripes United vs. Wontorriors FC - The Icon League MD-08 live aus Berlin ⚽️🔥 | !iconleague !doku !eligella !gaming !uncut !clips 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Two Stripes United vs. Wontorriors FC - The Icon League MD-08 live aus Berlin… | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -2777,6 +2779,13 @@
    "ts": 1795596282.4438396,
    "ok": true,
    "id": "6b069ff8d8874a038c08605b"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "BlitheTastyAardvarkOMGScoots-4ya9Ihsp6Hql0OX9",
+   "ts": 1795598702.2103007,
+   "ok": true,
+   "id": "6b06a9636212ba833cadd457"
   }
  ],
  "hype": {},
