@@ -2235,7 +2235,7 @@
   "GloriousCulturedCroquetteSaltBae-NERcIUrZblYXUIzu": {
    "id": "GloriousCulturedCroquetteSaltBae-NERcIUrZblYXUIzu",
    "seit": 1795566481.509075,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "Maus Abis Taktik, wenn er im Notfall kacken muss 💩😭",
@@ -2243,12 +2243,14 @@
    "views": 129,
    "score": 2.58,
    "erstellt": "2026-11-23T21:02:45Z",
-   "aktualisiert": 1795566532.9889069,
+   "aktualisiert": 1795591398.1346495,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_GloriousCulturedCroquetteSaltBae-NERcIUrZblYXUIzu.mp4",
    "dauer": 41.041,
    "layout": "blur",
    "transkript": "muss auch kacken, Mann. ist viel, nee. Das ist echt lass mal. man ist an Spitze gerade. ich habe etwas gelernt damals im Wald. Ich habe jetzt 2 Jahre im Wald gelebt. du Beine auf dem Boden machst und dich gerade hinsetzt, geht dein Kacke wieder hoch. musst du ihn nicht mal kacken. das ist wie Spanzen. Ungefähr. gute Taktik, probier mal ich mache einfach Schließmuskel zu. Guck, ich sitze... Das hast du in Dagestan gelernt. Einfach Schließmuskel zu machen, ist stark, Alter. Alter, was ist das denn?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Maus Abis Taktik, wenn er im Notfall kacken muss 💩😭 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Maus Abis Taktik, wenn er im Notfall kacken muss 💩😭 | coachlim #shorts",
    "broadcaster_name": "coachlim",
@@ -2750,6 +2752,13 @@
    "ts": 1795588988.9292588,
    "ok": true,
    "id": "6b06837ab6204bca46d29474"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "GloriousCulturedCroquetteSaltBae-NERcIUrZblYXUIzu",
+   "ts": 1795591398.1346345,
+   "ok": true,
+   "id": "6b068ce3d8874a038c004157"
   }
  ],
  "hype": {},
