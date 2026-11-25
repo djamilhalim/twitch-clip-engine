@@ -2581,7 +2581,7 @@
   "BeautifulSmellyOkapiWholeWheat-n4qNRONoqWdSCGmK": {
    "id": "BeautifulSmellyOkapiWholeWheat-n4qNRONoqWdSCGmK",
    "seit": 1795599982.4008489,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "facts",
@@ -2589,12 +2589,14 @@
    "views": 45,
    "score": 15.0,
    "erstellt": "2026-11-23T14:30:21Z",
-   "aktualisiert": 1795600046.346759,
+   "aktualisiert": 1795609111.8757448,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_BeautifulSmellyOkapiWholeWheat-n4qNRONoqWdSCGmK.mp4",
    "dauer": 36.181,
    "layout": "blur",
    "transkript": "Wenn ihr daran interessiert seid, etwas mit jemandem zu klären, setzt euch nicht mit denjenigen hin und redet 8 Stunden über, was passiert ist früher. Und verfügt Damit, weil du hast so gemacht, das ist alles. ihr? Macht ihr mal zu. Macht zu, steht auf, vertragt euch und kallerts und dann lässt man es sein. Weil wenn du irgendwo dich hinsetzt und sagst, jetzt reden wir, wer im Recht ist von damals. Bruder, das ist Gift. Weil, bei dem Gespräch, klar, wenn jetzt eine neue Sache jetzt gestern passiert ist, kann man rüber reden. Aber über alte Kamel, die hochzuholen, du hast so gemacht, hast so gemacht, wo so kennt man keinen Streit.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "AliBumayeTV rastet komplett aus 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "AliBumayeTV rastet komplett aus | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
@@ -2964,6 +2966,13 @@
    "ts": 1795598702.2103007,
    "ok": true,
    "id": "6b06a9636212ba833cadd457"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "BeautifulSmellyOkapiWholeWheat-n4qNRONoqWdSCGmK",
+   "ts": 1795609111.8757281,
+   "ok": true,
+   "id": "6b06d20de90f5f39bab06417"
   }
  ],
  "hype": {},
