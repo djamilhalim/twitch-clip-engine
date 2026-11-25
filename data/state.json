@@ -2071,7 +2071,7 @@
   "MuddySparklyLemurCharlietheUnicorn--rA_TQ5vOTFUvrMp": {
    "id": "MuddySparklyLemurCharlietheUnicorn--rA_TQ5vOTFUvrMp",
    "seit": 1795558836.620846,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "geil",
@@ -2079,7 +2079,7 @@
    "views": 171,
    "score": 3.42,
    "erstellt": "2026-11-22T23:59:33Z",
-   "aktualisiert": 1795558878.0096405,
+   "aktualisiert": 1795603085.1746352,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_MuddySparklyLemurCharlietheUnicorn--rA_TQ5vOTFUvrMp.mp4",
    "dauer": 32.45,
    "layout": "blur",
@@ -2088,12 +2088,13 @@
    "caption": "Trymacs eskaliert komplett 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Trymacs eskaliert komplett | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_MuddySparklyLemurCharlietheUnicorn--rA_TQ5vOTFUvrMp.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_MuddySparklyLemurCharlietheUnicorn--rA_TQ5vOTFUvrMp.mp4",
+   "fehler": "zu alt"
   },
   "AbstruseGeniusYogurtSoBayed-O6Zzaeli89zIEfgV": {
    "id": "AbstruseGeniusYogurtSoBayed-O6Zzaeli89zIEfgV",
    "seit": 1795558878.0120811,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "mertabimula",
    "quelle": "community",
    "titel": "REACTIONS - SPÄTER GTA WEITER ZOCKEN 🔥 | !sidejeans !elusa !more !sucuk !insta !yt !tiktok",
@@ -2101,7 +2102,7 @@
    "views": 11,
    "score": 0.166,
    "erstellt": "2026-11-24T19:40:49Z",
-   "aktualisiert": 1795558954.890885,
+   "aktualisiert": 1795603085.174643,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_AbstruseGeniusYogurtSoBayed-O6Zzaeli89zIEfgV.mp4",
    "dauer": 60.007,
    "layout": "blur",
@@ -2110,7 +2111,8 @@
    "caption": "REACTIONS - SPÄTER GTA WEITER ZOCKEN 🔥 | !sidejeans !elusa !more !sucuk !insta !yt !tiktok 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #GrandTheftAutoVI #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "REACTIONS - SPÄTER GTA WEITER ZOCKEN 🔥 | !sidejeans !elusa !more !sucuk !in… | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_AbstruseGeniusYogurtSoBayed-O6Zzaeli89zIEfgV.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_AbstruseGeniusYogurtSoBayed-O6Zzaeli89zIEfgV.mp4",
+   "fehler": "zu alt"
   },
   "GleamingBrightDurianChocolateRain-0KojwtNdD3djfuuL": {
    "id": "GleamingBrightDurianChocolateRain-0KojwtNdD3djfuuL",
