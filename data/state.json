@@ -2543,7 +2543,7 @@
   "TastyEnjoyableCookieCoolStoryBro-eUuWF6RIaok8EFBX": {
    "id": "TastyEnjoyableCookieCoolStoryBro-eUuWF6RIaok8EFBX",
    "seit": 1795581734.8115246,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "papaplatte",
    "quelle": "fokus",
    "titel": "oh nein",
@@ -2551,7 +2551,7 @@
    "views": 120,
    "score": 0.6,
    "erstellt": "2026-11-23T19:41:50Z",
-   "aktualisiert": 1795581767.4893885,
+   "aktualisiert": 1795625662.686656,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/papaplatte_TastyEnjoyableCookieCoolStoryBro-eUuWF6RIaok8EFBX.mp4",
    "dauer": 26.645,
    "layout": "blur",
@@ -2560,7 +2560,8 @@
    "caption": "Damit hat Papaplatte nicht gerechnet 😂\n🎥 Papaplatte live auf twitch.tv/papaplatte\n#Papaplatte #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Damit hat Papaplatte nicht gerechnet | Papaplatte #shorts",
    "broadcaster_name": "Papaplatte",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_TastyEnjoyableCookieCoolStoryBro-eUuWF6RIaok8EFBX.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_TastyEnjoyableCookieCoolStoryBro-eUuWF6RIaok8EFBX.mp4",
+   "fehler": "zu alt"
   },
   "BusyBlueQueleaCoolCat-G5c8QPLQZFNsF859": {
    "id": "BusyBlueQueleaCoolCat-G5c8QPLQZFNsF859",
