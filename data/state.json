@@ -2283,7 +2283,7 @@
   "SavageCarefulDragonPanicBasket-rgIPFr_pUHfcBcx7": {
    "id": "SavageCarefulDragonPanicBasket-rgIPFr_pUHfcBcx7",
    "seit": 1795566604.497962,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "Trymacs in absoluter BESTFORM 🔥😂",
@@ -2291,12 +2291,14 @@
    "views": 120,
    "score": 2.4,
    "erstellt": "2026-11-23T19:26:51Z",
-   "aktualisiert": 1795566671.7439675,
+   "aktualisiert": 1795596282.4438553,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_SavageCarefulDragonPanicBasket-rgIPFr_pUHfcBcx7.mp4",
    "dauer": 60.01,
    "layout": "blur",
    "transkript": "die an die Küstenwache ausgeraubt, dem das Militär abgeknallt. Tausend Tode",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Trymacs in absoluter BESTFORM 🔥😂 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Trymacs in absoluter BESTFORM 🔥😂 | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -2768,6 +2770,13 @@
    "ts": 1795593870.9990032,
    "ok": true,
    "id": "6b06968cd8874a038c049896"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "SavageCarefulDragonPanicBasket-rgIPFr_pUHfcBcx7",
+   "ts": 1795596282.4438396,
+   "ok": true,
+   "id": "6b069ff8d8874a038c08605b"
   }
  ],
  "hype": {},
