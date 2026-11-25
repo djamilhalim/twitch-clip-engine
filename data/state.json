@@ -2497,7 +2497,7 @@
   "LongCarefulOrcaSquadGoals-o_Tg2oPJyNBNfeXb": {
    "id": "LongCarefulOrcaSquadGoals-o_Tg2oPJyNBNfeXb",
    "seit": 1795579237.7922947,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": ",",
@@ -2505,7 +2505,7 @@
    "views": 50,
    "score": 1.0,
    "erstellt": "2026-11-23T17:00:32Z",
-   "aktualisiert": 1795579314.084967,
+   "aktualisiert": 1795623137.6019092,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_LongCarefulOrcaSquadGoals-o_Tg2oPJyNBNfeXb.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -2514,12 +2514,13 @@
    "caption": "marli rastet komplett aus 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "marli rastet komplett aus | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_LongCarefulOrcaSquadGoals-o_Tg2oPJyNBNfeXb.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_LongCarefulOrcaSquadGoals-o_Tg2oPJyNBNfeXb.mp4",
+   "fehler": "zu alt"
   },
   "TsundereHardBoarTooSpicy-q4beAvlrR_Cpy8XS": {
    "id": "TsundereHardBoarTooSpicy-q4beAvlrR_Cpy8XS",
    "seit": 1795579314.0878685,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "papaplatte",
    "quelle": "fokus",
    "titel": "holy unc",
@@ -2527,7 +2528,7 @@
    "views": 97,
    "score": 0.485,
    "erstellt": "2026-11-24T17:54:43Z",
-   "aktualisiert": 1795579328.898803,
+   "aktualisiert": 1795623137.6019154,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/papaplatte_TsundereHardBoarTooSpicy-q4beAvlrR_Cpy8XS.mp4",
    "dauer": 11.669,
    "layout": "blur",
@@ -2536,7 +2537,8 @@
    "caption": "Holy unc 😂\n🎥 Papaplatte live auf twitch.tv/papaplatte\n#Papaplatte #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Holy unc | Papaplatte #shorts",
    "broadcaster_name": "Papaplatte",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_TsundereHardBoarTooSpicy-q4beAvlrR_Cpy8XS.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_TsundereHardBoarTooSpicy-q4beAvlrR_Cpy8XS.mp4",
+   "fehler": "zu alt"
   },
   "TastyEnjoyableCookieCoolStoryBro-eUuWF6RIaok8EFBX": {
    "id": "TastyEnjoyableCookieCoolStoryBro-eUuWF6RIaok8EFBX",
