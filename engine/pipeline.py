@@ -15,7 +15,7 @@ from .edit import schneiden
 from .hype import HypeDetector
 from .notify import melden
 from .publish import Texte, baue_ziele
-from .scheduler import frische_score, slot_frei, tagesbeginn_ts
+from .scheduler import frische_score, slot_frei, tagesbeginn_ts, zeitfenster_slot
 from .scoring import auswaehlen
 from .storage import SupabaseStorage
 from .texts import caption, titel_bereinigen, youtube_titel
@@ -156,12 +156,18 @@ class Engine:
                 continue
             if not alle_kat and self.spiel_ids():
                 clips = [c for c in clips if c.get("game_id") in self.spiel_ids()]
-            gewaehlt = auswaehlen(clips, aus, bekannt, None)[:3]
+            mins = {str(k).lower(): int(v) for k, v in (self.cfg.get("fokus.min_views_je", {}) or {}).items()}
+            aus_s = dict(aus, min_views=mins.get(login, aus["min_views"]))
+            gewaehlt = auswaehlen(clips, aus_s, bekannt, None)[:3]
             log.info("Fokus %s: %d Clips, %d passen", login, len(clips), len(gewaehlt))
             s = self.cfg.streamer_by_login(login) or Streamer(login=login)
             gew = self._gewicht(login, bonus)
+            # Fair über Streamer hinweg: Views relativ zum typischen Clip DIESES Streamers
+            # (Marli/Sidney haben auf Twitch wenig Views, gehen auf TikTok aber gut)
+            alle_views = sorted(c.get("view_count", 0) for c in clips) or [1]
+            median = max(alle_views[len(alle_views) // 2], 5)
             for c in gewaehlt:
-                c["_score"] = c.get("view_count", 0) / 100 * gew
+                c["_score"] = c.get("view_count", 0) / median * gew
                 out.append((c, s, "fokus"))
         return out
 
@@ -324,7 +330,14 @@ class Engine:
 
         for ziel in self.ziele:
             erfolgreich_heute = [p for p in self.state.posts_fuer(ziel.name, heute) if p.get("ok")]
-            if not slot_frei(len(erfolgreich_heute), self.state.letzter_post(ziel.name), max_tag, abstand, ruhe, tz):
+            zeitplan = self.cfg.get("posten.zeitplan")
+            if zeitplan:
+                ok_ts = [p["ts"] for p in erfolgreich_heute]
+                frei, grund = zeitfenster_slot(zeitplan, ok_ts, abstand, tz)
+                if not frei or len(erfolgreich_heute) >= max_tag:
+                    log.info("%s: kein Slot (%s, heute %d/%d)", ziel.name, grund, len(erfolgreich_heute), max_tag)
+                    continue
+            elif not slot_frei(len(erfolgreich_heute), self.state.letzter_post(ziel.name), max_tag, abstand, ruhe, tz):
                 log.info("%s: kein Slot frei (heute %d/%d, Ruhezeit %s)", ziel.name, len(erfolgreich_heute), max_tag, ruhe)
                 continue
             kandidaten = [c for c in self.state.clips_mit_status(S.WARTESCHLANGE)
@@ -332,7 +345,12 @@ class Engine:
             if not kandidaten:
                 log.info("%s: Warteschlange leer", ziel.name)
                 continue
-            kandidaten.sort(key=lambda c: frische_score(c.get("score", 0), jetzt - c.get("seit", jetzt)), reverse=True)
+            heute_pro = {}
+            for p in erfolgreich_heute:
+                st = self.state.clip(p["clip"]) or {}
+                heute_pro[st.get("streamer")] = heute_pro.get(st.get("streamer"), 0) + 1
+            kandidaten.sort(key=lambda c: frische_score(c.get("score", 0), jetzt - c.get("seit", jetzt))
+                            / (1 + heute_pro.get(c.get("streamer"), 0)), reverse=True)
             c = kandidaten[0]
             try:
                 url = c.get("public_url") if ziel.braucht_url else None

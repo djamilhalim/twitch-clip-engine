@@ -175,3 +175,22 @@ def test_top_de_entdeckung_begrenzt():
     out = live_ziele(cfg, TW())
     assert [s.login for s, _ in out] == ["papaplatte", "a", "b"]
     assert cfg.streamer_by_login("a").entdeckt and not cfg.streamer_by_login("a").erlaubnis
+
+
+def test_zeitfenster_verteilung():
+    tz = "Europe/Berlin"
+    plan = [{"von": "13:00", "bis": "15:30", "posts": 5}, {"von": "18:00", "bis": "21:00", "posts": 6}]
+    t = lambda h, m: datetime(2026, 11, 25, h, m, tzinfo=scheduler.ZoneInfo(tz)).timestamp()
+    # Fensterbeginn: erster Post erlaubt
+    assert scheduler.zeitfenster_slot(plan, [], 18, tz, t(13, 0))[0]
+    # direkt danach: verteilt → noch nicht
+    assert not scheduler.zeitfenster_slot(plan, [t(13, 0)], 18, tz, t(13, 20))[0]
+    # nach 1/5 des Fensters (30 min) wieder erlaubt
+    assert scheduler.zeitfenster_slot(plan, [t(13, 0)], 18, tz, t(13, 31))[0]
+    # Kontingent voll
+    voll = [t(13, 0), t(13, 30), t(14, 0), t(14, 30), t(15, 0)]
+    assert not scheduler.zeitfenster_slot(plan, voll, 18, tz, t(15, 20))[0]
+    # außerhalb der Fenster (16 Uhr) → Pause
+    assert not scheduler.zeitfenster_slot(plan, [], 18, tz, t(16, 0))[0]
+    # Mindestabstand
+    assert not scheduler.zeitfenster_slot(plan, [t(18, 50)], 18, tz, t(19, 0))[0]

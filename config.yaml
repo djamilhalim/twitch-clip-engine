@@ -20,7 +20,8 @@ fokus:
   gewichte: {papaplatte: 0.5}
   max_pro_tag: {papaplatte: 2}
   alle_kategorien: true      # auch Just Chatting/IRL/Minecraft – nicht nur GTA
-  min_views: 50
+  min_views: 30
+  min_views_je: {marli: 5, sidneyeweka: 5, alibumayetv: 5, mertabimula: 10, coachlim: 10}
   fenster_stunden: 48
   bonus: 2.0                 # Ranking-Faktor gegenüber anderen GTA-Clips
 
@@ -108,8 +109,17 @@ posten:
   #             "direct" = direkt posten (öffentlich erst nach TikTok-Audit)
   tiktok_api_modus: inbox
   max_pro_tag: 20            # pro Ziel (TikTok blockt über API evtl. ab ~15)
-  min_abstand_min: 40        # Mindestabstand zwischen zwei Posts pro Ziel
-  ruhezeit: ["05:00", "07:00"]   # Europe/Berlin – in diesem Fenster wird nichts gepostet
+  min_abstand_min: 18        # Mindestabstand zwischen zwei Posts pro Ziel
+  ruhezeit: ["05:00", "07:00"]
+  # Posting-Fenster (Europe/Berlin): gleiche Tagesmenge (20), aber Schwerpunkt auf Stoßzeiten.
+  # Innerhalb eines Fensters werden die Posts gleichmäßig verteilt. Außerhalb der Fenster wird nicht gepostet.
+  zeitplan:
+    - {von: "00:00", bis: "02:00", posts: 1}
+    - {von: "07:00", bis: "13:00", posts: 4}
+    - {von: "13:00", bis: "15:30", posts: 5}   # Stoßzeit Mittag
+    - {von: "15:30", bis: "18:00", posts: 2}
+    - {von: "18:00", bis: "21:00", posts: 6}   # Stoßzeit Abend
+    - {von: "21:00", bis: "24:00", posts: 2}   # Europe/Berlin – in diesem Fenster wird nichts gepostet
   zeitzone: Europe/Berlin
   youtube_kategorie: 20      # 20 = Gaming, 24 = Entertainment
   hashtags_basis: ["#twitch", "#twitchde", "#streamer", "#clips", "#fyp", "#deutsch"]
