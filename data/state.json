@@ -989,7 +989,7 @@
   "IcyAwkwardHerbsItsBoshyTime-VTQxJRvcqA81PEkR": {
    "id": "IcyAwkwardHerbsItsBoshyTime-VTQxJRvcqA81PEkR",
    "seit": 1795521665.2427812,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "Trymacs merkt zu spät, was hier läuft 😳",
@@ -997,7 +997,7 @@
    "views": 167,
    "score": 3.34,
    "erstellt": "2026-11-22T21:59:00Z",
-   "aktualisiert": 1795521685.119341,
+   "aktualisiert": 1795565206.748241,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_IcyAwkwardHerbsItsBoshyTime-VTQxJRvcqA81PEkR.mp4",
    "dauer": 14.383333,
    "layout": "blur",
@@ -1006,12 +1006,13 @@
    "caption": "Trymacs merkt zu spät, was hier läuft 😳 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Trymacs merkt zu spät, was hier läuft 😳 | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_IcyAwkwardHerbsItsBoshyTime-VTQxJRvcqA81PEkR.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_IcyAwkwardHerbsItsBoshyTime-VTQxJRvcqA81PEkR.mp4",
+   "fehler": "zu alt"
   },
   "WildColorfulKangarooWoofer-NVU-_tIHxY77v8nI": {
    "id": "WildColorfulKangarooWoofer-NVU-_tIHxY77v8nI",
    "seit": 1795521685.1207607,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "ali hak",
@@ -1019,7 +1020,7 @@
    "views": 167,
    "score": 3.34,
    "erstellt": "2026-11-23T13:57:44Z",
-   "aktualisiert": 1795521757.7823112,
+   "aktualisiert": 1795565206.7482438,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_WildColorfulKangarooWoofer-NVU-_tIHxY77v8nI.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -1028,7 +1029,8 @@
    "caption": "Ali hak 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Ali hak | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_WildColorfulKangarooWoofer-NVU-_tIHxY77v8nI.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_WildColorfulKangarooWoofer-NVU-_tIHxY77v8nI.mp4",
+   "fehler": "zu alt"
   },
   "BitterPiliableWebItsBoshyTime-QLxdPVMkD_lFEhxs": {
    "id": "BitterPiliableWebItsBoshyTime-QLxdPVMkD_lFEhxs",
