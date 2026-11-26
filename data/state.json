@@ -3699,7 +3699,7 @@
   "GiftedFragileWrenchUWot-0kS264xhEWTTkKo3": {
    "id": "GiftedFragileWrenchUWot-0kS264xhEWTTkKo3",
    "seit": 1795700564.3623462,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "Schäle das Ei! Später react und TCG Simulator! Morgen geiles Special Opening! !ESN !Nobomi !Prepmymeal !Loco",
@@ -3707,12 +3707,14 @@
    "views": 54,
    "score": 21.6,
    "erstellt": "2026-11-25T18:34:36Z",
-   "aktualisiert": 1795700628.0076509,
+   "aktualisiert": 1795701998.7051008,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_GiftedFragileWrenchUWot-0kS264xhEWTTkKo3.mp4",
    "dauer": 60.01,
    "layout": "blur",
    "transkript": "schützt, bist du wie viel Karten sammeln Minus. Oh, umbeinander der neue Mod. Moin. Neue Mod wahrscheinlich, ne? Da kommst du ja genau richtig, grob zur Weihnachtszeit. Na ja, schön. Gut. Geil. Bitte GTA weiter. Was soll ich, ich kann den GTA nochmal machen. Ja klar, was wollen wir den GTA machen? Also 100 Prozent durchspiel möchte ich nicht.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Schäle das Ei! Später react und TCG Simulator! Morgen geiles Special Opening! !ESN !Nobomi !Prepmymeal !Loco 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Schäle das Ei! Später react und TCG Simulator! Morgen geiles Special Opening! !… | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -4106,6 +4108,13 @@
    "ts": 1795700790.61133,
    "ok": true,
    "id": "6b083835e1a214b89bdb0696"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "GiftedFragileWrenchUWot-0kS264xhEWTTkKo3",
+   "ts": 1795701998.7050865,
+   "ok": true,
+   "id": "6b083cede1a214b89bdd7ed7"
   }
  ],
  "hype": {},
