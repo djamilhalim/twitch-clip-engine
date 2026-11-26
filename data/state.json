@@ -3219,7 +3219,7 @@
   "InnocentExquisiteRabbitPMSTwin-FB0HfALIv3UTU7PY": {
    "id": "InnocentExquisiteRabbitPMSTwin-FB0HfALIv3UTU7PY",
    "seit": 1795655187.6004856,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "moandrover",
@@ -3227,7 +3227,7 @@
    "views": 71,
    "score": 23.666666666666668,
    "erstellt": "2026-11-25T20:46:02Z",
-   "aktualisiert": 1795655231.578827,
+   "aktualisiert": 1795699317.8090587,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_InnocentExquisiteRabbitPMSTwin-FB0HfALIv3UTU7PY.mp4",
    "dauer": 21.098,
    "layout": "blur",
@@ -3236,12 +3236,13 @@
    "caption": "Der Chat ist tot 💀 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Der Chat ist tot 💀 | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_InnocentExquisiteRabbitPMSTwin-FB0HfALIv3UTU7PY.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_InnocentExquisiteRabbitPMSTwin-FB0HfALIv3UTU7PY.mp4",
+   "fehler": "zu alt"
   },
   "HeartlessSucculentGuanacoThisIsSparta-3JRAO7-lQ2XE-hTs": {
    "id": "HeartlessSucculentGuanacoThisIsSparta-3JRAO7-lQ2XE-hTs",
    "seit": 1795655231.5840511,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "20 UHR NIZI UND YUYU ZU BESUCH | CHARITYSTREAM - TAG 25 | !spenden !spendenziel !giveaway !wolt !revolut",
@@ -3249,7 +3250,7 @@
    "views": 74,
    "score": 14.8,
    "erstellt": "2026-11-25T18:07:20Z",
-   "aktualisiert": 1795655328.168792,
+   "aktualisiert": 1795699317.8090627,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_HeartlessSucculentGuanacoThisIsSparta-3JRAO7-lQ2XE-hTs.mp4",
    "dauer": 59.993267,
    "layout": "blur",
@@ -3258,12 +3259,13 @@
    "caption": "20 UHR NIZI UND YUYU ZU BESUCH | CHARITYSTREAM - TAG 25 | !spenden !spendenziel !giveaway !wolt !revolut 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "20 UHR NIZI UND YUYU ZU BESUCH | CHARITYSTREAM - TAG 25 | !spenden !spendenziel… | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_HeartlessSucculentGuanacoThisIsSparta-3JRAO7-lQ2XE-hTs.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_HeartlessSucculentGuanacoThisIsSparta-3JRAO7-lQ2XE-hTs.mp4",
+   "fehler": "zu alt"
   },
   "BenevolentTrappedSwanPicoMause-w6g9eynqb-UE3Yhp": {
    "id": "BenevolentTrappedSwanPicoMause-w6g9eynqb-UE3Yhp",
    "seit": 1795655328.1738136,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "knossi paket",
@@ -3271,7 +3273,7 @@
    "views": 57,
    "score": 11.4,
    "erstellt": "2026-11-25T17:23:24Z",
-   "aktualisiert": 1795655426.3010657,
+   "aktualisiert": 1795699317.8090646,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_BenevolentTrappedSwanPicoMause-w6g9eynqb-UE3Yhp.mp4",
    "dauer": 59.993267,
    "layout": "blur",
@@ -3280,12 +3282,13 @@
    "caption": "Knossi paket 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Knossi paket | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_BenevolentTrappedSwanPicoMause-w6g9eynqb-UE3Yhp.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_BenevolentTrappedSwanPicoMause-w6g9eynqb-UE3Yhp.mp4",
+   "fehler": "zu alt"
   },
   "CredulousEphemeralCheetahStrawBeary-WsmPEtUnl5c0Tdzo": {
    "id": "CredulousEphemeralCheetahStrawBeary-WsmPEtUnl5c0Tdzo",
    "seit": 1795655426.3061836,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "dreimag will nicht tanzen",
@@ -3293,7 +3296,7 @@
    "views": 34,
    "score": 11.333333333333334,
    "erstellt": "2026-11-25T01:28:46Z",
-   "aktualisiert": 1795655486.4330397,
+   "aktualisiert": 1795699317.809066,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_CredulousEphemeralCheetahStrawBeary-WsmPEtUnl5c0Tdzo.mp4",
    "dauer": 30.15,
    "layout": "blur",
@@ -3302,7 +3305,8 @@
    "caption": "Dreimag will nicht tanzen 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Dreimag will nicht tanzen | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_CredulousEphemeralCheetahStrawBeary-WsmPEtUnl5c0Tdzo.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_CredulousEphemeralCheetahStrawBeary-WsmPEtUnl5c0Tdzo.mp4",
+   "fehler": "zu alt"
   },
   "PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi": {
    "id": "PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi",
