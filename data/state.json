@@ -3723,7 +3723,7 @@
   "EagerPleasantFlamingoMVGame-IARbPF6VcAzDor--": {
    "id": "EagerPleasantFlamingoMVGame-IARbPF6VcAzDor--",
    "seit": 1795700628.0110772,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "w",
@@ -3731,12 +3731,14 @@
    "views": 83,
    "score": 10.375,
    "erstellt": "2026-11-25T19:21:04Z",
-   "aktualisiert": 1795700694.0625,
+   "aktualisiert": 1795704409.7268517,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_EagerPleasantFlamingoMVGame-IARbPF6VcAzDor--.mp4",
    "dauer": 59.993267,
    "layout": "blur",
    "transkript": "einem Ja. Wie geht's euch? gut bei euch? Ich hab was geringes. Um 21 Uhr, ich hab die Brüder von Manchis gefragt. Die bringen uns dicke Paket mit Essen. Bombe. haben wir auch was zu essen. Danke dir, aber ich bin auf jeden Fall satt. bester Gastgeber vielen Dank. meiner. sitz schön. Wo sollen wir sitzen, mein Bitt euch in Bojeburg. Wo ist dein Dainas Dein Auto. Nein, nein, Haribo, war Haribo Scheiße, wechseln uns. Achse. warte mal. Ihr habt jetzt 79%. Ich glaube schon, wir melden uns jetzt an, mein Bruder. Wir gucken mal. Habt ihr Eggs gemacht? Ein bisschen, nur nebenbei, oder? Ganz bisschen. Wir sind nur nach Mission eigentlich gegangen, mein Bruder. Ich will nichts falsch machen. Erst mal nicht, dass du dich jetzt nicht mehr einbellen kannst. Geht alles Du kennst auch meine Daten, oder?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "xRohat rastet komplett aus 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "xRohat rastet komplett aus | xRohat #shorts",
    "broadcaster_name": "xRohat",
@@ -4115,6 +4117,13 @@
    "ts": 1795701998.7050865,
    "ok": true,
    "id": "6b083cede1a214b89bdd7ed7"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "EagerPleasantFlamingoMVGame-IARbPF6VcAzDor--",
+   "ts": 1795704409.7268364,
+   "ok": true,
+   "id": "6b084658a9607f755582901c"
   }
  ],
  "hype": {},
