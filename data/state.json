@@ -4003,7 +4003,7 @@
   "MildOddSkunkKAPOW-welK6b4k2vckS1rP": {
    "id": "MildOddSkunkKAPOW-welK6b4k2vckS1rP",
    "seit": 1795717024.0367637,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "HAHAHAHHA",
@@ -4011,12 +4011,14 @@
    "views": 71,
    "score": 8.352941176470589,
    "erstellt": "2026-11-25T18:45:27Z",
-   "aktualisiert": 1795717073.955925,
+   "aktualisiert": 1795722175.2825913,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_MildOddSkunkKAPOW-welK6b4k2vckS1rP.mp4",
    "dauer": 43.306,
    "layout": "blur",
    "transkript": "an die zukünftigen Unternehmer mit irgendeinem Produkt, sei es Klamotten, keine Ahnung, Essen, egal was, irgendwelche, weiß ich nicht, egal was es ist, sie immer hinkommen. Doch ich, ja, geil, guck's. guck's. größte Wiederbestellquote. Das heißt, jetzt mal -talk, deswegen laufen doch Drogen auch so gut. Warte, bei Drogengeschäften, es ist ja auch, die Leute, die wollen ja immer, ne? Kunden bestellen am meisten wiederholt. Das ist aber dasselbe Prinzip. Das macht die halt süchtig, das ist der falsche Weg und das schadet den Menschen, aber an sich, er will es immer wiederholen. ist eine Sucht, das kacke.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Das war knapp… 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -4536,6 +4538,13 @@
    "ts": 1795719757.7090478,
    "ok": true,
    "id": "6b088243ce64081689e57d53"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "MildOddSkunkKAPOW-welK6b4k2vckS1rP",
+   "ts": 1795722175.2825747,
+   "ok": true,
+   "id": "6b088bb53accdac92cf5e272"
   }
  ],
  "hype": {},
