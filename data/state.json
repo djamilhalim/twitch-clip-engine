@@ -4089,6 +4089,52 @@
    "yt_titel": "Happy Thanksgiving iwie | marli #shorts",
    "broadcaster_name": "marli",
    "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_PopularManlyAlmondJonCarnage-ot3gu7xOOI5WHSLK.mp4"
+  },
+  "SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh": {
+   "id": "SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh",
+   "seit": 1795719662.0131106,
+   "status": "warteschlange",
+   "streamer": "marli",
+   "quelle": "fokus",
+   "titel": "s",
+   "url": "https://www.twitch.tv/marli/clip/SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh",
+   "views": 6,
+   "score": 2.4,
+   "erstellt": "2026-11-26T17:52:39Z",
+   "aktualisiert": 1795719712.2341113,
+   "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh.mp4",
+   "dauer": 39.626,
+   "layout": "blur",
+   "transkript": "Ja, die wissen warum den Grafikarten so teuer sind und so. Okay, ich zeig dir. mal Julia, wie heißt dein Freund eigentlich noch? Wollen wir mal jetzt 5. Mal, der heißt Oscar. Oh, das ist aber ein schöner Name. Oscar, da bin ich aber mal auf ihn gespannt, wie der so ist. Oh, ich glaub, das ist er. Der kleine Oscar, er ist so süß und so haarisch. Uh oh. war echt ein Good Das war echt ein Good One. Hat einer gekocht, ich sagen.",
+   "gepostet_auf": [],
+   "caption": "marli rastet komplett aus 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
+   "yt_titel": "marli rastet komplett aus | marli #shorts",
+   "broadcaster_name": "marli",
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh.mp4"
+  },
+  "QuaintMuddyLettuceJebaited-BaYSyKs6Eg5eDVYt": {
+   "id": "QuaintMuddyLettuceJebaited-BaYSyKs6Eg5eDVYt",
+   "seit": 1795719712.238283,
+   "status": "gepostet",
+   "streamer": "mertabimula",
+   "quelle": "fokus",
+   "titel": "Mert türk degilmisin?",
+   "url": "https://www.twitch.tv/mertabimula/clip/QuaintMuddyLettuceJebaited-BaYSyKs6Eg5eDVYt",
+   "views": 16,
+   "score": 2.2857142857142856,
+   "erstellt": "2026-11-26T18:32:17Z",
+   "aktualisiert": 1795719757.7090628,
+   "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_QuaintMuddyLettuceJebaited-BaYSyKs6Eg5eDVYt.mp4",
+   "dauer": 30.016,
+   "layout": "blur",
+   "transkript": "",
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
+   "caption": "Mert türk degilmisin? 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
+   "yt_titel": "Mert türk degilmisin? | mertabimula #shorts",
+   "broadcaster_name": "mertabimula",
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_QuaintMuddyLettuceJebaited-BaYSyKs6Eg5eDVYt.mp4"
   }
  },
  "posts": [
@@ -4483,6 +4529,13 @@
    "ts": 1795718457.9132047,
    "ok": true,
    "id": "6b087d389068b6e07955f5a0"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "QuaintMuddyLettuceJebaited-BaYSyKs6Eg5eDVYt",
+   "ts": 1795719757.7090478,
+   "ok": true,
+   "id": "6b088243ce64081689e57d53"
   }
  ],
  "hype": {},
