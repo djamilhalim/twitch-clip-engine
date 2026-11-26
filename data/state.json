@@ -2941,7 +2941,7 @@
   "WonderfulApatheticTitanCclamChamp-OaaKJuhqxsrnMxGT": {
    "id": "WonderfulApatheticTitanCclamChamp-OaaKJuhqxsrnMxGT",
    "seit": 1795616950.5954018,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "timgioh",
@@ -2949,7 +2949,7 @@
    "views": 21,
    "score": 2.0,
    "erstellt": "2026-11-23T15:44:56Z",
-   "aktualisiert": 1795617007.2655673,
+   "aktualisiert": 1795660299.9774163,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_WonderfulApatheticTitanCclamChamp-OaaKJuhqxsrnMxGT.mp4",
    "dauer": 35.433333,
    "layout": "blur",
@@ -2958,12 +2958,13 @@
    "caption": "Das war knapp… 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_WonderfulApatheticTitanCclamChamp-OaaKJuhqxsrnMxGT.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_WonderfulApatheticTitanCclamChamp-OaaKJuhqxsrnMxGT.mp4",
+   "fehler": "zu alt"
   },
   "PeppyCorrectAlbatrossDoritosChip-jT64J3DH1QK5whA3": {
    "id": "PeppyCorrectAlbatrossDoritosChip-jT64J3DH1QK5whA3",
    "seit": 1795617007.2700524,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "pack opening",
@@ -2971,7 +2972,7 @@
    "views": 8,
    "score": 0.7619047619047619,
    "erstellt": "2026-11-23T15:48:56Z",
-   "aktualisiert": 1795617099.1717067,
+   "aktualisiert": 1795660299.9774208,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_PeppyCorrectAlbatrossDoritosChip-jT64J3DH1QK5whA3.mp4",
    "dauer": 60.0,
    "layout": "blur",
@@ -2980,7 +2981,8 @@
    "caption": "Pack opening 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Pack opening | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_PeppyCorrectAlbatrossDoritosChip-jT64J3DH1QK5whA3.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_PeppyCorrectAlbatrossDoritosChip-jT64J3DH1QK5whA3.mp4",
+   "fehler": "zu alt"
   },
   "DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf": {
    "id": "DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf",
