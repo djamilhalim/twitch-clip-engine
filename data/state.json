@@ -3056,7 +3056,7 @@
   "PluckyAmazonianSwordFunRun-E_q9tcjPAiS9TKie": {
    "id": "PluckyAmazonianSwordFunRun-E_q9tcjPAiS9TKie",
    "seit": 1795644993.7354581,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "GTA VI  59/100% ES GEHT WEITER  🔥 | !sidejeans !elusa !more !sucuk !insta !yt !tiktok",
@@ -3064,7 +3064,7 @@
    "views": 10,
    "score": 1.5384615384615385,
    "erstellt": "2026-11-24T22:35:32Z",
-   "aktualisiert": 1795645094.007187,
+   "aktualisiert": 1795688773.8486874,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_PluckyAmazonianSwordFunRun-E_q9tcjPAiS9TKie.mp4",
    "dauer": 60.007,
    "layout": "blur",
@@ -3073,7 +3073,8 @@
    "caption": "GTA VI 59/100% ES GEHT WEITER 🔥 | !sidejeans !elusa !more !sucuk !insta !yt !tiktok 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "GTA VI 59/100% ES GEHT WEITER 🔥 | !sidejeans !elusa !more !sucuk !insta !yt… | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_PluckyAmazonianSwordFunRun-E_q9tcjPAiS9TKie.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_PluckyAmazonianSwordFunRun-E_q9tcjPAiS9TKie.mp4",
+   "fehler": "zu alt"
   },
   "TrappedHilariousPeafowlHeyGirl-KvnOMRYTFetJRG9k": {
    "id": "TrappedHilariousPeafowlHeyGirl-KvnOMRYTFetJRG9k",
