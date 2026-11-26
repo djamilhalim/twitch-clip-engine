@@ -4165,7 +4165,7 @@
   "EnchantingLightHornetCeilingCat-zTE5dl7kRW4w5CsP": {
    "id": "EnchantingLightHornetCeilingCat-zTE5dl7kRW4w5CsP",
    "seit": 1795728262.216336,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "aha",
@@ -4173,12 +4173,14 @@
    "views": 12,
    "score": 2.4,
    "erstellt": "2026-11-26T19:43:46Z",
-   "aktualisiert": 1795728323.8591464,
+   "aktualisiert": 1795729539.3164084,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_EnchantingLightHornetCeilingCat-zTE5dl7kRW4w5CsP.mp4",
    "dauer": 60.01,
    "layout": "blur",
    "transkript": "lass ich mal kurz reden bitte. kurz. Lass ich mal kochen, ja. Chirussound, aber ihr nicht. Oh mein Gott, das fängt gerade ab. Jetzt hört Sound, ne? Wer total er kann deswegen ein und",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "mertabimula rastet komplett aus 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "mertabimula rastet komplett aus | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
@@ -4598,6 +4600,13 @@
    "ts": 1795723390.8801496,
    "ok": true,
    "id": "6b0890743accdac92cf81988"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "EnchantingLightHornetCeilingCat-zTE5dl7kRW4w5CsP",
+   "ts": 1795729539.3163931,
+   "ok": true,
+   "id": "6b08a879de5162ee91b29ea1"
   }
  ],
  "hype": {},
