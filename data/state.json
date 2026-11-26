@@ -3603,7 +3603,7 @@
   "NaiveAssiduousPineapplePrimeMe-xhyzLX3qWg_iAUHa": {
    "id": "NaiveAssiduousPineapplePrimeMe-xhyzLX3qWg_iAUHa",
    "seit": 1795691919.1534114,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "2",
@@ -3611,12 +3611,14 @@
    "views": 40,
    "score": 5.714285714285714,
    "erstellt": "2026-11-25T16:09:09Z",
-   "aktualisiert": 1795691979.8714983,
+   "aktualisiert": 1795698113.3314543,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_NaiveAssiduousPineapplePrimeMe-xhyzLX3qWg_iAUHa.mp4",
    "dauer": 59.993267,
    "layout": "blur",
    "transkript": "Booster wenn ihr gerade mal müde seid, auf der Arbeit keine Energie habt, einfach reingeben und dann seid ihr parat. gut her. Nebenbei benutze ich auch, natürlich haben wir auch Sonarung, Ergänzungsmittel und so. Wir haben hier auch Vitamin D3K2, das benutze ich gerade, aber bitte darauf achten wir das ein, ihr dürft nicht zu viel davon nehmen. Und Vitamin C nämlich auch gerade und Zing für meine Haare.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Der Chat ist tot 💀 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Der Chat ist tot 💀 | coachlim #shorts",
    "broadcaster_name": "coachlim",
@@ -3996,6 +3998,13 @@
    "ts": 1795696896.5638733,
    "ok": true,
    "id": "6b0828ff1ee5febf3edf3387"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "NaiveAssiduousPineapplePrimeMe-xhyzLX3qWg_iAUHa",
+   "ts": 1795698113.3314402,
+   "ok": true,
+   "id": "6b082db62983091c92b25e1a"
   }
  ],
  "hype": {},
