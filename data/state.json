@@ -2987,7 +2987,7 @@
   "DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf": {
    "id": "DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf",
    "seit": 1795624350.996729,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "papaplatte",
    "quelle": "fokus",
    "titel": "es kracht",
@@ -2995,7 +2995,7 @@
    "views": 1088,
    "score": 49.45454545454545,
    "erstellt": "2026-11-25T13:25:08Z",
-   "aktualisiert": 1795624414.5901499,
+   "aktualisiert": 1795667847.7151456,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/papaplatte_DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf.mp4",
    "dauer": 39.383333,
    "layout": "blur",
@@ -3004,12 +3004,13 @@
    "caption": "Papaplatte eskaliert komplett 😂\n🎥 Papaplatte live auf twitch.tv/papaplatte\n#Papaplatte #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Papaplatte eskaliert komplett | Papaplatte #shorts",
    "broadcaster_name": "Papaplatte",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_DelightfulScaryGorillaBudBlast-nttJhc7Ah2G08Llf.mp4",
+   "fehler": "zu alt"
   },
   "CalmUnusualChoughFloof-Cc7T4ezqbZMLPzap": {
    "id": "CalmUnusualChoughFloof-Cc7T4ezqbZMLPzap",
    "seit": 1795624414.5947227,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "schildkröten",
@@ -3017,7 +3018,7 @@
    "views": 34,
    "score": 6.8,
    "erstellt": "2026-11-23T17:21:20Z",
-   "aktualisiert": 1795624459.327553,
+   "aktualisiert": 1795667847.715155,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_CalmUnusualChoughFloof-Cc7T4ezqbZMLPzap.mp4",
    "dauer": 26.325,
    "layout": "blur",
@@ -3026,7 +3027,8 @@
    "caption": "marli rastet komplett aus 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "marli rastet komplett aus | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_CalmUnusualChoughFloof-Cc7T4ezqbZMLPzap.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_CalmUnusualChoughFloof-Cc7T4ezqbZMLPzap.mp4",
+   "fehler": "zu alt"
   },
   "ScaryChillyPeppermintChocolateRain-St4O7LcUBiSz1enn": {
    "id": "ScaryChillyPeppermintChocolateRain-St4O7LcUBiSz1enn",
