@@ -3427,7 +3427,7 @@
   "FantasticAntsyWormArgieB8-pL_mXq7RY98MGhSp": {
    "id": "FantasticAntsyWormArgieB8-pL_mXq7RY98MGhSp",
    "seit": 1795671561.7520614,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "psycho Jelli",
@@ -3435,7 +3435,7 @@
    "views": 92,
    "score": 10.222222222222221,
    "erstellt": "2026-11-25T22:18:29Z",
-   "aktualisiert": 1795671665.3753285,
+   "aktualisiert": 1795715784.9775038,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_FantasticAntsyWormArgieB8-pL_mXq7RY98MGhSp.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -3444,7 +3444,8 @@
    "caption": "Psycho Jelli 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Psycho Jelli | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_FantasticAntsyWormArgieB8-pL_mXq7RY98MGhSp.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_FantasticAntsyWormArgieB8-pL_mXq7RY98MGhSp.mp4",
+   "fehler": "zu alt"
   },
   "BlightedFurtivePandaKevinTurtle-wYHaJ3IaCn0Avi9l": {
    "id": "BlightedFurtivePandaKevinTurtle-wYHaJ3IaCn0Avi9l",
@@ -3473,7 +3474,7 @@
   "SpikyFrozenPlumKAPOW-npiM7fVZgossR36R": {
    "id": "SpikyFrozenPlumKAPOW-npiM7fVZgossR36R",
    "seit": 1795671798.3629901,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "deep",
@@ -3481,7 +3482,7 @@
    "views": 29,
    "score": 4.833333333333333,
    "erstellt": "2026-11-25T19:49:49Z",
-   "aktualisiert": 1795671886.6766276,
+   "aktualisiert": 1795715784.9775083,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_SpikyFrozenPlumKAPOW-npiM7fVZgossR36R.mp4",
    "dauer": 54.687967,
    "layout": "blur",
@@ -3490,7 +3491,8 @@
    "caption": "Damit hat coachlim nicht gerechnet 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Damit hat coachlim nicht gerechnet | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_SpikyFrozenPlumKAPOW-npiM7fVZgossR36R.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_SpikyFrozenPlumKAPOW-npiM7fVZgossR36R.mp4",
+   "fehler": "zu alt"
   },
   "ImpossibleSaltyNewtSmoocherZ-qa5VBXrqREajaqcJ": {
    "id": "ImpossibleSaltyNewtSmoocherZ-qa5VBXrqREajaqcJ",
