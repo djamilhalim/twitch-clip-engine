@@ -3033,7 +3033,7 @@
   "ScaryChillyPeppermintChocolateRain-St4O7LcUBiSz1enn": {
    "id": "ScaryChillyPeppermintChocolateRain-St4O7LcUBiSz1enn",
    "seit": 1795626866.3690844,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "papaplatte",
    "quelle": "fokus",
    "titel": "pullermann fällt ab",
@@ -3041,7 +3041,7 @@
    "views": 96,
    "score": 4.363636363636363,
    "erstellt": "2026-11-23T20:50:14Z",
-   "aktualisiert": 1795626909.018775,
+   "aktualisiert": 1795670254.2377706,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/papaplatte_ScaryChillyPeppermintChocolateRain-St4O7LcUBiSz1enn.mp4",
    "dauer": 25.816667,
    "layout": "blur",
@@ -3050,7 +3050,8 @@
    "caption": "Pullermann fällt ab 😂\n🎥 Papaplatte live auf twitch.tv/papaplatte\n#Papaplatte #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Pullermann fällt ab | Papaplatte #shorts",
    "broadcaster_name": "Papaplatte",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_ScaryChillyPeppermintChocolateRain-St4O7LcUBiSz1enn.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_ScaryChillyPeppermintChocolateRain-St4O7LcUBiSz1enn.mp4",
+   "fehler": "zu alt"
   },
   "PluckyAmazonianSwordFunRun-E_q9tcjPAiS9TKie": {
    "id": "PluckyAmazonianSwordFunRun-E_q9tcjPAiS9TKie",
