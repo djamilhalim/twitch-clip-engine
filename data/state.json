@@ -3577,7 +3577,7 @@
   "BrightFastOysterPastaThat-Q8zwfITbVj9tiWBq": {
    "id": "BrightFastOysterPastaThat-Q8zwfITbVj9tiWBq",
    "seit": 1795691886.4404426,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "rohat",
@@ -3585,12 +3585,14 @@
    "views": 78,
    "score": 10.4,
    "erstellt": "2026-11-25T17:59:50Z",
-   "aktualisiert": 1795691919.149999,
+   "aktualisiert": 1795694486.8630142,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_BrightFastOysterPastaThat-Q8zwfITbVj9tiWBq.mp4",
    "dauer": 29.996633,
    "layout": "blur",
    "transkript": "verstehe für beim Rohr, wo der hat auch nichts übrig gelassen, ne? Bist du noch aufixiert? It's just so crazy, what you can learn from a little scrolling on It's just few a person. Nein! Ich hab' gefangen, Willi! Er hat gefangen...",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "xRohat kann nicht mehr 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "xRohat kann nicht mehr | xRohat #shorts",
    "broadcaster_name": "xRohat",
@@ -3978,6 +3980,13 @@
    "ts": 1795690205.297295,
    "ok": true,
    "id": "6b080edb2c18150e1047378e"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "BrightFastOysterPastaThat-Q8zwfITbVj9tiWBq",
+   "ts": 1795694486.8630002,
+   "ok": true,
+   "id": "6b081f8c59e1aba44496b484"
   }
  ],
  "hype": {},
