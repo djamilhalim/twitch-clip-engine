@@ -3799,7 +3799,7 @@
   "GiftedNimbleWalrusDBstyle-P3gJ6qWGe7YuRIBp": {
    "id": "GiftedNimbleWalrusDBstyle-P3gJ6qWGe7YuRIBp",
    "seit": 1795706862.89169,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "w",
@@ -3807,12 +3807,14 @@
    "views": 73,
    "score": 9.125,
    "erstellt": "2026-11-25T17:19:29Z",
-   "aktualisiert": 1795706923.695671,
+   "aktualisiert": 1795723390.880165,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_GiftedNimbleWalrusDBstyle-P3gJ6qWGe7YuRIBp.mp4",
    "dauer": 59.993267,
    "layout": "blur",
    "transkript": "gesehen waren vor 16 Stunden, ah man sieht nichts denen sind wir später live. Hättet ihr das gerade gesehen, achts, können voran. vor ja, ich hab das rasiert. Jungs vorbei, ich freu mich. haben hier ein Paket von Knossi, er meinte irgendwas aus Miami. Hier steht sogar mein Name drauf, roh Ich bin totes gespannt. Ich meinte zu ihm, wenn du in Miami bist, du wirst von Rockstar eingeladen und so. Bring mir was mit, ich hab, er meinte hat was für mich. Ich bin mal gespannt. Komm, wir machen das jetzt auf.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "xRohat eskaliert komplett 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "xRohat eskaliert komplett | xRohat #shorts",
    "broadcaster_name": "xRohat",
@@ -4545,6 +4547,13 @@
    "ts": 1795722175.2825747,
    "ok": true,
    "id": "6b088bb53accdac92cf5e272"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "GiftedNimbleWalrusDBstyle-P3gJ6qWGe7YuRIBp",
+   "ts": 1795723390.8801496,
+   "ok": true,
+   "id": "6b0890743accdac92cf81988"
   }
  ],
  "hype": {},
