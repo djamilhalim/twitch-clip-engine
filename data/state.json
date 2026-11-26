@@ -3639,7 +3639,7 @@
   "BumblingCogentSproutUWot-FVwCX_sfodWN8m-g": {
    "id": "BumblingCogentSproutUWot-FVwCX_sfodWN8m-g",
    "seit": 1795691979.8747501,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "backshots",
@@ -3647,7 +3647,7 @@
    "views": 9,
    "score": 3.6,
    "erstellt": "2026-11-25T21:57:38Z",
-   "aktualisiert": 1795692050.8492563,
+   "aktualisiert": 1795735857.080267,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_BumblingCogentSproutUWot-FVwCX_sfodWN8m-g.mp4",
    "dauer": 60.0,
    "layout": "blur",
@@ -3656,12 +3656,13 @@
    "caption": "AliBumayeTV rastet komplett aus 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "AliBumayeTV rastet komplett aus | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_BumblingCogentSproutUWot-FVwCX_sfodWN8m-g.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_BumblingCogentSproutUWot-FVwCX_sfodWN8m-g.mp4",
+   "fehler": "zu alt"
   },
   "StormyClumsyTrollDAESuppy-axCI51ClrqVo9rEH": {
    "id": "StormyClumsyTrollDAESuppy-axCI51ClrqVo9rEH",
    "seit": 1795692050.852746,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "papaplatte",
    "quelle": "fokus",
    "titel": "NICHT DIE FANTA",
@@ -3669,7 +3670,7 @@
    "views": 36,
    "score": 3.6,
    "erstellt": "2026-11-25T19:08:07Z",
-   "aktualisiert": 1795692067.9456503,
+   "aktualisiert": 1795735857.08027,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/papaplatte_StormyClumsyTrollDAESuppy-axCI51ClrqVo9rEH.mp4",
    "dauer": 14.666667,
    "layout": "blur",
@@ -3678,7 +3679,8 @@
    "caption": "NICHT DIE FANTA 😂\n🎥 Papaplatte live auf twitch.tv/papaplatte\n#Papaplatte #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "NICHT DIE FANTA | Papaplatte #shorts",
    "broadcaster_name": "Papaplatte",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_StormyClumsyTrollDAESuppy-axCI51ClrqVo9rEH.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/papaplatte_StormyClumsyTrollDAESuppy-axCI51ClrqVo9rEH.mp4",
+   "fehler": "zu alt"
   },
   "RefinedStylishBibimbapOptimizePrime-LUkGKfIN-bzDWaAa": {
    "id": "RefinedStylishBibimbapOptimizePrime-LUkGKfIN-bzDWaAa",
