@@ -2777,7 +2777,7 @@
   "AttractiveGrotesqueEggnogWow-24kv7_kxNqwLWf4q": {
    "id": "AttractiveGrotesqueEggnogWow-24kv7_kxNqwLWf4q",
    "seit": 1795610407.8189263,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "Mert wird überrannt von einem Reh",
@@ -2785,7 +2785,7 @@
    "views": 13,
    "score": 3.7142857142857144,
    "erstellt": "2026-11-25T00:18:09Z",
-   "aktualisiert": 1795610439.8682835,
+   "aktualisiert": 1795653981.3579097,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_AttractiveGrotesqueEggnogWow-24kv7_kxNqwLWf4q.mp4",
    "dauer": 16.362,
    "layout": "blur",
@@ -2794,12 +2794,13 @@
    "caption": "Mert wird überrannt von einem Reh 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Mert wird überrannt von einem Reh | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_AttractiveGrotesqueEggnogWow-24kv7_kxNqwLWf4q.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_AttractiveGrotesqueEggnogWow-24kv7_kxNqwLWf4q.mp4",
+   "fehler": "zu alt"
   },
   "RenownedSmokyTildeLitty-qr86jQka8cTSTPMQ": {
    "id": "RenownedSmokyTildeLitty-qr86jQka8cTSTPMQ",
    "seit": 1795610439.87267,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "zieh",
@@ -2807,7 +2808,7 @@
    "views": 11,
    "score": 3.142857142857143,
    "erstellt": "2026-11-24T23:09:14Z",
-   "aktualisiert": 1795610536.3850074,
+   "aktualisiert": 1795653981.3579144,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_RenownedSmokyTildeLitty-qr86jQka8cTSTPMQ.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -2816,12 +2817,13 @@
    "caption": "Das war knapp… 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_RenownedSmokyTildeLitty-qr86jQka8cTSTPMQ.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_RenownedSmokyTildeLitty-qr86jQka8cTSTPMQ.mp4",
+   "fehler": "zu alt"
   },
   "FairThoughtfulHamburgerFrankerZ-SxmOUa3c-X_CdjUp": {
    "id": "FairThoughtfulHamburgerFrankerZ-SxmOUa3c-X_CdjUp",
    "seit": 1795610536.3893948,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "tim",
@@ -2829,7 +2831,7 @@
    "views": 35,
    "score": 2.0,
    "erstellt": "2026-11-23T15:43:14Z",
-   "aktualisiert": 1795610632.3842704,
+   "aktualisiert": 1795653981.357917,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_FairThoughtfulHamburgerFrankerZ-SxmOUa3c-X_CdjUp.mp4",
    "dauer": 59.651995,
    "layout": "blur",
@@ -2838,7 +2840,8 @@
    "caption": "Das war knapp… 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_FairThoughtfulHamburgerFrankerZ-SxmOUa3c-X_CdjUp.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_FairThoughtfulHamburgerFrankerZ-SxmOUa3c-X_CdjUp.mp4",
+   "fehler": "zu alt"
   },
   "ZealousStrangeEmuOptimizePrime-uqVyEsKz1MtybQY0": {
    "id": "ZealousStrangeEmuOptimizePrime-uqVyEsKz1MtybQY0",
