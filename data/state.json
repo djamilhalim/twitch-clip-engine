@@ -3434,7 +3434,7 @@
   "BlightedFurtivePandaKevinTurtle-wYHaJ3IaCn0Avi9l": {
    "id": "BlightedFurtivePandaKevinTurtle-wYHaJ3IaCn0Avi9l",
    "seit": 1795671665.3807397,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "ha siktir",
@@ -3442,12 +3442,14 @@
    "views": 53,
    "score": 8.833333333333334,
    "erstellt": "2026-11-25T15:53:24Z",
-   "aktualisiert": 1795671798.3578405,
+   "aktualisiert": 1795679149.962152,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_BlightedFurtivePandaKevinTurtle-wYHaJ3IaCn0Avi9l.mp4",
    "dauer": 59.993267,
    "layout": "blur",
    "transkript": "ist noch nicht mal auf Twitch Scheiße ist noch nicht mal auf Twitch vorbei. Hallas. Hallas, die zu machen. Hallas, die kann zu machen. zu. Hallas. Hallas. ja, Hallas. Hallas. Hallas. Hallas. Noch nicht mal auf Twitch vorbei. Keine Ist Ronaldo 60 Prime?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "coachlim eskaliert komplett 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "coachlim eskaliert komplett | coachlim #shorts",
    "broadcaster_name": "coachlim",
@@ -3770,6 +3772,13 @@
    "ts": 1795673135.4068816,
    "ok": true,
    "id": "6b07cc2e63939e1d007831d9"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "BlightedFurtivePandaKevinTurtle-wYHaJ3IaCn0Avi9l",
+   "ts": 1795679149.9621375,
+   "ok": true,
+   "id": "6b07e3ac17fc84b971b29d78"
   }
  ],
  "hype": {},
