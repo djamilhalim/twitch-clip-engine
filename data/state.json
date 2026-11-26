@@ -3311,7 +3311,7 @@
   "PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi": {
    "id": "PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi",
    "seit": 1795661505.2745135,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "Kroko hat mich angefasst",
@@ -3319,7 +3319,7 @@
    "views": 127,
    "score": 14.11111111111111,
    "erstellt": "2026-11-25T22:11:07Z",
-   "aktualisiert": 1795661549.611281,
+   "aktualisiert": 1795705614.4524016,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi.mp4",
    "dauer": 21.162,
    "layout": "blur",
@@ -3328,12 +3328,13 @@
    "caption": "Kroko hat mich angefasst 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Kroko hat mich angefasst | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_PreciousFreezingFlamingoPastaThat-t71QGuvQ5tt6BJmi.mp4",
+   "fehler": "zu alt"
   },
   "SourFaintWebRedCoat-39oc8G62raGn8Sfa": {
    "id": "SourFaintWebRedCoat-39oc8G62raGn8Sfa",
    "seit": 1795661549.6165483,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "Trymacs hinterfragt das psychopunktesystem",
@@ -3341,7 +3342,7 @@
    "views": 42,
    "score": 14.0,
    "erstellt": "2026-11-24T18:45:04Z",
-   "aktualisiert": 1795661653.0524104,
+   "aktualisiert": 1795705614.4524055,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_SourFaintWebRedCoat-39oc8G62raGn8Sfa.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -3350,12 +3351,13 @@
    "caption": "Trymacs hinterfragt das psychopunktesystem 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Trymacs hinterfragt das psychopunktesystem | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_SourFaintWebRedCoat-39oc8G62raGn8Sfa.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_SourFaintWebRedCoat-39oc8G62raGn8Sfa.mp4",
+   "fehler": "zu alt"
   },
   "HelpfulBumblingHamsterJKanStyle-0Ch_aSlc-B2sf_Nr": {
    "id": "HelpfulBumblingHamsterJKanStyle-0Ch_aSlc-B2sf_Nr",
    "seit": 1795661653.057563,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "s",
@@ -3363,7 +3365,7 @@
    "views": 47,
    "score": 9.4,
    "erstellt": "2026-11-25T18:08:49Z",
-   "aktualisiert": 1795661744.6476285,
+   "aktualisiert": 1795705614.4524078,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_HelpfulBumblingHamsterJKanStyle-0Ch_aSlc-B2sf_Nr.mp4",
    "dauer": 59.993267,
    "layout": "blur",
@@ -3372,12 +3374,13 @@
    "caption": "xRohat eskaliert komplett 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "xRohat eskaliert komplett | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_HelpfulBumblingHamsterJKanStyle-0Ch_aSlc-B2sf_Nr.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_HelpfulBumblingHamsterJKanStyle-0Ch_aSlc-B2sf_Nr.mp4",
+   "fehler": "zu alt"
   },
   "SucculentNiceFriseeVoteNay-fNLehabMjop3Sf3f": {
    "id": "SucculentNiceFriseeVoteNay-fNLehabMjop3Sf3f",
    "seit": 1795661744.6528244,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "test",
@@ -3385,7 +3388,7 @@
    "views": 48,
    "score": 8.0,
    "erstellt": "2026-11-25T18:24:04Z",
-   "aktualisiert": 1795661833.6664546,
+   "aktualisiert": 1795705614.452409,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_SucculentNiceFriseeVoteNay-fNLehabMjop3Sf3f.mp4",
    "dauer": 59.00895,
    "layout": "blur",
@@ -3394,7 +3397,8 @@
    "caption": "Was macht coachlim da?! 😂 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Was macht coachlim da?! 😂 | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_SucculentNiceFriseeVoteNay-fNLehabMjop3Sf3f.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_SucculentNiceFriseeVoteNay-fNLehabMjop3Sf3f.mp4",
+   "fehler": "zu alt"
   },
   "FragileAthleticDad4Head-0GxUrtxHHr68BW0D": {
    "id": "FragileAthleticDad4Head-0GxUrtxHHr68BW0D",
