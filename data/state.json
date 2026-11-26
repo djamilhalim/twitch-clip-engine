@@ -3511,7 +3511,7 @@
   "CrepuscularRefinedPuppyTBTacoRight-c0IkpbiXwBwB9WLa": {
    "id": "CrepuscularRefinedPuppyTBTacoRight-c0IkpbiXwBwB9WLa",
    "seit": 1795690057.1222425,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "papaplatte",
    "quelle": "fokus",
    "titel": "wutköder des jahres",
@@ -3519,12 +3519,14 @@
    "views": 74,
    "score": 7.4,
    "erstellt": "2026-11-25T19:45:49Z",
-   "aktualisiert": 1795690089.247498,
+   "aktualisiert": 1795696896.5638871,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/papaplatte_CrepuscularRefinedPuppyTBTacoRight-c0IkpbiXwBwB9WLa.mp4",
    "dauer": 23.018,
    "layout": "blur",
    "transkript": "ich kann es mir nicht epischer Fail. Den wusste ich, wo der ist. Der Fisch war hier, ne? kann Mensch, ich kann kein Mensch, ich hab doch die Sieben Bro! Bitte, ihr müsst mich abholen, holt mich ab! Holt mich ab, bitte!",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Wutköder des jahres 😂\n🎥 Papaplatte live auf twitch.tv/papaplatte\n#Papaplatte #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Wutköder des jahres | Papaplatte #shorts",
    "broadcaster_name": "Papaplatte",
@@ -3987,6 +3989,13 @@
    "ts": 1795694486.8630002,
    "ok": true,
    "id": "6b081f8c59e1aba44496b484"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "CrepuscularRefinedPuppyTBTacoRight-c0IkpbiXwBwB9WLa",
+   "ts": 1795696896.5638733,
+   "ok": true,
+   "id": "6b0828ff1ee5febf3edf3387"
   }
  ],
  "hype": {},
