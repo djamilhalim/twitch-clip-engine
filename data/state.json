@@ -3390,7 +3390,7 @@
   "FragileAthleticDad4Head-0GxUrtxHHr68BW0D": {
    "id": "FragileAthleticDad4Head-0GxUrtxHHr68BW0D",
    "seit": 1795671458.9307365,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "LFDY",
@@ -3398,12 +3398,14 @@
    "views": 110,
    "score": 12.222222222222221,
    "erstellt": "2026-11-25T22:00:32Z",
-   "aktualisiert": 1795671561.7467928,
+   "aktualisiert": 1795683962.4990187,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_FragileAthleticDad4Head-0GxUrtxHHr68BW0D.mp4",
    "dauer": 60.01,
    "layout": "blur",
    "transkript": "Aber dieses T -Shirt hat Elefth für mich designt. Das kann man nicht kaufen. Es gibt es selber, gab es mal mit Backprint. Ich meine, ob die mir das auch mit so einem Forderprint machen kommen. Not for sale. Da kommt die Tagendeaktion. wieder Scheiße. kein Scheiß, ich schwöre auf alles. ist kein Witz. Das ist kein Witz. Mit wär cooler. gut. Es geht hier um den falsches Gesicht vorne drauf. Und der Code wird Gold sein. Was wird ihr tun? Ich werde den sagen, der Code soll Gold sein. Was wollt ihr machen? Und selbst Messy -Fans werden es machen. Weil dieses T -Shirt vielleicht irgendwann einen dicken Wert hat. Da kannst du nicht kaufen. Was jetzt? Dann werden Messy -Fans den Code Gold eingeben. Weil ihr euch verkaufen werdet. Ihr werdet euch verkaufen,",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Damit hat eliasn97 nicht gerechnet 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Damit hat eliasn97 nicht gerechnet | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -3779,6 +3781,13 @@
    "ts": 1795679149.9621375,
    "ok": true,
    "id": "6b07e3ac17fc84b971b29d78"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "FragileAthleticDad4Head-0GxUrtxHHr68BW0D",
+   "ts": 1795683962.4990058,
+   "ok": true,
+   "id": "6b07f67917fc84b971baee82"
   }
  ],
  "hype": {},
