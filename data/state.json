@@ -3885,7 +3885,7 @@
   "CovertThankfulStinkbugSaltBae-GfMrfW5T2AnjrFQH": {
    "id": "CovertThankfulStinkbugSaltBae-GfMrfW5T2AnjrFQH",
    "seit": 1795710690.3096354,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "das war smuuus chat",
@@ -3893,12 +3893,14 @@
    "views": 7,
    "score": 2.8,
    "erstellt": "2026-11-26T14:58:57Z",
-   "aktualisiert": 1795710741.3145187,
+   "aktualisiert": 1795713373.7198515,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_CovertThankfulStinkbugSaltBae-GfMrfW5T2AnjrFQH.mp4",
    "dauer": 46.466667,
    "layout": "blur",
    "transkript": "Boot? Checklist. down. Bleibst früh. You ready for landing? I'm down. Landing in 2, 1. smooth Smooth. Mit Landing Checklist, aber auch einfach chat. hast du direkt alles auf dem Schirm, was wichtig ist. Würde ich euch auch empfehlen.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Das war smuuus chat 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war smuuus chat | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
@@ -3925,6 +3927,50 @@
    "yt_titel": "SidneyEweka kann nicht mehr | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
    "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_CallousPluckyFloofRiPepperonis-nxu_0rxPCYSH96a1.mp4"
+  },
+  "ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5": {
+   "id": "ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5",
+   "seit": 1795713321.518107,
+   "status": "warteschlange",
+   "streamer": "sidneyeweka",
+   "quelle": "fokus",
+   "titel": "WWE",
+   "url": "https://www.twitch.tv/sidneyeweka/clip/ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5",
+   "views": 5,
+   "score": 2.0,
+   "erstellt": "2026-11-26T16:07:37Z",
+   "aktualisiert": 1795713355.9323375,
+   "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5.mp4",
+   "dauer": 24.218005,
+   "layout": "blur",
+   "transkript": "fuck off! get the fuck out of here, what the fuck is the talk about? Scheiße, ich dachte, ich spring auf ihn. Oh, er ist tot. ich konnte nicht glauben, dass er mir wirklich so oft eine rein haut, Bruder.",
+   "gepostet_auf": [],
+   "caption": "Niemand war bereit dafür 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
+   "yt_titel": "Niemand war bereit dafür | SidneyEweka #shorts",
+   "broadcaster_name": "SidneyEweka",
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5.mp4"
+  },
+  "HorribleBoldBobaTF2John-nPJDIXzGp511hjgG": {
+   "id": "HorribleBoldBobaTF2John-nPJDIXzGp511hjgG",
+   "seit": 1795713355.9364994,
+   "status": "warteschlange",
+   "streamer": "sidneyeweka",
+   "quelle": "fokus",
+   "titel": "sid bzh",
+   "url": "https://www.twitch.tv/sidneyeweka/clip/HorribleBoldBobaTF2John-nPJDIXzGp511hjgG",
+   "views": 5,
+   "score": 2.0,
+   "erstellt": "2026-11-26T15:16:21Z",
+   "aktualisiert": 1795713370.6510875,
+   "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_HorribleBoldBobaTF2John-nPJDIXzGp511hjgG.mp4",
+   "dauer": 10.750998,
+   "layout": "blur",
+   "transkript": "maximaler Beziehungsstufe haben mit ihr? ich einer Freundin? Ich habe meine erste Beziehung gerade. Oh! Hilfe!",
+   "gepostet_auf": [],
+   "caption": "Sid bzh 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
+   "yt_titel": "Sid bzh | SidneyEweka #shorts",
+   "broadcaster_name": "SidneyEweka",
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_HorribleBoldBobaTF2John-nPJDIXzGp511hjgG.mp4"
   }
  },
  "posts": [
@@ -4291,6 +4337,13 @@
    "ts": 1795708283.0935614,
    "ok": true,
    "id": "6b0855794e32cfdd2302c631"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "CovertThankfulStinkbugSaltBae-GfMrfW5T2AnjrFQH",
+   "ts": 1795713373.7198343,
+   "ok": true,
+   "id": "6b08695cc81617797dc9c6bd"
   }
  ],
  "hype": {},
