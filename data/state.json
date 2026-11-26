@@ -3146,7 +3146,7 @@
   "NaiveBloodyLlamaGOWSkull-KRZr8S7wE-oODGgx": {
    "id": "NaiveBloodyLlamaGOWSkull-KRZr8S7wE-oODGgx",
    "seit": 1795647732.0267532,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "Zerstöre den Atsteroides bevor er die Erde zerstört!  Später react und TCG!  Morgen geiles Special Opening! !ESN !Nobomi !Prepmymeal !Loco",
@@ -3154,12 +3154,14 @@
    "views": 242,
    "score": 69.14285714285714,
    "erstellt": "2026-11-25T19:07:26Z",
-   "aktualisiert": 1795647842.2693267,
+   "aktualisiert": 1795673135.4068959,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_NaiveBloodyLlamaGOWSkull-KRZr8S7wE-oODGgx.mp4",
    "dauer": 60.01,
    "layout": "blur",
    "transkript": "rein. würden uns das sagen, nehmen wir an, die wissen in 100 Tagen ist vorbei. Würden die das sagen oder würden das geheim halten? Gibt es da nicht den Film mit, wie heißt der, de Caprio? Ja, aber der ist ja so, alle sagen es passiert und die glauben nicht dran. Die machen so, ja, Labe halt und so. Ja. es gibt Film, wo sie es sagen und dann sozusagen die Leute dann durchdrehen und ja dann, dass er so sagt, dass die die Ökonomie zerbricht und Leute einfach anfangen zu klauen und so. Weil sagen, juckt ja eh nicht mehr. 438 haben wir mitgezogen, verkaufen, ja? Habt ihr schon? Also, wenn einer verkauft, dann verkauft, glaube ich, dann verkaufen wir alles. Ja, ja, klar. Wir hatten gerade Prachtraum 54 von 60 oder so, da waren wir fast vorhin. Ich sage, wir holen direkt den Vorsprachkammer. Mach. wir leisten. Mach den Hammer raus.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Zerstöre den Atsteroides bevor er die Erde zerstört! Später react und TCG! Morgen geiles Special Opening! !ESN !Nobomi !Prepmymeal !Loco 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Zerstöre den Atsteroides bevor er die Erde zerstört! Später react und TCG! Morg… | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -3761,6 +3763,13 @@
    "ts": 1795647918.22397,
    "ok": true,
    "id": "6b0769ad9f6dda31cca45696"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "NaiveBloodyLlamaGOWSkull-KRZr8S7wE-oODGgx",
+   "ts": 1795673135.4068816,
+   "ok": true,
+   "id": "6b07cc2e63939e1d007831d9"
   }
  ],
  "hype": {},
