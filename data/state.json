@@ -2918,7 +2918,7 @@
   "ManlyObliqueCockroachJonCarnage-ga703bl2QVpqlYlr": {
    "id": "ManlyObliqueCockroachJonCarnage-ga703bl2QVpqlYlr",
    "seit": 1795615650.127886,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "bb",
@@ -2926,7 +2926,7 @@
    "views": 66,
    "score": 7.764705882352941,
    "erstellt": "2026-11-23T16:18:11Z",
-   "aktualisiert": 1795615735.401764,
+   "aktualisiert": 1795659096.2181487,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_ManlyObliqueCockroachJonCarnage-ga703bl2QVpqlYlr.mp4",
    "dauer": 59.993267,
    "layout": "blur",
@@ -2935,7 +2935,8 @@
    "caption": "Was macht coachlim da?! 😂 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Was macht coachlim da?! 😂 | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_ManlyObliqueCockroachJonCarnage-ga703bl2QVpqlYlr.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_ManlyObliqueCockroachJonCarnage-ga703bl2QVpqlYlr.mp4",
+   "fehler": "zu alt"
   },
   "WonderfulApatheticTitanCclamChamp-OaaKJuhqxsrnMxGT": {
    "id": "WonderfulApatheticTitanCclamChamp-OaaKJuhqxsrnMxGT",
