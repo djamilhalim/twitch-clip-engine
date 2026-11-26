@@ -3173,7 +3173,7 @@
   "ObeseCorrectBaguetteFrankerZ-WrT9BjJ7V_xMm937": {
    "id": "ObeseCorrectBaguetteFrankerZ-WrT9BjJ7V_xMm937",
    "seit": 1795647842.2755046,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "marli dih",
@@ -3181,7 +3181,7 @@
    "views": 161,
    "score": 29.272727272727273,
    "erstellt": "2026-11-25T20:50:01Z",
-   "aktualisiert": 1795647860.4048462,
+   "aktualisiert": 1795691408.8363736,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_ObeseCorrectBaguetteFrankerZ-WrT9BjJ7V_xMm937.mp4",
    "dauer": 9.292617,
    "layout": "blur",
@@ -3190,12 +3190,13 @@
    "caption": "Marli dih 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Marli dih | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_ObeseCorrectBaguetteFrankerZ-WrT9BjJ7V_xMm937.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_ObeseCorrectBaguetteFrankerZ-WrT9BjJ7V_xMm937.mp4",
+   "fehler": "zu alt"
   },
   "PleasantCredulousFlyGOWSkull-uPzOsF1_3twuMxJO": {
    "id": "PleasantCredulousFlyGOWSkull-uPzOsF1_3twuMxJO",
    "seit": 1795647860.409651,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "a",
@@ -3203,7 +3204,7 @@
    "views": 70,
    "score": 15.555555555555555,
    "erstellt": "2026-11-25T18:13:20Z",
-   "aktualisiert": 1795647915.261499,
+   "aktualisiert": 1795691408.8363786,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_PleasantCredulousFlyGOWSkull-uPzOsF1_3twuMxJO.mp4",
    "dauer": 36.138,
    "layout": "blur",
@@ -3212,7 +3213,8 @@
    "caption": "Das war knapp… 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_PleasantCredulousFlyGOWSkull-uPzOsF1_3twuMxJO.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_PleasantCredulousFlyGOWSkull-uPzOsF1_3twuMxJO.mp4",
+   "fehler": "zu alt"
   },
   "InnocentExquisiteRabbitPMSTwin-FB0HfALIv3UTU7PY": {
    "id": "InnocentExquisiteRabbitPMSTwin-FB0HfALIv3UTU7PY",
