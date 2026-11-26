@@ -4065,6 +4065,30 @@
    "yt_titel": "Was macht marli da?! 😂 | marli #shorts",
    "broadcaster_name": "marli",
    "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_StupidVastSalamanderFeelsBadMan-Y9uXOn7KpnKGn6RG.mp4"
+  },
+  "PopularManlyAlmondJonCarnage-ot3gu7xOOI5WHSLK": {
+   "id": "PopularManlyAlmondJonCarnage-ot3gu7xOOI5WHSLK",
+   "seit": 1795718383.752,
+   "status": "gepostet",
+   "streamer": "marli",
+   "quelle": "fokus",
+   "titel": "Happy Thanksgiving iwie",
+   "url": "https://www.twitch.tv/marli/clip/PopularManlyAlmondJonCarnage-ot3gu7xOOI5WHSLK",
+   "views": 5,
+   "score": 2.0,
+   "erstellt": "2026-11-26T17:46:11Z",
+   "aktualisiert": 1795718457.913221,
+   "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_PopularManlyAlmondJonCarnage-ot3gu7xOOI5WHSLK.mp4",
+   "dauer": 60.01,
+   "layout": "blur",
+   "transkript": "eine dm's Bruder ich kriege oft wirklich sehr Diepe dm's Bruder ja sehr sehr diepe Bruder aber um mich soll es heute nicht gehen soll es heute nicht gehen dann allein oder wieder mal was mit ro kann auch sehr gerne mitmachen kann jeder gerne mitmachen also Ich hätte auf jeden sehr gerne heute den wie dabei ich habe coach auch gefragt aber coach kann nicht weil der spielt später da und noch so ein spiel ich weiß doch gar nicht wie lange dieses quiz geht heute hoffe das geht nicht zu lange es fängt 1930 an",
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
+   "caption": "Happy Thanksgiving iwie 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
+   "yt_titel": "Happy Thanksgiving iwie | marli #shorts",
+   "broadcaster_name": "marli",
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_PopularManlyAlmondJonCarnage-ot3gu7xOOI5WHSLK.mp4"
   }
  },
  "posts": [
@@ -4452,6 +4476,13 @@
    "ts": 1795717180.3204858,
    "ok": true,
    "id": "6b08783bc81617797dd0e94a"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "PopularManlyAlmondJonCarnage-ot3gu7xOOI5WHSLK",
+   "ts": 1795718457.9132047,
+   "ok": true,
+   "id": "6b087d389068b6e07955f5a0"
   }
  ],
  "hype": {},
