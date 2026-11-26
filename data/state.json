@@ -3819,7 +3819,7 @@
   "SparklingGiantRadicchioDerp-jzsVVtyHGS2mKmYr": {
    "id": "SparklingGiantRadicchioDerp-jzsVVtyHGS2mKmYr",
    "seit": 1795706923.6990352,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "HAHAHAH",
@@ -3827,12 +3827,14 @@
    "views": 82,
    "score": 9.11111111111111,
    "erstellt": "2026-11-25T18:57:32Z",
-   "aktualisiert": 1795706978.1794708,
+   "aktualisiert": 1795714581.2870302,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_SparklingGiantRadicchioDerp-jzsVVtyHGS2mKmYr.mp4",
    "dauer": 54.634,
    "layout": "blur",
    "transkript": "Erfolg von Walter White beruht darauf, dass er ja, er hatte ein ... ... Produkt. Oder weil es auch eine Serie ist. Ja, aber ich sage, es gibt jeden Scheiß auf der Welt. So was wie Breaking Bad gibt es zu 100 % auf der Welt. Wir kriegen es nur nicht mit logischerweise. cool",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "eliasn97 rastet komplett aus 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "eliasn97 rastet komplett aus | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -4344,6 +4346,13 @@
    "ts": 1795713373.7198343,
    "ok": true,
    "id": "6b08695cc81617797dc9c6bd"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "SparklingGiantRadicchioDerp-jzsVVtyHGS2mKmYr",
+   "ts": 1795714581.2870142,
+   "ok": true,
+   "id": "6b086e14c81617797dcbd8a7"
   }
  ],
  "hype": {},
