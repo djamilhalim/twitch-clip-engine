@@ -4684,7 +4684,7 @@
   "StormySuspiciousHareRuleFive-xc8Dg7aQCM6VUzAY": {
    "id": "StormySuspiciousHareRuleFive-xc8Dg7aQCM6VUzAY",
    "seit": 1795780085.1637762,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "rohat mistkerl",
@@ -4692,12 +4692,14 @@
    "views": 74,
    "score": 8.222222222222221,
    "erstellt": "2026-11-26T18:18:05Z",
-   "aktualisiert": 1795780131.1311815,
+   "aktualisiert": 1795790534.2725887,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_StormySuspiciousHareRuleFive-xc8Dg7aQCM6VUzAY.mp4",
    "dauer": 29.166667,
    "layout": "blur",
    "transkript": "ich Fleisch essen kann. Ich bin seit acht Jahren vegetarisch und so was gibt mir persönlich richtig nahe. Ich lieb meine Mama auch, obwohl sie Fleisch ist und so. Checkt ihr ist trotzdem so schrecklich. Guck mal, Road, herrst du ein Miske? höre Road ist ein Miskele Road ist ein Miskele. Ich lieb meine Mama auch. Ich kann es halt gar nicht nachvollziehen. Hört auf zu lachen. Tazos ist ein bester Mod.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Rohat mistkerl 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Rohat mistkerl | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -5422,6 +5424,13 @@
    "ts": 1795788114.3472426,
    "ok": true,
    "id": "6b098d48015034238d2f67f7"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "StormySuspiciousHareRuleFive-xc8Dg7aQCM6VUzAY",
+   "ts": 1795790534.2725735,
+   "ok": true,
+   "id": "6b0996bbbb117e5ba753ec0f"
   }
  ],
  "hype": {},
