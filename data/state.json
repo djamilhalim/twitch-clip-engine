@@ -4156,7 +4156,7 @@
   "WimpySpineyCormorantPanicVis-dEG3cHyNHPgahJxI": {
    "id": "WimpySpineyCormorantPanicVis-dEG3cHyNHPgahJxI",
    "seit": 1795728203.0864775,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "mert crashout",
@@ -4164,7 +4164,7 @@
    "views": 12,
    "score": 2.4,
    "erstellt": "2026-11-26T20:26:13Z",
-   "aktualisiert": 1795728262.2121334,
+   "aktualisiert": 1795771541.1663127,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_WimpySpineyCormorantPanicVis-dEG3cHyNHPgahJxI.mp4",
    "dauer": 52.108,
    "layout": "blur",
@@ -4173,7 +4173,8 @@
    "caption": "Mert crashout 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Mert crashout | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_WimpySpineyCormorantPanicVis-dEG3cHyNHPgahJxI.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_WimpySpineyCormorantPanicVis-dEG3cHyNHPgahJxI.mp4",
+   "fehler": "zu alt"
   },
   "EnchantingLightHornetCeilingCat-zTE5dl7kRW4w5CsP": {
    "id": "EnchantingLightHornetCeilingCat-zTE5dl7kRW4w5CsP",
