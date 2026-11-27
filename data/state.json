@@ -5128,7 +5128,7 @@
   "HelplessDaintyMangoUWot-W7iWT9r0uSKDX2uD": {
    "id": "HelplessDaintyMangoUWot-W7iWT9r0uSKDX2uD",
    "seit": 1795805425.775487,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "trymacs props an hunde",
@@ -5136,12 +5136,14 @@
    "views": 36,
    "score": 14.4,
    "erstellt": "2026-11-26T19:56:00Z",
-   "aktualisiert": 1795805446.3315616,
+   "aktualisiert": 1795806826.9316862,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_HelplessDaintyMangoUWot-W7iWT9r0uSKDX2uD.mp4",
    "dauer": 15.125,
    "layout": "blur",
    "transkript": "sind toll, dass er das Hund das mitmacht, das ist einfach fantastisch. Erstmal da reinlehnen, würden schon viele Hunde nicht machen. Dann eine Sonnenbrille aufsetzen würde er nicht machen. Und dann noch schaukeln, der bleibt immer noch ruhig. Super, ganz toll.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Trymacs props an hunde 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Trymacs props an hunde | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -5746,6 +5748,13 @@
    "ts": 1795804222.0370765,
    "ok": true,
    "id": "6b09cc3b77ae85b658515bfa"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "HelplessDaintyMangoUWot-W7iWT9r0uSKDX2uD",
+   "ts": 1795806826.931669,
+   "ok": true,
+   "id": "6b09d660e19dcd08fbf39f7d"
   }
  ],
  "hype": {},
