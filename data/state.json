@@ -5053,7 +5053,7 @@
   "InterestingSpinelessGnatPartyTime-9K5MGbPI5Uad0VJc": {
    "id": "InterestingSpinelessGnatPartyTime-9K5MGbPI5Uad0VJc",
    "seit": 1795796814.2679996,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "hsbbs",
@@ -5061,12 +5061,14 @@
    "views": 27,
    "score": 6.75,
    "erstellt": "2026-11-26T18:29:44Z",
-   "aktualisiert": 1795796851.1722183,
+   "aktualisiert": 1795801802.619981,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_InterestingSpinelessGnatPartyTime-9K5MGbPI5Uad0VJc.mp4",
    "dauer": 30.016,
    "layout": "blur",
    "transkript": "Wie lange ist Demo? Wie lange? Und wie lange existiert die Demo? So verrückt, Leute. Der Demo zeigt sich, aber auch spottet er über euch. Meine Lieben, merkt ihr das nicht? Ihr geht verloren. Die geistige Welt ist real. Satan ist real, meine Lieben. Ich sage es euch, Satan existiert wirklich. Da seht ihr das denn nicht?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "marli kann nicht mehr 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "marli kann nicht mehr | marli #shorts",
    "broadcaster_name": "marli",
@@ -5628,6 +5630,13 @@
    "ts": 1795799392.060338,
    "ok": true,
    "id": "6b09b95bc4601a35669cdd28"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "InterestingSpinelessGnatPartyTime-9K5MGbPI5Uad0VJc",
+   "ts": 1795801802.619965,
+   "ok": true,
+   "id": "6b09c2c8c4601a3566a1e56f"
   }
  ],
  "hype": {},
