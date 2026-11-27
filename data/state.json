@@ -3945,7 +3945,7 @@
   "ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5": {
    "id": "ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5",
    "seit": 1795713321.518107,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "WWE",
@@ -3953,7 +3953,7 @@
    "views": 5,
    "score": 2.0,
    "erstellt": "2026-11-26T16:07:37Z",
-   "aktualisiert": 1795713355.9323375,
+   "aktualisiert": 1795756739.9468994,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5.mp4",
    "dauer": 24.218005,
    "layout": "blur",
@@ -3962,12 +3962,13 @@
    "caption": "Niemand war bereit dafür 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Niemand war bereit dafür | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5.mp4",
+   "fehler": "zu alt"
   },
   "HorribleBoldBobaTF2John-nPJDIXzGp511hjgG": {
    "id": "HorribleBoldBobaTF2John-nPJDIXzGp511hjgG",
    "seit": 1795713355.9364994,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "sid bzh",
@@ -3975,7 +3976,7 @@
    "views": 5,
    "score": 2.0,
    "erstellt": "2026-11-26T15:16:21Z",
-   "aktualisiert": 1795713370.6510875,
+   "aktualisiert": 1795756739.9469035,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_HorribleBoldBobaTF2John-nPJDIXzGp511hjgG.mp4",
    "dauer": 10.750998,
    "layout": "blur",
@@ -3984,7 +3985,8 @@
    "caption": "Sid bzh 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Sid bzh | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_HorribleBoldBobaTF2John-nPJDIXzGp511hjgG.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_HorribleBoldBobaTF2John-nPJDIXzGp511hjgG.mp4",
+   "fehler": "zu alt"
   },
   "HumbleBelovedGuanacoTwitchRPG-5kv_cjlK44MhBt2G": {
    "id": "HumbleBelovedGuanacoTwitchRPG-5kv_cjlK44MhBt2G",
