@@ -4585,7 +4585,7 @@
   "AuspiciousSmoothGiraffeTooSpicy-Jt9hle-Rbs9dz227": {
    "id": "AuspiciousSmoothGiraffeTooSpicy-Jt9hle-Rbs9dz227",
    "seit": 1795766615.8981826,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "hahahahaha",
@@ -4593,12 +4593,14 @@
    "views": 57,
    "score": 5.181818181818182,
    "erstellt": "2026-11-26T21:00:45Z",
-   "aktualisiert": 1795766649.1086984,
+   "aktualisiert": 1795776437.088489,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_AuspiciousSmoothGiraffeTooSpicy-Jt9hle-Rbs9dz227.mp4",
    "dauer": 30.016,
    "layout": "blur",
    "transkript": "Papa stop!",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "mertabimula rastet komplett aus 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "mertabimula rastet komplett aus | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
@@ -5097,6 +5099,13 @@
    "ts": 1795770338.429813,
    "ok": true,
    "id": "6b0947d8e94385a8fd8d5c46"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "AuspiciousSmoothGiraffeTooSpicy-Jt9hle-Rbs9dz227",
+   "ts": 1795776437.088472,
+   "ok": true,
+   "id": "6b095faa049983dcfbaf388b"
   }
  ],
  "hype": {},
