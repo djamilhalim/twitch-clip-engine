@@ -4939,7 +4939,7 @@
   "BrainyExpensiveHumanDeIlluminati-1LQBpHhfg1FjlgDE": {
    "id": "BrainyExpensiveHumanDeIlluminati-1LQBpHhfg1FjlgDE",
    "seit": 1795791739.5819318,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "whatsefuck",
@@ -4947,12 +4947,14 @@
    "views": 12,
    "score": 4.8,
    "erstellt": "2026-11-26T17:44:15Z",
-   "aktualisiert": 1795791769.4410274,
+   "aktualisiert": 1795804222.03709,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_BrainyExpensiveHumanDeIlluminati-1LQBpHhfg1FjlgDE.mp4",
    "dauer": 17.112993,
    "layout": "blur",
    "transkript": "Sprint Sauce.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Der Chat ist tot 💀 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Der Chat ist tot 💀 | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
@@ -5646,6 +5648,13 @@
    "ts": 1795803014.6394053,
    "ok": true,
    "id": "6b09c780f34d25de1e37469f"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "BrainyExpensiveHumanDeIlluminati-1LQBpHhfg1FjlgDE",
+   "ts": 1795804222.0370765,
+   "ok": true,
+   "id": "6b09cc3b77ae85b658515bfa"
   }
  ],
  "hype": {},
