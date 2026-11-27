@@ -4227,7 +4227,7 @@
   "FragileObservantEggBIRB-JytPty0D4HuvPQKF": {
    "id": "FragileObservantEggBIRB-JytPty0D4HuvPQKF",
    "seit": 1795734465.769087,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "Mert Crashout",
@@ -4235,7 +4235,7 @@
    "views": 159,
    "score": 28.90909090909091,
    "erstellt": "2026-11-26T21:00:53Z",
-   "aktualisiert": 1795734535.5778997,
+   "aktualisiert": 1795778843.064494,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_FragileObservantEggBIRB-JytPty0D4HuvPQKF.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -4244,12 +4244,13 @@
    "caption": "Mert Crashout 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Mert Crashout | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_FragileObservantEggBIRB-JytPty0D4HuvPQKF.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_FragileObservantEggBIRB-JytPty0D4HuvPQKF.mp4",
+   "fehler": "zu alt"
   },
   "RefinedRamshackleWaspOhMyDog-Vsu-Q8z7MEY7a3w7": {
    "id": "RefinedRamshackleWaspOhMyDog-Vsu-Q8z7MEY7a3w7",
    "seit": 1795734535.5822012,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "3",
@@ -4257,7 +4258,7 @@
    "views": 103,
    "score": 17.166666666666668,
    "erstellt": "2026-11-26T01:01:21Z",
-   "aktualisiert": 1795734603.1455038,
+   "aktualisiert": 1795778843.0644982,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_RefinedRamshackleWaspOhMyDog-Vsu-Q8z7MEY7a3w7.mp4",
    "dauer": 57.28,
    "layout": "blur",
@@ -4266,12 +4267,13 @@
    "caption": "coachlim rastet komplett aus 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "coachlim rastet komplett aus | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_RefinedRamshackleWaspOhMyDog-Vsu-Q8z7MEY7a3w7.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_RefinedRamshackleWaspOhMyDog-Vsu-Q8z7MEY7a3w7.mp4",
+   "fehler": "zu alt"
   },
   "GlutenFreeCorrectTapirKappa-5clXLHA_7s6JptMU": {
    "id": "GlutenFreeCorrectTapirKappa-5clXLHA_7s6JptMU",
    "seit": 1795734603.1504886,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "10 Glurak UPCs Special Opening!  21 Uhr Crack the Egg! !ESN !Nobomi !Prepmymeal !Loco",
@@ -4279,7 +4281,7 @@
    "views": 53,
    "score": 15.142857142857142,
    "erstellt": "2026-11-26T17:34:48Z",
-   "aktualisiert": 1795734640.9899533,
+   "aktualisiert": 1795778843.0645008,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_GlutenFreeCorrectTapirKappa-5clXLHA_7s6JptMU.mp4",
    "dauer": 30.016,
    "layout": "blur",
@@ -4288,7 +4290,8 @@
    "caption": "10 Glurak UPCs Special Opening! 21 Uhr Crack the Egg! !ESN !Nobomi !Prepmymeal !Loco 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "10 Glurak UPCs Special Opening! 21 Uhr Crack the Egg! !ESN !Nobomi !Prepmymeal… | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_GlutenFreeCorrectTapirKappa-5clXLHA_7s6JptMU.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_GlutenFreeCorrectTapirKappa-5clXLHA_7s6JptMU.mp4",
+   "fehler": "zu alt"
   },
   "AnimatedGoldenChimpanzeeChocolateRain-gpRj4ncY7galmt7A": {
    "id": "AnimatedGoldenChimpanzeeChocolateRain-gpRj4ncY7galmt7A",
