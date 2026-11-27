@@ -5077,7 +5077,7 @@
   "PerfectDrabPizzaKAPOW-mh18o5uadKKoFlHH": {
    "id": "PerfectDrabPizzaKAPOW-mh18o5uadKKoFlHH",
    "seit": 1795796851.1766346,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "mr 2",
@@ -5085,12 +5085,14 @@
    "views": 54,
    "score": 3.6,
    "erstellt": "2026-11-26T20:48:12Z",
-   "aktualisiert": 1795796914.676768,
+   "aktualisiert": 1795803014.639419,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_PerfectDrabPizzaKAPOW-mh18o5uadKKoFlHH.mp4",
    "dauer": 58.538,
    "layout": "blur",
    "transkript": "Alter, Alter. die Runde wäre eine Minute, einfach, eine Minute, hat uns gefickt. Das wäre so ein legendären Clip gewesen, Mann! Fuck! Bruder Wallachat, ja, das fucked up, ja, ich schwöre dir vor allem Maus und Jussuf.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "mertabimula kann nicht mehr 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "mertabimula kann nicht mehr | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
@@ -5637,6 +5639,13 @@
    "ts": 1795801802.619965,
    "ok": true,
    "id": "6b09c2c8c4601a3566a1e56f"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "PerfectDrabPizzaKAPOW-mh18o5uadKKoFlHH",
+   "ts": 1795803014.6394053,
+   "ok": true,
+   "id": "6b09c780f34d25de1e37469f"
   }
  ],
  "hype": {},
