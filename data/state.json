@@ -4109,7 +4109,7 @@
   "SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh": {
    "id": "SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh",
    "seit": 1795719662.0131106,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "s",
@@ -4117,7 +4117,7 @@
    "views": 6,
    "score": 2.4,
    "erstellt": "2026-11-26T17:52:39Z",
-   "aktualisiert": 1795719712.2341113,
+   "aktualisiert": 1795762967.5031269,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh.mp4",
    "dauer": 39.626,
    "layout": "blur",
@@ -4126,7 +4126,8 @@
    "caption": "marli rastet komplett aus 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "marli rastet komplett aus | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_SpoopyOriginalTurtleNomNom-q2FxN9dJq5KHogSh.mp4",
+   "fehler": "zu alt"
   },
   "QuaintMuddyLettuceJebaited-BaYSyKs6Eg5eDVYt": {
    "id": "QuaintMuddyLettuceJebaited-BaYSyKs6Eg5eDVYt",
