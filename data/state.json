@@ -5290,7 +5290,7 @@
   "ComfortableCourageousJaguarTwitchRaid-EXnPGf828Nw9a3EN": {
    "id": "ComfortableCourageousJaguarTwitchRaid-EXnPGf828Nw9a3EN",
    "seit": 1795811788.384951,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "hallo",
@@ -5298,12 +5298,14 @@
    "views": 28,
    "score": 5.090909090909091,
    "erstellt": "2026-11-26T19:01:11Z",
-   "aktualisiert": 1795811823.982837,
+   "aktualisiert": 1795815546.1570058,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_ComfortableCourageousJaguarTwitchRaid-EXnPGf828Nw9a3EN.mp4",
    "dauer": 29.996633,
    "layout": "blur",
    "transkript": "",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "coachlim eskaliert komplett 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "coachlim eskaliert komplett | coachlim #shorts",
    "broadcaster_name": "coachlim",
@@ -5885,6 +5887,13 @@
    "ts": 1795810584.883624,
    "ok": true,
    "id": "6b09e50eb5cd052fe28ab756"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "ComfortableCourageousJaguarTwitchRaid-EXnPGf828Nw9a3EN",
+   "ts": 1795815546.15699,
+   "ok": true,
+   "id": "6b09f86f585cafb820e388fe"
   }
  ],
  "hype": {},
