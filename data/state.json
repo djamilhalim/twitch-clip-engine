@@ -4039,7 +4039,7 @@
   "AmusedTolerantGoblinBibleThump-4-PVY8X5ud11QVWP": {
    "id": "AmusedTolerantGoblinBibleThump-4-PVY8X5ud11QVWP",
    "seit": 1795717073.960097,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "kaufen kaufen kaufen",
@@ -4047,7 +4047,7 @@
    "views": 5,
    "score": 2.0,
    "erstellt": "2026-11-26T17:52:49Z",
-   "aktualisiert": 1795717138.8566852,
+   "aktualisiert": 1795760347.652946,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_AmusedTolerantGoblinBibleThump-4-PVY8X5ud11QVWP.mp4",
    "dauer": 52.33,
    "layout": "blur",
@@ -4056,12 +4056,13 @@
    "caption": "Kaufen kaufen kaufen 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Kaufen kaufen kaufen | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_AmusedTolerantGoblinBibleThump-4-PVY8X5ud11QVWP.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_AmusedTolerantGoblinBibleThump-4-PVY8X5ud11QVWP.mp4",
+   "fehler": "zu alt"
   },
   "StupidVastSalamanderFeelsBadMan-Y9uXOn7KpnKGn6RG": {
    "id": "StupidVastSalamanderFeelsBadMan-Y9uXOn7KpnKGn6RG",
    "seit": 1795717138.860884,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "wieso",
@@ -4069,7 +4070,7 @@
    "views": 5,
    "score": 2.0,
    "erstellt": "2026-11-26T17:44:44Z",
-   "aktualisiert": 1795717177.4598715,
+   "aktualisiert": 1795760347.65295,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_StupidVastSalamanderFeelsBadMan-Y9uXOn7KpnKGn6RG.mp4",
    "dauer": 30.016,
    "layout": "blur",
@@ -4078,7 +4079,8 @@
    "caption": "Was macht marli da?! 😂 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Was macht marli da?! 😂 | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_StupidVastSalamanderFeelsBadMan-Y9uXOn7KpnKGn6RG.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_StupidVastSalamanderFeelsBadMan-Y9uXOn7KpnKGn6RG.mp4",
+   "fehler": "zu alt"
   },
   "PopularManlyAlmondJonCarnage-ot3gu7xOOI5WHSLK": {
    "id": "PopularManlyAlmondJonCarnage-ot3gu7xOOI5WHSLK",
@@ -4377,7 +4379,7 @@
   "SnappyBlushingHyenaAllenHuhu-mjY9rIL96XXLQW7w": {
    "id": "SnappyBlushingHyenaAllenHuhu-mjY9rIL96XXLQW7w",
    "seit": 1795751723.617969,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "cult",
@@ -4385,12 +4387,14 @@
    "views": 31,
    "score": 12.4,
    "erstellt": "2026-11-26T18:22:34Z",
-   "aktualisiert": 1795751797.7967653,
+   "aktualisiert": 1795760359.765158,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_SnappyBlushingHyenaAllenHuhu-mjY9rIL96XXLQW7w.mp4",
    "dauer": 60.01,
    "layout": "blur",
    "transkript": "Ja, okay, ich sag jetzt, wenn ist. Guck mal, wir waren bei einem Punkt, dem Teufel. Okay. Ja, ich sag jetzt, wer meine Luge drin ist. Okay? Ja. Guck mal, der Anführer von unserer Luge ist Tom Bohne. Sagt das was? ist Universal Chef. Dann Bill Kaulitz. Ali Boumayer. Anna Maria wir haben noch Sido. Madonna. Katy Perry. Bro, was glaubst du, warum ich ein Song hab, der 20 Millionen Streams hat? Obwohl ich nicht mal für Musik. Weißt du, das ist alles interlinked. Aber unser Anführer, soll ich dir sagen, wer der Logenanführer ist? Tim .O.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "marli rastet komplett aus 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "marli rastet komplett aus | marli #shorts",
    "broadcaster_name": "marli",
@@ -4890,6 +4894,13 @@
    "ts": 1795734652.990303,
    "ok": true,
    "id": "6b08bc729131f7416c53faf1"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "SnappyBlushingHyenaAllenHuhu-mjY9rIL96XXLQW7w",
+   "ts": 1795760359.7651432,
+   "ok": true,
+   "id": "6b0920dd776ce21276eff696"
   }
  ],
  "hype": {},
