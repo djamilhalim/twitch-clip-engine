@@ -4514,7 +4514,7 @@
   "PluckyCleanTortoisePupper-lJwiNiObte57xH-d": {
    "id": "PluckyCleanTortoisePupper-lJwiNiObte57xH-d",
    "seit": 1795761637.5208914,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "Sidney GTA6 crash",
@@ -4522,12 +4522,14 @@
    "views": 18,
    "score": 7.2,
    "erstellt": "2026-11-26T16:37:59Z",
-   "aktualisiert": 1795761707.949424,
+   "aktualisiert": 1795765385.0446591,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_PluckyCleanTortoisePupper-lJwiNiObte57xH-d.mp4",
    "dauer": 60.0,
    "layout": "blur",
    "transkript": "the left. Downtown. Yes! Kein Problem Landet bin Spider -Man. Guck, und das wäre auch echt passiert, Leute. we can still catch up. You too far behind, eh? glaub. Just meet us outside the hotel. Catchpad?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Sidney GTA6 crash 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Sidney GTA6 crash | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
@@ -4990,6 +4992,13 @@
    "ts": 1795760359.7651432,
    "ok": true,
    "id": "6b0920dd776ce21276eff696"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "PluckyCleanTortoisePupper-lJwiNiObte57xH-d",
+   "ts": 1795765385.0446446,
+   "ok": true,
+   "id": "6b09347ee94385a8fd8475fc"
   }
  ],
  "hype": {},
