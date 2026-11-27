@@ -5029,7 +5029,7 @@
   "GiftedPlayfulTermiteHeyGirl-tNkHmW2UzeMuuKJp": {
    "id": "GiftedPlayfulTermiteHeyGirl-tNkHmW2UzeMuuKJp",
    "seit": 1795796742.7645352,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "tim dämon",
@@ -5037,12 +5037,14 @@
    "views": 29,
    "score": 7.25,
    "erstellt": "2026-11-26T18:23:35Z",
-   "aktualisiert": 1795796814.263407,
+   "aktualisiert": 1795799392.0603533,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_GiftedPlayfulTermiteHeyGirl-tNkHmW2UzeMuuKJp.mp4",
    "dauer": 60.01,
    "layout": "blur",
    "transkript": "geht gerade mich rein. mal die Augen an, Guckt euch mal die Augen an. Guckt euch mal die... Das ist so brutal. Leute, guckt euch mal an, wie dämonisch besessen das ist. Guckt euch das an, nehmt das mal auf, meine Lieben. Nehmt das mal alle auf. Der ist komplett weg. Der Demo hat ihn komplett übernommen. bin wieder da. habt ihr das gesehen? Ist das geil.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Tim dämon 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Tim dämon | marli #shorts",
    "broadcaster_name": "marli",
@@ -5619,6 +5621,13 @@
    "ts": 1795794334.904754,
    "ok": true,
    "id": "6b09a59432c212878fe1debc"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "GiftedPlayfulTermiteHeyGirl-tNkHmW2UzeMuuKJp",
+   "ts": 1795799392.060338,
+   "ok": true,
+   "id": "6b09b95bc4601a35669cdd28"
   }
  ],
  "hype": {},
