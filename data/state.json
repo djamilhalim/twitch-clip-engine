@@ -3852,7 +3852,7 @@
   "MoralDarlingShrewCoolStoryBob-8nf_vstCtLfP7jj7": {
    "id": "MoralDarlingShrewCoolStoryBob-8nf_vstCtLfP7jj7",
    "seit": 1795706978.182908,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "1",
@@ -3860,7 +3860,7 @@
    "views": 59,
    "score": 7.866666666666666,
    "erstellt": "2026-11-25T16:08:58Z",
-   "aktualisiert": 1795707041.6506255,
+   "aktualisiert": 1795750476.2492726,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_MoralDarlingShrewCoolStoryBob-8nf_vstCtLfP7jj7.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -3869,7 +3869,8 @@
    "caption": "Das war knapp… 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_MoralDarlingShrewCoolStoryBob-8nf_vstCtLfP7jj7.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_MoralDarlingShrewCoolStoryBob-8nf_vstCtLfP7jj7.mp4",
+   "fehler": "zu alt"
   },
   "AmorphousToughHummingbirdChocolateRain-QwWpWEZpydbzo5yF": {
    "id": "AmorphousToughHummingbirdChocolateRain-QwWpWEZpydbzo5yF",
