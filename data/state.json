@@ -4864,7 +4864,7 @@
   "LitigiousPhilanthropicAnacondaCoolStoryBro-Vib76ErEEhno3InU": {
    "id": "LitigiousPhilanthropicAnacondaCoolStoryBro-Vib76ErEEhno3InU",
    "seit": 1795784263.033372,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "papaplatte",
    "quelle": "fokus",
    "titel": "lol",
@@ -4872,12 +4872,14 @@
    "views": 41,
    "score": 4.1,
    "erstellt": "2026-11-25T17:19:57Z",
-   "aktualisiert": 1795784317.1714957,
+   "aktualisiert": 1795786897.9058635,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/papaplatte_LitigiousPhilanthropicAnacondaCoolStoryBro-Vib76ErEEhno3InU.mp4",
    "dauer": 30.0,
    "layout": "blur",
    "transkript": "Ansonsten alles geil. right. Du wirkst wie so 40 Frauen, die alles außerrichtigen Sport machen, aber dafür mit so crazy Gadgets herum spielen. Ja, nur mit dem fucking Twist, Bro, dass ich, wenn ich diese Gadgets nicht hab, ersticke im Schlaf. Hallo. Ich bin keine Frau, die in LA wohnt, Bro. Und dann für 150 Euro pro Stunde diese Übung gemacht, wo man so an so einem Bungie -Seile hängt und dann immer so nach vorn springt und dann so checkt ihr. Ich digga, ich muss das machen.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Papaplatte eskaliert komplett 😂\n🎥 Papaplatte live auf twitch.tv/papaplatte\n#Papaplatte #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Papaplatte eskaliert komplett | Papaplatte #shorts",
    "broadcaster_name": "Papaplatte",
@@ -5404,6 +5406,13 @@
    "ts": 1795784478.9262846,
    "ok": true,
    "id": "6b097f14e94385a8fda6d6ed"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "LitigiousPhilanthropicAnacondaCoolStoryBro-Vib76ErEEhno3InU",
+   "ts": 1795786897.9058483,
+   "ok": true,
+   "id": "6b098887015034238d2d24a1"
   }
  ],
  "hype": {},
