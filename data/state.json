@@ -3757,7 +3757,7 @@
   "PiliableSlickWatercressPeteZaroll-ZYCrTOC3XZ0u21Nr": {
    "id": "PiliableSlickWatercressPeteZaroll-ZYCrTOC3XZ0u21Nr",
    "seit": 1795700694.065841,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "w",
@@ -3765,7 +3765,7 @@
    "views": 80,
    "score": 10.0,
    "erstellt": "2026-11-25T19:50:10Z",
-   "aktualisiert": 1795700787.1850033,
+   "aktualisiert": 1795744462.5321603,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_PiliableSlickWatercressPeteZaroll-ZYCrTOC3XZ0u21Nr.mp4",
    "dauer": 59.00895,
    "layout": "blur",
@@ -3774,7 +3774,8 @@
    "caption": "Der Chat ist tot 💀 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Der Chat ist tot 💀 | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_PiliableSlickWatercressPeteZaroll-ZYCrTOC3XZ0u21Nr.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_PiliableSlickWatercressPeteZaroll-ZYCrTOC3XZ0u21Nr.mp4",
+   "fehler": "zu alt"
   },
   "LittleHardTroutRuleFive-ZhHfnmcN1CRkk5R5": {
    "id": "LittleHardTroutRuleFive-ZhHfnmcN1CRkk5R5",
