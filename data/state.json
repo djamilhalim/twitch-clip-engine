@@ -3875,7 +3875,7 @@
   "AmorphousToughHummingbirdChocolateRain-QwWpWEZpydbzo5yF": {
    "id": "AmorphousToughHummingbirdChocolateRain-QwWpWEZpydbzo5yF",
    "seit": 1795708246.5186574,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "haha",
@@ -3883,7 +3883,7 @@
    "views": 10,
    "score": 1.4285714285714286,
    "erstellt": "2026-11-24T23:23:55Z",
-   "aktualisiert": 1795708280.0248587,
+   "aktualisiert": 1795751680.402648,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_AmorphousToughHummingbirdChocolateRain-QwWpWEZpydbzo5yF.mp4",
    "dauer": 30.016,
    "layout": "blur",
@@ -3892,7 +3892,8 @@
    "caption": "Der Chat ist tot 💀 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Der Chat ist tot 💀 | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_AmorphousToughHummingbirdChocolateRain-QwWpWEZpydbzo5yF.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_AmorphousToughHummingbirdChocolateRain-QwWpWEZpydbzo5yF.mp4",
+   "fehler": "zu alt"
   },
   "CovertThankfulStinkbugSaltBae-GfMrfW5T2AnjrFQH": {
    "id": "CovertThankfulStinkbugSaltBae-GfMrfW5T2AnjrFQH",
