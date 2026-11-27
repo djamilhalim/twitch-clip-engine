@@ -5002,7 +5002,7 @@
   "AnimatedLitigiousLeopardVoHiYo-QM-U72fG9sz6DMg8": {
    "id": "AnimatedLitigiousLeopardVoHiYo-QM-U72fG9sz6DMg8",
    "seit": 1795791825.814298,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "uf hahaha",
@@ -5010,12 +5010,14 @@
    "views": 10,
    "score": 4.0,
    "erstellt": "2026-11-26T18:02:50Z",
-   "aktualisiert": 1795791874.0599666,
+   "aktualisiert": 1795794334.904769,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_AnimatedLitigiousLeopardVoHiYo-QM-U72fG9sz6DMg8.mp4",
    "dauer": 30.0,
    "layout": "blur",
    "transkript": "habe das hier mit meinem Loco drauf. Gute. Auch ich. Aber die würde ich nicht an die Wand machen. Dann habe ich das hier. Das finde ich sehr nice. Sehr nice. Und mein Liebling ist das hier. Das ist mein Liebling. Schön, oder?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "AliBumayeTV rastet komplett aus 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "AliBumayeTV rastet komplett aus | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
@@ -5519,6 +5521,13 @@
    "ts": 1795790534.2725735,
    "ok": true,
    "id": "6b0996bbbb117e5ba753ec0f"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "AnimatedLitigiousLeopardVoHiYo-QM-U72fG9sz6DMg8",
+   "ts": 1795794334.904754,
+   "ok": true,
+   "id": "6b09a59432c212878fe1debc"
   }
  ],
  "hype": {},
