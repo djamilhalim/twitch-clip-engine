@@ -4296,7 +4296,7 @@
   "AnimatedGoldenChimpanzeeChocolateRain-gpRj4ncY7galmt7A": {
    "id": "AnimatedGoldenChimpanzeeChocolateRain-gpRj4ncY7galmt7A",
    "seit": 1795737061.582378,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "nö nö",
@@ -4304,7 +4304,7 @@
    "views": 54,
    "score": 15.428571428571429,
    "erstellt": "2026-11-26T17:02:12Z",
-   "aktualisiert": 1795737084.2004628,
+   "aktualisiert": 1795781447.2660894,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_AnimatedGoldenChimpanzeeChocolateRain-gpRj4ncY7galmt7A.mp4",
    "dauer": 14.833333,
    "layout": "blur",
@@ -4313,12 +4313,13 @@
    "caption": "Das war knapp… 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_AnimatedGoldenChimpanzeeChocolateRain-gpRj4ncY7galmt7A.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_AnimatedGoldenChimpanzeeChocolateRain-gpRj4ncY7galmt7A.mp4",
+   "fehler": "zu alt"
   },
   "TransparentColdWrenchDeIlluminati-ey3Qw_n8ec5lQlBf": {
    "id": "TransparentColdWrenchDeIlluminati-ey3Qw_n8ec5lQlBf",
    "seit": 1795737084.2050169,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "alles gef",
@@ -4326,7 +4327,7 @@
    "views": 78,
    "score": 14.181818181818182,
    "erstellt": "2026-11-25T22:46:56Z",
-   "aktualisiert": 1795737111.5839703,
+   "aktualisiert": 1795781447.266095,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_TransparentColdWrenchDeIlluminati-ey3Qw_n8ec5lQlBf.mp4",
    "dauer": 22.506,
    "layout": "blur",
@@ -4335,12 +4336,13 @@
    "caption": "Alles gef 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Alles gef | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_TransparentColdWrenchDeIlluminati-ey3Qw_n8ec5lQlBf.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_TransparentColdWrenchDeIlluminati-ey3Qw_n8ec5lQlBf.mp4",
+   "fehler": "zu alt"
   },
   "ShakingWimpyWasabiLitFam-ZqaA-iPTtHx9U0JN": {
    "id": "ShakingWimpyWasabiLitFam-ZqaA-iPTtHx9U0JN",
    "seit": 1795737111.588444,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "Was macht Trymacs DA?! 💀😂",
@@ -4348,7 +4350,7 @@
    "views": 35,
    "score": 10.0,
    "erstellt": "2026-11-26T17:47:59Z",
-   "aktualisiert": 1795737185.5466278,
+   "aktualisiert": 1795781447.2660985,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_ShakingWimpyWasabiLitFam-ZqaA-iPTtHx9U0JN.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -4357,12 +4359,13 @@
    "caption": "Was macht Trymacs DA?! 💀😂 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Was macht Trymacs DA?! 💀😂 | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_ShakingWimpyWasabiLitFam-ZqaA-iPTtHx9U0JN.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/trymacs_ShakingWimpyWasabiLitFam-ZqaA-iPTtHx9U0JN.mp4",
+   "fehler": "zu alt"
   },
   "SincereStrongPineappleSquadGoals-_c9Aw5rD7bPr-as2": {
    "id": "SincereStrongPineappleSquadGoals-_c9Aw5rD7bPr-as2",
    "seit": 1795737185.5510435,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "knossi ruft rohat an😂😂",
@@ -4370,7 +4373,7 @@
    "views": 89,
    "score": 9.88888888888889,
    "erstellt": "2026-11-25T20:48:00Z",
-   "aktualisiert": 1795737244.728685,
+   "aktualisiert": 1795781447.2661004,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_SincereStrongPineappleSquadGoals-_c9Aw5rD7bPr-as2.mp4",
    "dauer": 44.97,
    "layout": "blur",
@@ -4379,7 +4382,8 @@
    "caption": "Knossi ruft rohat an😂😂 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Knossi ruft rohat an😂😂 | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_SincereStrongPineappleSquadGoals-_c9Aw5rD7bPr-as2.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_SincereStrongPineappleSquadGoals-_c9Aw5rD7bPr-as2.mp4",
+   "fehler": "zu alt"
   },
   "SnappyBlushingHyenaAllenHuhu-mjY9rIL96XXLQW7w": {
    "id": "SnappyBlushingHyenaAllenHuhu-mjY9rIL96XXLQW7w",
@@ -4656,7 +4660,7 @@
   "ExcitedWrongLaptop4Head-vv5ZAvQPhxqaRAvG": {
    "id": "ExcitedWrongLaptop4Head-vv5ZAvQPhxqaRAvG",
    "seit": 1795780048.1484153,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "scheiß game",
@@ -4664,12 +4668,14 @@
    "views": 46,
    "score": 13.142857142857142,
    "erstellt": "2026-11-26T11:35:22Z",
-   "aktualisiert": 1795780085.1572142,
+   "aktualisiert": 1795781459.5277617,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_ExcitedWrongLaptop4Head-vv5ZAvQPhxqaRAvG.mp4",
    "dauer": 19.648,
    "layout": "blur",
    "transkript": "sagen is Ja ja, das Game sieht zwar gut aus, aber ganz ehrlich, ich dir Game 3 von 10. Das geht gar nicht, dass du dir eine optionale Mission hast, wo du deinen Partner Blumen mitbringst. 13 Jahre umsonst gewartet. Scheiß Games, nicht mehr. Ich bin's auch nicht durch.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Scheiß game 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Scheiß game | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -5197,6 +5203,13 @@
    "ts": 1795776437.088472,
    "ok": true,
    "id": "6b095faa049983dcfbaf388b"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "ExcitedWrongLaptop4Head-vv5ZAvQPhxqaRAvG",
+   "ts": 1795781459.527746,
+   "ok": true,
+   "id": "6b097349658222306c0ea979"
   }
  ],
  "hype": {},
