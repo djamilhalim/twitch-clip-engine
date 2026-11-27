@@ -3922,7 +3922,7 @@
   "CallousPluckyFloofRiPepperonis-nxu_0rxPCYSH96a1": {
    "id": "CallousPluckyFloofRiPepperonis-nxu_0rxPCYSH96a1",
    "seit": 1795710741.3179774,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "haha",
@@ -3930,7 +3930,7 @@
    "views": 5,
    "score": 2.0,
    "erstellt": "2026-11-26T14:54:49Z",
-   "aktualisiert": 1795710779.8491433,
+   "aktualisiert": 1795754334.184798,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_CallousPluckyFloofRiPepperonis-nxu_0rxPCYSH96a1.mp4",
    "dauer": 30.0,
    "layout": "blur",
@@ -3939,7 +3939,8 @@
    "caption": "SidneyEweka kann nicht mehr 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "SidneyEweka kann nicht mehr | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_CallousPluckyFloofRiPepperonis-nxu_0rxPCYSH96a1.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_CallousPluckyFloofRiPepperonis-nxu_0rxPCYSH96a1.mp4",
+   "fehler": "zu alt"
   },
   "ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5": {
    "id": "ToughAbnegateGoldfishRiPepperonis-Jmx6XFl9_UGsAoY5",
