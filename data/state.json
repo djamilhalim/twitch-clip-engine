@@ -4774,7 +4774,7 @@
   "MoralKindEndivePeteZaroll-W58zIxLfSJMHmxPk": {
    "id": "MoralKindEndivePeteZaroll-W58zIxLfSJMHmxPk",
    "seit": 1795782757.8388262,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": ".",
@@ -4782,12 +4782,14 @@
    "views": 35,
    "score": 11.666666666666666,
    "erstellt": "2026-11-26T10:15:40Z",
-   "aktualisiert": 1795782816.451885,
+   "aktualisiert": 1795788114.3472588,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_MoralKindEndivePeteZaroll-W58zIxLfSJMHmxPk.mp4",
    "dauer": 34.645,
    "layout": "blur",
    "transkript": "gibt dann? Wie soll ich Jason finden? mein Lehrerraum, gut. 1 von 6 verkackt. Scheiße. Das ist ein Klub? Könnt ihr mir bitte sagen, wo die... shit. ihr mir sagen, was die richtige Tür ist, bitte?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Das war knapp… 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -5413,6 +5415,13 @@
    "ts": 1795786897.9058483,
    "ok": true,
    "id": "6b098887015034238d2d24a1"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "MoralKindEndivePeteZaroll-W58zIxLfSJMHmxPk",
+   "ts": 1795788114.3472426,
+   "ok": true,
+   "id": "6b098d48015034238d2f67f7"
   }
  ],
  "hype": {},
