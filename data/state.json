@@ -4622,7 +4622,7 @@
   "BlushingPeppyMonitorRalpherZ-inSpo_v-NrFxfWvn": {
    "id": "BlushingPeppyMonitorRalpherZ-inSpo_v-NrFxfWvn",
    "seit": 1795766649.112901,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "Ali über tik tok",
@@ -4630,7 +4630,7 @@
    "views": 11,
    "score": 4.4,
    "erstellt": "2026-11-25T18:21:17Z",
-   "aktualisiert": 1795766682.7242227,
+   "aktualisiert": 1795810572.7671926,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_BlushingPeppyMonitorRalpherZ-inSpo_v-NrFxfWvn.mp4",
    "dauer": 30.0,
    "layout": "blur",
@@ -4639,12 +4639,13 @@
    "caption": "Ali über tik tok 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Ali über tik tok | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_BlushingPeppyMonitorRalpherZ-inSpo_v-NrFxfWvn.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_BlushingPeppyMonitorRalpherZ-inSpo_v-NrFxfWvn.mp4",
+   "fehler": "zu alt"
   },
   "SpunkyWimpyCrabPlanking-U4JFprCevGhhA26e": {
    "id": "SpunkyWimpyCrabPlanking-U4JFprCevGhhA26e",
    "seit": 1795766682.7286646,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "kürt ibo",
@@ -4652,7 +4653,7 @@
    "views": 26,
    "score": 4.333333333333333,
    "erstellt": "2026-11-26T15:52:44Z",
-   "aktualisiert": 1795766718.3026285,
+   "aktualisiert": 1795810572.767196,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_SpunkyWimpyCrabPlanking-U4JFprCevGhhA26e.mp4",
    "dauer": 32.149,
    "layout": "blur",
@@ -4661,7 +4662,8 @@
    "caption": "Kürt ibo 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Kürt ibo | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_SpunkyWimpyCrabPlanking-U4JFprCevGhhA26e.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_SpunkyWimpyCrabPlanking-U4JFprCevGhhA26e.mp4",
+   "fehler": "zu alt"
   },
   "ExcitedWrongLaptop4Head-vv5ZAvQPhxqaRAvG": {
    "id": "ExcitedWrongLaptop4Head-vv5ZAvQPhxqaRAvG",
@@ -5264,7 +5266,7 @@
   "UglyDelightfulDunlinSoonerLater-xoXTHqw4a6lD5e19": {
    "id": "UglyDelightfulDunlinSoonerLater-xoXTHqw4a6lD5e19",
    "seit": 1795808143.491324,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "papaplatte",
    "quelle": "fokus",
    "titel": "Skillissue",
@@ -5272,12 +5274,14 @@
    "views": 32,
    "score": 3.2,
    "erstellt": "2026-11-26T19:27:07Z",
-   "aktualisiert": 1795808164.5314434,
+   "aktualisiert": 1795810584.8836386,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/papaplatte_UglyDelightfulDunlinSoonerLater-xoXTHqw4a6lD5e19.mp4",
    "dauer": 16.0,
    "layout": "blur",
    "transkript": "low off. Boah, das macht mich so sauer. Das Game macht mich so sauer. Ich hab also wirklich...also selten so...",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Papaplatte rastet komplett aus 😂\n🎥 Papaplatte live auf twitch.tv/papaplatte\n#Papaplatte #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Papaplatte rastet komplett aus | Papaplatte #shorts",
    "broadcaster_name": "Papaplatte",
@@ -5830,6 +5834,13 @@
    "ts": 1795808167.3946328,
    "ok": true,
    "id": "6b09dba6b5cd052fe2862bcc"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "UglyDelightfulDunlinSoonerLater-xoXTHqw4a6lD5e19",
+   "ts": 1795810584.883624,
+   "ok": true,
+   "id": "6b09e50eb5cd052fe28ab756"
   }
  ],
  "hype": {},
