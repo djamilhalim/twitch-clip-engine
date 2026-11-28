@@ -5686,7 +5686,7 @@
   "FurtiveGloriousIguanaFailFish-PoMc9Q9Xn4USy-Ya": {
    "id": "FurtiveGloriousIguanaFailFish-PoMc9Q9Xn4USy-Ya",
    "seit": 1795850274.5287645,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "papaplatte",
    "quelle": "fokus",
    "titel": "☀️ GEILER MANN GEILER TAG ☀️",
@@ -5694,12 +5694,14 @@
    "views": 59,
    "score": 5.9,
    "erstellt": "2026-11-27T19:33:39Z",
-   "aktualisiert": 1795850320.2874591,
+   "aktualisiert": 1795856626.697379,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/papaplatte_FurtiveGloriousIguanaFailFish-PoMc9Q9Xn4USy-Ya.mp4",
    "dauer": 30.016,
    "layout": "blur",
    "transkript": "das ist so crazy. Yo, Lini, was geht ab? Bist du gerade locked in? Yo. Was geht ab, Bro? Goonslayer 1? sagt nicht den ganzen Namen, Bro.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "☀️ GEILER MANN GEILER TAG ☀️ 😂\n🎥 Papaplatte live auf twitch.tv/papaplatte\n#Papaplatte #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "☀️ GEILER MANN GEILER TAG ☀️ | Papaplatte #shorts",
    "broadcaster_name": "Papaplatte",
@@ -6375,6 +6377,13 @@
    "ts": 1795851534.9087706,
    "ok": true,
    "id": "6b0a8504d718580fbd6a73e0"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "FurtiveGloriousIguanaFailFish-PoMc9Q9Xn4USy-Ya",
+   "ts": 1795856626.6973646,
+   "ok": true,
+   "id": "6b0a98e8057799d308b2447e"
   }
  ],
  "hype": {},
