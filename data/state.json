@@ -5374,7 +5374,7 @@
   "ObeseExpensiveBillResidentSleeper-3fvjrVQ6_ccuOwgu": {
    "id": "ObeseExpensiveBillResidentSleeper-3fvjrVQ6_ccuOwgu",
    "seit": 1795821585.5656934,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "hahaha",
@@ -5382,7 +5382,7 @@
    "views": 66,
    "score": 18.857142857142858,
    "erstellt": "2026-11-26T21:06:13Z",
-   "aktualisiert": 1795821635.242946,
+   "aktualisiert": 1795865057.7757797,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_ObeseExpensiveBillResidentSleeper-3fvjrVQ6_ccuOwgu.mp4",
    "dauer": 30.016,
    "layout": "blur",
@@ -5391,12 +5391,13 @@
    "caption": "Niemand war bereit dafür 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Niemand war bereit dafür | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_ObeseExpensiveBillResidentSleeper-3fvjrVQ6_ccuOwgu.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_ObeseExpensiveBillResidentSleeper-3fvjrVQ6_ccuOwgu.mp4",
+   "fehler": "zu alt"
   },
   "BoredColorfulHerbsThunBeast-gfd_lFV8Xww-jHFt": {
    "id": "BoredColorfulHerbsThunBeast-gfd_lFV8Xww-jHFt",
    "seit": 1795821635.2509167,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "rage",
@@ -5404,7 +5405,7 @@
    "views": 51,
    "score": 14.571428571428571,
    "erstellt": "2026-11-26T20:14:16Z",
-   "aktualisiert": 1795821743.4151416,
+   "aktualisiert": 1795865057.7757847,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_BoredColorfulHerbsThunBeast-gfd_lFV8Xww-jHFt.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -5413,12 +5414,13 @@
    "caption": "eliasn97 rastet komplett aus 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "eliasn97 rastet komplett aus | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_BoredColorfulHerbsThunBeast-gfd_lFV8Xww-jHFt.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_BoredColorfulHerbsThunBeast-gfd_lFV8Xww-jHFt.mp4",
+   "fehler": "zu alt"
   },
   "SmallSincereHornetResidentSleeper-vdkD6AxQ029CGLma": {
    "id": "SmallSincereHornetResidentSleeper-vdkD6AxQ029CGLma",
    "seit": 1795821743.423211,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "rohat fibi",
@@ -5426,7 +5428,7 @@
    "views": 48,
    "score": 13.714285714285714,
    "erstellt": "2026-11-26T20:45:50Z",
-   "aktualisiert": 1795821791.8682847,
+   "aktualisiert": 1795865057.775787,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_SmallSincereHornetResidentSleeper-vdkD6AxQ029CGLma.mp4",
    "dauer": 30.016,
    "layout": "blur",
@@ -5435,7 +5437,8 @@
    "caption": "Rohat fibi 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Rohat fibi | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_SmallSincereHornetResidentSleeper-vdkD6AxQ029CGLma.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_SmallSincereHornetResidentSleeper-vdkD6AxQ029CGLma.mp4",
+   "fehler": "zu alt"
   },
   "IcyObedientBulgogiANELE-uZ075xAHgSAXYehw": {
    "id": "IcyObedientBulgogiANELE-uZ075xAHgSAXYehw",
