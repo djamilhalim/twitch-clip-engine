@@ -4716,7 +4716,7 @@
   "HungryExpensiveNostrilDendiFace-4dwnLPKofpBywvwL": {
    "id": "HungryExpensiveNostrilDendiFace-4dwnLPKofpBywvwL",
    "seit": 1795780131.1378562,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "w rohat",
@@ -4724,7 +4724,7 @@
    "views": 63,
    "score": 5.478260869565218,
    "erstellt": "2026-11-26T15:37:34Z",
-   "aktualisiert": 1795780186.983509,
+   "aktualisiert": 1795824209.6078444,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_HungryExpensiveNostrilDendiFace-4dwnLPKofpBywvwL.mp4",
    "dauer": 33.77,
    "layout": "blur",
@@ -4733,12 +4733,13 @@
    "caption": "Damit hat xRohat nicht gerechnet 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Damit hat xRohat nicht gerechnet | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_HungryExpensiveNostrilDendiFace-4dwnLPKofpBywvwL.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_HungryExpensiveNostrilDendiFace-4dwnLPKofpBywvwL.mp4",
+   "fehler": "zu alt"
   },
   "PlumpProductiveSlothTheRinger-nC8qn7-GciMWx1-B": {
    "id": "PlumpProductiveSlothTheRinger-nC8qn7-GciMWx1-B",
    "seit": 1795780186.9901721,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "Merts ausraster Among us",
@@ -4746,7 +4747,7 @@
    "views": 52,
    "score": 4.521739130434782,
    "erstellt": "2026-11-26T21:30:05Z",
-   "aktualisiert": 1795780243.9964163,
+   "aktualisiert": 1795824209.6078486,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_PlumpProductiveSlothTheRinger-nC8qn7-GciMWx1-B.mp4",
    "dauer": 34.7347,
    "layout": "blur",
@@ -4755,7 +4756,8 @@
    "caption": "Merts ausraster Among us 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Merts ausraster Among us | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_PlumpProductiveSlothTheRinger-nC8qn7-GciMWx1-B.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_PlumpProductiveSlothTheRinger-nC8qn7-GciMWx1-B.mp4",
+   "fehler": "zu alt"
   },
   "GrotesqueOptimisticJamUWot-lHUl9Pk2NdYKtlPX": {
    "id": "GrotesqueOptimisticJamUWot-lHUl9Pk2NdYKtlPX",
