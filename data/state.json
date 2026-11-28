@@ -5618,7 +5618,7 @@
   "ProudWrongAlfalfaTakeNRG-aX8fgrVZDjKI2YWx": {
    "id": "ProudWrongAlfalfaTakeNRG-aX8fgrVZDjKI2YWx",
    "seit": 1795850056.6883078,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "hoher gewinn",
@@ -5626,12 +5626,14 @@
    "views": 35,
    "score": 11.666666666666666,
    "erstellt": "2026-11-27T19:56:25Z",
-   "aktualisiert": 1795850136.8750608,
+   "aktualisiert": 1795862651.3199604,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_ProudWrongAlfalfaTakeNRG-aX8fgrVZDjKI2YWx.mp4",
    "dauer": 51.008,
    "layout": "blur",
    "transkript": "Ultima Champion 2000! Ja natürlich, das sind halt die Gegner hier, weil du auch mal Ulti warst. ich denke irgendwelche Gammelulti. Das ist nicht nur ein Ulti, das ist viel mehr als ein Ulti. Und du warst auch da auf Ulti 1 .8 oder so. Von 1 .8 zu 2 .000 ist so ein Unterschied, ne? Nein, das ist alles gammelig. Oh Gott, oh Gott, oh Gott, oh Gott, oh Gott.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Hoher gewinn 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Hoher gewinn | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -6384,6 +6386,13 @@
    "ts": 1795856626.6973646,
    "ok": true,
    "id": "6b0a98e8057799d308b2447e"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "ProudWrongAlfalfaTakeNRG-aX8fgrVZDjKI2YWx",
+   "ts": 1795862651.3199437,
+   "ok": true,
+   "id": "6b0ab0718cbf0dfe50d0abc9"
   }
  ],
  "hype": {},
