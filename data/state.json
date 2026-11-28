@@ -5163,7 +5163,7 @@
   "BadRockyPeanutBrainSlug-UWAGMKY4XZ4Dm8C7": {
    "id": "BadRockyPeanutBrainSlug-UWAGMKY4XZ4Dm8C7",
    "seit": 1795805446.336429,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "soso falscher zeitpunkt",
@@ -5171,7 +5171,7 @@
    "views": 44,
    "score": 2.75,
    "erstellt": "2026-11-26T21:06:17Z",
-   "aktualisiert": 1795805477.6430452,
+   "aktualisiert": 1795848852.0219152,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_BadRockyPeanutBrainSlug-UWAGMKY4XZ4Dm8C7.mp4",
    "dauer": 26.922,
    "layout": "blur",
@@ -5180,12 +5180,13 @@
    "caption": "Soso falscher zeitpunkt 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Soso falscher zeitpunkt | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_BadRockyPeanutBrainSlug-UWAGMKY4XZ4Dm8C7.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_BadRockyPeanutBrainSlug-UWAGMKY4XZ4Dm8C7.mp4",
+   "fehler": "zu alt"
   },
   "BoringTastyAsteriskPeoplesChamp-OzWvRtBCp1GHYngl": {
    "id": "BoringTastyAsteriskPeoplesChamp-OzWvRtBCp1GHYngl",
    "seit": 1795805477.6479857,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "Ali geht crashout auf marli",
@@ -5193,7 +5194,7 @@
    "views": 5,
    "score": 2.0,
    "erstellt": "2026-11-26T19:43:15Z",
-   "aktualisiert": 1795805543.930283,
+   "aktualisiert": 1795848852.021919,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_BoringTastyAsteriskPeoplesChamp-OzWvRtBCp1GHYngl.mp4",
    "dauer": 60.0,
    "layout": "blur",
@@ -5202,12 +5203,13 @@
    "caption": "Ali geht crashout auf marli 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Ali geht crashout auf marli | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_BoringTastyAsteriskPeoplesChamp-OzWvRtBCp1GHYngl.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_BoringTastyAsteriskPeoplesChamp-OzWvRtBCp1GHYngl.mp4",
+   "fehler": "zu alt"
   },
   "CalmPrettyFlamingoRitzMitz-O-BjhNA4wHANGauH": {
    "id": "CalmPrettyFlamingoRitzMitz-O-BjhNA4wHANGauH",
    "seit": 1795805543.9350717,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "hj",
@@ -5215,7 +5217,7 @@
    "views": 5,
    "score": 2.0,
    "erstellt": "2026-11-26T21:18:14Z",
-   "aktualisiert": 1795805611.89841,
+   "aktualisiert": 1795848852.0219214,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_CalmPrettyFlamingoRitzMitz-O-BjhNA4wHANGauH.mp4",
    "dauer": 60.0,
    "layout": "blur",
@@ -5224,7 +5226,8 @@
    "caption": "AliBumayeTV kann nicht mehr 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "AliBumayeTV kann nicht mehr | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_CalmPrettyFlamingoRitzMitz-O-BjhNA4wHANGauH.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_CalmPrettyFlamingoRitzMitz-O-BjhNA4wHANGauH.mp4",
+   "fehler": "zu alt"
   },
   "FurryFilthyPartridgeVoHiYo-PoZq6qo-103haALo": {
    "id": "FurryFilthyPartridgeVoHiYo-PoZq6qo-103haALo",
