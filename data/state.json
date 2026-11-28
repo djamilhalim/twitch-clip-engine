@@ -5116,7 +5116,7 @@
   "EncouragingSpikyStorkSquadGoals-ZF6cguSn6blw6gPu": {
    "id": "EncouragingSpikyStorkSquadGoals-ZF6cguSn6blw6gPu",
    "seit": 1795796914.6812463,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "mertabimula",
    "quelle": "fokus",
    "titel": "was ein lügner",
@@ -5124,7 +5124,7 @@
    "views": 41,
    "score": 2.7333333333333334,
    "erstellt": "2026-11-26T20:20:55Z",
-   "aktualisiert": 1795796979.4357612,
+   "aktualisiert": 1795840418.9818096,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/mertabimula_EncouragingSpikyStorkSquadGoals-ZF6cguSn6blw6gPu.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -5133,7 +5133,8 @@
    "caption": "Was ein lügner 😂\n🎥 mertabimula live auf twitch.tv/mertabimula\n#mertabimula #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Was ein lügner | mertabimula #shorts",
    "broadcaster_name": "mertabimula",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_EncouragingSpikyStorkSquadGoals-ZF6cguSn6blw6gPu.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/mertabimula_EncouragingSpikyStorkSquadGoals-ZF6cguSn6blw6gPu.mp4",
+   "fehler": "zu alt"
   },
   "HelplessDaintyMangoUWot-W7iWT9r0uSKDX2uD": {
    "id": "HelplessDaintyMangoUWot-W7iWT9r0uSKDX2uD",
