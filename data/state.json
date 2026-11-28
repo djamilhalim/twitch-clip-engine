@@ -5435,7 +5435,7 @@
   "IcyObedientBulgogiANELE-uZ075xAHgSAXYehw": {
    "id": "IcyObedientBulgogiANELE-uZ075xAHgSAXYehw",
    "seit": 1795827820.925889,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "trymacs",
    "quelle": "fokus",
    "titel": "ups",
@@ -5443,12 +5443,14 @@
    "views": 200,
    "score": 66.66666666666667,
    "erstellt": "2026-11-27T18:38:30Z",
-   "aktualisiert": 1795827874.6134949,
+   "aktualisiert": 1795846446.154069,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/trymacs_IcyObedientBulgogiANELE-uZ075xAHgSAXYehw.mp4",
    "dauer": 30.016,
    "layout": "blur",
    "transkript": "Ich glaube das ist toll jetzt. Jetzt bin ich hier etwas großem auf der Spur. Hier schreibt jemand? Ja. God of the Arena. Ja? Ja. Wie Geld geil kann man sein, dass nur Prime Leute schreiben dürfen. Punkt, Punkt, Punkt. Warte mal. Ups ist ja gar nicht so. Lol. Aber hat schon kassiert. Was für eine Scheiße.",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Das war knapp… 😂\n🎥 Trymacs live auf twitch.tv/trymacs\n#Trymacs #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Das war knapp… | Trymacs #shorts",
    "broadcaster_name": "Trymacs",
@@ -6176,6 +6178,13 @@
    "ts": 1795821803.8279555,
    "ok": true,
    "id": "6b0a10e1eab081a3f505ec7b"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "IcyObedientBulgogiANELE-uZ075xAHgSAXYehw",
+   "ts": 1795846446.1540523,
+   "ok": true,
+   "id": "6b0a7123d089f54571914978"
   }
  ],
  "hype": {},
