@@ -5327,7 +5327,7 @@
   "WimpyPlausibleLorisCoolCat-upoQjr5pTXIsQqLJ": {
    "id": "WimpyPlausibleLorisCoolCat-upoQjr5pTXIsQqLJ",
    "seit": 1795811823.987535,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "alibumayetv",
    "quelle": "fokus",
    "titel": "msrli realt",
@@ -5335,7 +5335,7 @@
    "views": 8,
    "score": 3.2,
    "erstellt": "2026-11-25T21:08:36Z",
-   "aktualisiert": 1795811884.1329305,
+   "aktualisiert": 1795855410.781114,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/alibumayetv_WimpyPlausibleLorisCoolCat-upoQjr5pTXIsQqLJ.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -5344,7 +5344,8 @@
    "caption": "Msrli realt 😂\n🎥 AliBumayeTV live auf twitch.tv/alibumayetv\n#AliBumayeTV #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Msrli realt | AliBumayeTV #shorts",
    "broadcaster_name": "AliBumayeTV",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_WimpyPlausibleLorisCoolCat-upoQjr5pTXIsQqLJ.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/alibumayetv_WimpyPlausibleLorisCoolCat-upoQjr5pTXIsQqLJ.mp4",
+   "fehler": "zu alt"
   },
   "SparklyHotEagleTTours-oriypU9NHjMIIzPH": {
    "id": "SparklyHotEagleTTours-oriypU9NHjMIIzPH",
