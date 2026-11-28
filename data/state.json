@@ -4810,7 +4810,7 @@
   "SparklyShinyLatteEleGiggle-nsPhtOEXnMuDAbwO": {
    "id": "SparklyShinyLatteEleGiggle-nsPhtOEXnMuDAbwO",
    "seit": 1795782816.4586954,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "eli wahrheit",
@@ -4818,7 +4818,7 @@
    "views": 47,
    "score": 5.222222222222222,
    "erstellt": "2026-11-26T18:20:11Z",
-   "aktualisiert": 1795782894.7841766,
+   "aktualisiert": 1795826614.6114492,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_SparklyShinyLatteEleGiggle-nsPhtOEXnMuDAbwO.mp4",
    "dauer": 51.754,
    "layout": "blur",
@@ -4827,12 +4827,13 @@
    "caption": "Eli wahrheit 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Eli wahrheit | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_SparklyShinyLatteEleGiggle-nsPhtOEXnMuDAbwO.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/eliasn97_SparklyShinyLatteEleGiggle-nsPhtOEXnMuDAbwO.mp4",
+   "fehler": "zu alt"
   },
   "InventiveUgliestBeeNotATK-PoMrDhEE4L-LPKzv": {
    "id": "InventiveUgliestBeeNotATK-PoMrDhEE4L-LPKzv",
    "seit": 1795782894.790904,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "xrohat",
    "quelle": "fokus",
    "titel": "HYPERGAMIE DISKUSSION MIT TIM VOLLERT UND BRAMAL | CHARITYSTREAM - TAG 26 | !spenden !spendenziel",
@@ -4840,7 +4841,7 @@
    "views": 52,
    "score": 4.521739130434782,
    "erstellt": "2026-11-26T18:51:42Z",
-   "aktualisiert": 1795782946.0206416,
+   "aktualisiert": 1795826614.6114547,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/xrohat_InventiveUgliestBeeNotATK-PoMrDhEE4L-LPKzv.mp4",
    "dauer": 29.996633,
    "layout": "blur",
@@ -4849,7 +4850,8 @@
    "caption": "HYPERGAMIE DISKUSSION MIT TIM VOLLERT UND BRAMAL | CHARITYSTREAM - TAG 26 | !spenden !spendenziel 😂\n🎥 xRohat live auf twitch.tv/xrohat\n#xRohat #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "HYPERGAMIE DISKUSSION MIT TIM VOLLERT UND BRAMAL | CHARITYSTREAM - TAG 26 | !spe… | xRohat #shorts",
    "broadcaster_name": "xRohat",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_InventiveUgliestBeeNotATK-PoMrDhEE4L-LPKzv.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/xrohat_InventiveUgliestBeeNotATK-PoMrDhEE4L-LPKzv.mp4",
+   "fehler": "zu alt"
   },
   "PatientSmallOkapiHoneyBadger-NOMenxKFlGb3GzLJ": {
    "id": "PatientSmallOkapiHoneyBadger-NOMenxKFlGb3GzLJ",
