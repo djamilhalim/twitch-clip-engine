@@ -5803,7 +5803,7 @@
   "ThirstySpookyCurlewPeanutButterJellyTime-1RIaQBt_fw5XWXYd": {
    "id": "ThirstySpookyCurlewPeanutButterJellyTime-1RIaQBt_fw5XWXYd",
    "seit": 1795866262.6817157,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "eliasn97",
    "quelle": "fokus",
    "titel": "eli zum porsche",
@@ -5811,12 +5811,14 @@
    "views": 38,
    "score": 9.5,
    "erstellt": "2026-11-26T18:24:29Z",
-   "aktualisiert": 1795866318.3977485,
+   "aktualisiert": 1795867658.4882474,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/eliasn97_ThirstySpookyCurlewPeanutButterJellyTime-1RIaQBt_fw5XWXYd.mp4",
    "dauer": 51.008,
    "layout": "blur",
    "transkript": "Der krasseste Porsche 911, der jemals gebaut wurde. Der brandneue Techart GT Street ist so exklusiv, dass sogar das Warndreieck mit Leder verkleidet wurde. An der Front finden wir jede Menge Carbon, unter anderem diesen Carbon -Front -Spoiler hier. die Haube ist komplett aus Carbon mit diesen beiden Luftschechten. Das Techart GT Street Ich finde das orange todesässlich. ... Bodykit macht den Wagen breiter. Hier finden wir diese Carbon -Air Aber Sie, was ich bei Porsche gerade geil finde? Dass die komplett übertriebene sind. Das ist bei diesen Porsche generell Das macht es bei denen aus. Selbst und sogar der Scheidewischer ist aus Carbon. Die Schmiedefelgen kommen vorne in 20 Zoll, hinten in 21 Zoll und wir bekommen diesen orangen Bremsvattel. Das Dach der Außenspiegel, der Seitenschweller und dieser",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Eli zum porsche 😂\n🎥 eliasn97 live auf twitch.tv/eliasn97\n#eliasn97 #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Eli zum porsche | eliasn97 #shorts",
    "broadcaster_name": "eliasn97",
@@ -6484,6 +6486,13 @@
    "ts": 1795862651.3199437,
    "ok": true,
    "id": "6b0ab0718cbf0dfe50d0abc9"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "ThirstySpookyCurlewPeanutButterJellyTime-1RIaQBt_fw5XWXYd",
+   "ts": 1795867658.488232,
+   "ok": true,
+   "id": "6b0ac4000bd5887b8955db10"
   }
  ],
  "hype": {},
