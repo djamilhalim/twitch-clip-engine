@@ -4974,7 +4974,7 @@
   "GiftedDarlingCoyoteBudBlast-3y4enTRctQct7Lw0": {
    "id": "GiftedDarlingCoyoteBudBlast-3y4enTRctQct7Lw0",
    "seit": 1795791769.4482574,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "coachlim",
    "quelle": "fokus",
    "titel": "shotoooo",
@@ -4982,7 +4982,7 @@
    "views": 28,
    "score": 4.3076923076923075,
    "erstellt": "2026-11-26T18:59:25Z",
-   "aktualisiert": 1795791796.968519,
+   "aktualisiert": 1795835341.136202,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/coachlim_GiftedDarlingCoyoteBudBlast-3y4enTRctQct7Lw0.mp4",
    "dauer": 15.466,
    "layout": "blur",
@@ -4991,12 +4991,13 @@
    "caption": "Niemand war bereit dafür 😂\n🎥 coachlim live auf twitch.tv/coachlim\n#coachlim #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Niemand war bereit dafür | coachlim #shorts",
    "broadcaster_name": "coachlim",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_GiftedDarlingCoyoteBudBlast-3y4enTRctQct7Lw0.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/coachlim_GiftedDarlingCoyoteBudBlast-3y4enTRctQct7Lw0.mp4",
+   "fehler": "zu alt"
   },
   "GloriousAbnegateMushroomMrDestructoid-lQ_nUeLWOKsCTaYT": {
    "id": "GloriousAbnegateMushroomMrDestructoid-lQ_nUeLWOKsCTaYT",
    "seit": 1795791796.9756615,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "sid liebt bot",
@@ -5004,7 +5005,7 @@
    "views": 10,
    "score": 4.0,
    "erstellt": "2026-11-26T15:14:30Z",
-   "aktualisiert": 1795791825.8074346,
+   "aktualisiert": 1795835341.1362062,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_GloriousAbnegateMushroomMrDestructoid-lQ_nUeLWOKsCTaYT.mp4",
    "dauer": 16.583333,
    "layout": "blur",
@@ -5013,7 +5014,8 @@
    "caption": "Sid liebt bot 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Sid liebt bot | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_GloriousAbnegateMushroomMrDestructoid-lQ_nUeLWOKsCTaYT.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/sidneyeweka_GloriousAbnegateMushroomMrDestructoid-lQ_nUeLWOKsCTaYT.mp4",
+   "fehler": "zu alt"
   },
   "AnimatedLitigiousLeopardVoHiYo-QM-U72fG9sz6DMg8": {
    "id": "AnimatedLitigiousLeopardVoHiYo-QM-U72fG9sz6DMg8",
