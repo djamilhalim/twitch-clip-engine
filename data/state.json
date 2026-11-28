@@ -5256,7 +5256,7 @@
   "YawningEnergeticCoffeePeteZaroll-ri6rwfig-x1uCj5L": {
    "id": "YawningEnergeticCoffeePeteZaroll-ri6rwfig-x1uCj5L",
    "seit": 1795808057.9386547,
-   "status": "warteschlange",
+   "status": "verworfen",
    "streamer": "marli",
    "quelle": "fokus",
    "titel": "s",
@@ -5264,7 +5264,7 @@
    "views": 25,
    "score": 6.25,
    "erstellt": "2026-11-26T18:14:01Z",
-   "aktualisiert": 1795808143.4867156,
+   "aktualisiert": 1795851523.209044,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/marli_YawningEnergeticCoffeePeteZaroll-ri6rwfig-x1uCj5L.mp4",
    "dauer": 60.01,
    "layout": "blur",
@@ -5273,7 +5273,8 @@
    "caption": "Damit hat marli nicht gerechnet 😂\n🎥 marli live auf twitch.tv/marli\n#marli #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Damit hat marli nicht gerechnet | marli #shorts",
    "broadcaster_name": "marli",
-   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_YawningEnergeticCoffeePeteZaroll-ri6rwfig-x1uCj5L.mp4"
+   "public_url": "https://kolhumouwctfvlqrbguc.supabase.co/storage/v1/object/public/clips/marli_YawningEnergeticCoffeePeteZaroll-ri6rwfig-x1uCj5L.mp4",
+   "fehler": "zu alt"
   },
   "UglyDelightfulDunlinSoonerLater-xoXTHqw4a6lD5e19": {
    "id": "UglyDelightfulDunlinSoonerLater-xoXTHqw4a6lD5e19",
@@ -5638,7 +5639,7 @@
   "FreezingPlacidNigiriNotATK-F9TRwwv6k4xneN2c": {
    "id": "FreezingPlacidNigiriNotATK-F9TRwwv6k4xneN2c",
    "seit": 1795850136.8827684,
-   "status": "warteschlange",
+   "status": "gepostet",
    "streamer": "sidneyeweka",
    "quelle": "fokus",
    "titel": "timgioh hardwatch",
@@ -5646,12 +5647,14 @@
    "views": 25,
    "score": 10.0,
    "erstellt": "2026-11-26T22:09:53Z",
-   "aktualisiert": 1795850229.340433,
+   "aktualisiert": 1795851534.9087892,
    "datei": "/home/runner/work/twitch-clip-engine/twitch-clip-engine/data/fertig/sidneyeweka_FreezingPlacidNigiriNotATK-F9TRwwv6k4xneN2c.mp4",
    "dauer": 60.0,
    "layout": "blur",
    "transkript": "Er denkt ist gefangen Ticker. Er denkt er muss grad irgendein Rätsel lösen, so room type shit. Ey, bitte. dir, irgendwie muss man doch hier wieder rauskommen. Hä? Er denkt er ist verloren. musst doch hier wieder rauskommen. Er denkt er ist verloren und ist gefangen. kommen hier nicht raus. Bitte geh einfach aus Raum raus, andere Seite, Mann! Wenn nicht reinkommen, ist ja alles gut. Äh, da kann man geschießen. hilft nur C4. Er denkt er kann sich durch die Wand durchboxen oder was?",
-   "gepostet_auf": [],
+   "gepostet_auf": [
+    "buffer_tiktok"
+   ],
    "caption": "Timgioh hardwatch 😂\n🎥 SidneyEweka live auf twitch.tv/sidneyeweka\n#SidneyEweka #twitch #twitchde #streamer #clips #fyp #deutsch",
    "yt_titel": "Timgioh hardwatch | SidneyEweka #shorts",
    "broadcaster_name": "SidneyEweka",
@@ -6276,6 +6279,13 @@
    "ts": 1795846446.1540523,
    "ok": true,
    "id": "6b0a7123d089f54571914978"
+  },
+  {
+   "ziel": "buffer_tiktok",
+   "clip": "FreezingPlacidNigiriNotATK-F9TRwwv6k4xneN2c",
+   "ts": 1795851534.9087706,
+   "ok": true,
+   "id": "6b0a8504d718580fbd6a73e0"
   }
  ],
  "hype": {},
